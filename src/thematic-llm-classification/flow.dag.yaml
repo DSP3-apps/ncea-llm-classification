@@ -1,0 +1,94 @@
+id: template_standard_flow
+name: Template Standard Flow
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  source:
+    type: string
+    default: NE Sample
+    is_chat_input: false
+  title:
+    type: string
+    is_chat_input: false
+    default: Bathing Waters Monitoring Locations
+  altTitle:
+    type: string
+    default: ""
+    is_chat_input: false
+  custodian:
+    type: string
+    default: Environment Agency
+    is_chat_input: false
+  topics:
+    type: string
+    default: "oceans "
+    is_chat_input: false
+  keywords:
+    type: string
+    default: beach, bathing freshwater, bathing water, bathing seawater, EAbatch2
+    is_chat_input: false
+  abstract:
+    type: string
+    default: "The Environment Agency collects and analyses water samples each year
+      from May to September, to ensure that designated bathing water sites on
+      the coast and inland are safe and clean for swimming and other activities.
+      This shape file shows the approximate locations of our monitoring sites
+      and the compliance or classification for each bathing water in England
+      from 1988 to present. It is updated twice a year, to revise the inventory,
+      and the assessment results. For coastal waters the specific locations of
+      monitoring vary along a transect with the changing of the tides. The
+      results of these samples are assessed in annual classifications and are
+      available to view and download through the bathing water data explorer.
+      This data is covered by AfA470. Attribution statement: © Environment
+      Agency copyright and/or database right 2016. All rights reserved."
+    is_chat_input: false
+  lineage:
+    type: string
+    default: ""
+    is_chat_input: false
+outputs:
+  prediction:
+    type: string
+    reference: ${one_shot_predict.output}
+nodes:
+- name: read_ontology
+  type: python
+  source:
+    type: code
+    path: read_file.py
+  inputs:
+    rule_file: ncea_ontology-materialized.ttl
+  use_variants: false
+- name: one_shot_prompt
+  type: prompt
+  source:
+    type: code
+    path: benefit.jinja2
+  inputs:
+    source: ${inputs.source}
+    abstract: ${inputs.abstract}
+    altTitle: ${inputs.altTitle}
+    custodian: ${inputs.custodian}
+    keywords: ${inputs.keywords}
+    lineage: ${inputs.lineage}
+    ontology: ${read_ontology.output}
+    title: ${inputs.title}
+    topics: ${inputs.topics}
+  use_variants: false
+- name: one_shot_predict
+  type: llm
+  source:
+    type: code
+    path: one_shot_predict.jinja2
+  inputs:
+    deployment_name: gpt-4o
+    temperature: 1
+    top_p: 1
+    response_format:
+      type: json_object
+    one_shot_prompt: ${one_shot_prompt.output}
+  provider: AzureOpenAI
+  connection: andre-m6qjiuui-eastus2
+  api: chat
+  module: promptflow.tools.aoai
+  use_variants: false

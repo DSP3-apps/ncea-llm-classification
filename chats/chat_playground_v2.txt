@@ -1,0 +1,1043 @@
+Given the following ontology, I want you to predict a catalogue entry of data to as many values as possible in the attached concept scheme. 
+
+```ttl
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@base <http://example.com/> . # This is a placeholder
+
+<NceaOntology> a skos:ConceptScheme ;
+    skos:hasTopConcept <lvl1-001>,
+        <lvl1-002>,
+        <lvl1-003>,
+        <lvl1-004> .
+
+<lv2-009> a skos:Concept ;
+    rdfs:comment "The amount of value an item or a service has in relation to its acceptable cash price for a willing seller and buyer." ;
+    skos:broader <lvl1-003> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv2-009" ;
+    skos:prefLabel "Monetary" .
+
+<lv2-010> a skos:Concept ;
+    rdfs:comment "The value attributable to an item or a service without relation to any acceptable cash price and for which a fixed or determinable amount of currency is absent (e.g. many ecosystem services, interpersonal good-will, health, etc.)." ;
+    skos:broader <lvl1-003> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv2-010" ;
+    skos:prefLabel "Non-monetary" .
+
+<lv3-001> a skos:Concept ;
+    rdfs:comment "Covers all broadleaved, yew, and mixed broadleaved and coniferous stands which have more than 20% cover of broadleaved and yew trees. It includes patches of scrub where the woody element creates a canopy of more than 30% and the scrub area is above 0.25ha, recently felled broadleaved woodland, and integral features of woodland such as glades (clearings) and rides (pathways).?" ;
+    skos:broader <lv2-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-001" ;
+    skos:prefLabel "Broadleaved, mixed and yew woodland" .
+
+<lv3-002> a skos:Concept ;
+    rdfs:comment "Covers all coniferous stands where native and non-native conifers exceed more than 80% of the total cover of trees present.  It includes recently felled coniferous woodland and integral features of woodland, such as glades (clearings) and rides (pathways). It excludes yew woodlands. " ;
+    skos:broader <lv2-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-002" ;
+    skos:prefLabel "Coniferous woodland" .
+
+<lv3-003> a skos:Concept ;
+    rdfs:comment "Covers landscape features that are linear in appearance, such as hedgerows, lines of trees, stonewalls, and built components of the rural landscape such as railways, roads, and verges. It excludes canals, rivers, woodland rides or arable field margins managed for nature conservation which are covered in other broad habitats." ;
+    skos:broader <lv2-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-003" ;
+    skos:prefLabel "Boundary and linear features" .
+
+<lv3-004> a skos:Concept ;
+    rdfs:comment "Covers arable cropland, commercial horticultural land, freshly ploughed land, other cultivated areas such as temporary grasslands and fallow. It excludes domestic gardens and allotments which are covered by 'Built-up areas and gardens'." ;
+    skos:broader <lv2-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-004" ;
+    skos:prefLabel "Arable and horticulture" .
+
+<lv3-005> a skos:Concept ;
+    rdfs:comment "Highly modified / intensively managed grassland, dominated by a few fast-growing grasses on fertile, neutral soils.?These grasslands tend to be managed as pasture, used for silage production, and for recreation and amenity purposes.?" ;
+    skos:broader <lv2-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-005" ;
+    skos:prefLabel "Improved grassland" .
+
+<lv3-006> a skos:Concept ;
+    rdfs:comment "Covers semi-improved and unimproved grassland on soils with a neutral pH. It includes managed grassland like hay meadows and pastures, grasslands with various amounts of waterlogging.  These grasslands have a greater range and cover of herbs than improved grassland." ;
+    skos:broader <lv2-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-006" ;
+    skos:prefLabel "Neutral grassland" .
+
+<lv3-007> a skos:Concept ;
+    rdfs:comment "Covers semi-improved and unimproved grassland on soils with a pH above 7. They are found on shallow soils rich in lime, typically underlain by chalk or limestone rocks." ;
+    skos:broader <lv2-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-007" ;
+    skos:prefLabel "Calcareous grassland" .
+
+<lv3-008> a skos:Concept ;
+    rdfs:comment "Covers semi-improved and unimproved grassland on soils with a pH below 5.5. It excludes saltmarsh and sand-dune communities." ;
+    skos:broader <lv2-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-008" ;
+    skos:prefLabel "Acid grassland" .
+
+<lv3-009> a skos:Concept ;
+    rdfs:comment "Areas covered by continuous bracken. It excludes scattered patches and areas of bracken that are less than 0.25ha which should be classified with their associated broad habitat type." ;
+    skos:broader <lv2-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-009" ;
+    skos:prefLabel "Bracken" .
+
+<lv3-010> a skos:Concept ;
+    rdfs:comment "Vegetation dominated by heath family species or dwarf gorse on well-drained, nutrient poor, acid soils.  It excludes dwarf shrub associated with peat (formation and substrate), alpine and coastal areas." ;
+    skos:broader <lv2-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-010" ;
+    skos:prefLabel "Dwarf shrub heath" .
+
+<lv3-011> a skos:Concept ;
+    rdfs:comment "Vegetation types found on groundwater-fed, permanently, seasonally, or periodically waterlogged peat, peaty, or mineral soils. It excludes areas of waterlogged wooded terrain over 0.25ha and wet grassland which are covered by other broad habitats." ;
+    skos:broader <lv2-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-011" ;
+    skos:prefLabel "Fen, marsh and swamp" .
+
+<lv3-012> a skos:Concept ;
+    rdfs:comment "Wetlands with vegetation that typically forms peat, receiving nutrients principally from precipitation rather than ground water. It includes blanket bog, raised bog, and intermediate bog habitats." ;
+    skos:broader <lv2-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-012" ;
+    skos:prefLabel "Bogs" .
+
+<lv3-013> a skos:Concept ;
+    rdfs:comment "Covers natural water bodies like lakes and man-made ones like reservoirs, ponds, and canals. It includes open water vegetation and vegetation at the water's edge. Also includes ditches having open water for most of the year and adjacent wetland habitats?with connected water levels that are less than 0.25 hectares." ;
+    skos:broader <lv2-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-013" ;
+    skos:prefLabel "Standing open water and canals" .
+
+<lv3-014> a skos:Concept ;
+    rdfs:comment "Large (rivers) and small (streams) running waters. It covers the area up to the average yearly flood level, including the open channel, vegetation at the water's edge, and exposed sediments and shingle banks." ;
+    skos:broader <lv2-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-014" ;
+    skos:prefLabel "Rivers and streams" .
+
+<lv3-015> a skos:Concept ;
+    rdfs:comment "Covers vegetation types occurring in the montane zone (above the natural tree line).  This includes dwarf shrub heath, snow bed communities, sedge and rush heaths, and moss and lichen heaths." ;
+    skos:broader <lv2-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-015" ;
+    skos:prefLabel "Montane habitats" .
+
+<lv3-016> a skos:Concept ;
+    rdfs:comment "Covers natural and man-made exposed rock surfaces that are greater than 0.25 ha and almost entirely lack vegetation. It covers inland cliffs, ledges, caves, screes, limestone pavements, quarries, waste tips.  Plant communities include those that colonise cracks and fissures, grasslands on soils containing heavy metals, and some tall herbs and fern vegetation." ;
+    skos:broader <lv2-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-016" ;
+    skos:prefLabel "Inland rock" .
+
+<lv3-017> a skos:Concept ;
+    rdfs:comment "Covers urban and rural settlements, farm buildings, caravan parks, industrial areas and other man-made structures like retail parks, urban parks, transport infrastructure and derelict land. It includes domestic gardens and allotments. Amenity grassland is included in the Improved Grassland category." ;
+    skos:broader <lv2-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-017" ;
+    skos:prefLabel "Built up areas and gardens" .
+
+<lv3-018> a skos:Concept ;
+    rdfs:comment "Sand-covered shorelines of the oceans, their connected seas and associated coastal lagoons, fashioned by the action of wind or waves. They include gently sloping beaches and beach-ridges, formed by sands brought by waves, longshore drift and storm waves, as well as dunes, formed by aeolian deposits, though sometimes re-fashioned by waves." ;
+    skos:broader <lv2-002> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-018" ;
+    skos:prefLabel "Coastal dunes and sandy shores" .
+
+<lv3-019> a skos:Concept ;
+    rdfs:comment "Beaches of the oceans, of their connected seas and of their associated coastal lagoons, covered by pebbles, or sometimes boulders, usually formed by wave action." ;
+    skos:broader <lv2-002> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-019" ;
+    skos:prefLabel "Coastal shingle" .
+
+<lv3-020> a skos:Concept ;
+    rdfs:comment "Sea-cliffs, or parts of sea-cliffs, and rocky shores colonized by disjunct assemblages of salt-tolerant crevice plants (chasmophytes) or by more or less closed salt-tolerant grasslands with associated terrestrial invertebrate and vertebrate faunal communities." ;
+    skos:broader <lv2-002> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-020" ;
+    skos:prefLabel "Rock cliffs, ledges and shores including the supralittoral" .
+
+<lv3-021> a skos:Concept ;
+    rdfs:comment "An estuary is a semi-enclosed coastal body of water with one or more rivers or streams flowing into it, where saltwater is measurably diluted with freshwater from the land and the river is subject to tidal action. Estuaries are often associated with high rates of biological productivity." ;
+    skos:broader <lv2-002> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-021" ;
+    skos:prefLabel "Estuaries" .
+
+<lv3-022> a skos:Concept ;
+    rdfs:comment "A biogenic structure is formed when reef-forming species, such as cold water corals, attach to any hard substrate present and grow over the surrounding area forming a secondary substrate over the top. This changes the composition of the associated community as it provides a stable surface for epifauna to attach. Biogenic structure includes only areas where the seafloor is completely covered, not isolated structures, such as sponge aggregations or discrete corals." ;
+    skos:broader <lv2-003> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-022" ;
+    skos:prefLabel "Biogenic habitat" .
+
+<lv3-023> a skos:Concept ;
+    rdfs:comment "Rock and other hard substrate have a diverse epifaunal community as species attach to the hard surface that in turn attract more fauna. Rock includes bedrock mixed substrate of pebbles, cobbles and boulders, and isolated drop stones. It can occur in a mosaic with sediment habitats. Rock does not have an infaunal/soft-substrate community. This definition covers rock (and other hard substrate) habitats at all water depths. " ;
+    skos:broader <lv2-003> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-023" ;
+    skos:prefLabel "Rock (and other hard substrate)" .
+
+<lv3-024> a skos:Concept ;
+    rdfs:comment "Epifauna tend to be sparse mobile species or burrowing fauna such as anemones visible at the surface. If sediment particles are large enough to be classed as gravel using the Folk classification then sediment would be classed as coarse sediment rather than sand. If sand contains a high enough percentage of gravel it is also classed as coarse sediment. Coral rubble is classed as coarse sediment. Stable pebbles, cobbles and boulders are classed as rock; any rock present on coarse sediment is considered a separate habitat within a mosaic. This definition covers coarse sediment habitats at all water depths." ;
+    skos:broader <lv2-003> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-024" ;
+    skos:prefLabel "Coarse sediment" .
+
+<lv3-025> a skos:Concept ;
+    rdfs:comment "Epifauna tend to be sparse mobile species. Mixed sediment has a greater mud content than coarse sediment. If muddy sand sediment contains a high enough percentage of gravel, then it would be classed as mixed sediment. Stable pebbles, cobbles and boulders are classed as rock; any rock present on mixed sediment is considered a separate habitat within a mosaic. This definition covers mixed sediment habitats at all water depths." ;
+    skos:broader <lv2-003> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-025" ;
+    skos:prefLabel "Mixed sediment" .
+
+<lv3-026> a skos:Concept ;
+    rdfs:comment "Epifauna tend to be sparse, mobile species, or burrowing fauna such as anemones and brittlestars visible at the surface. Muddy sand sediments are classed as mud if the mud content is great enough. If sediment particles are large enough to be classed as gravel using the Folk classification, then sediment would be classed as coarse sediment rather than sand. If sand contains a high enough percentage of gravel it is also classed as coarse sediment. This definition covers sand habitats at all water depths." ;
+    skos:broader <lv2-003> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-026" ;
+    skos:prefLabel "Sand" .
+
+<lv3-027> a skos:Concept ;
+    rdfs:comment "Epifauna tend to be sparse, mobile species, or burrowing fauna such as anemones and brittlestars visible at the surface. Muddy sand sediments are classed as mud if the mud content is great enough. This definition covers mud habitats at all water depths." ;
+    skos:broader <lv2-003> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-027" ;
+    skos:prefLabel "Mud" .
+
+<lv3-028> a skos:Concept ;
+    rdfs:comment "Open ocean zone where the water column inconsistently alternates between levels of stratification." ;
+    skos:broader <lv2-003> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-028" ;
+    skos:prefLabel "Pelagic - indeterminate" .
+
+<lv3-029> a skos:Concept ;
+    rdfs:comment "Open ocean zone where the water column is occasionally stratified during the year." ;
+    skos:broader <lv2-003> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-029" ;
+    skos:prefLabel "Pelagic - intermittently stratified" .
+
+<lv3-030> a skos:Concept ;
+    rdfs:comment "Open ocean zone where the water column is consistently well mixed throughout the year." ;
+    skos:broader <lv2-003> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-030" ;
+    skos:prefLabel "Pelagic - permanently mixed" .
+
+<lv3-031> a skos:Concept ;
+    rdfs:comment "Open ocean zone where the water column is consistently stratified throughout the year." ;
+    skos:broader <lv2-003> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-031" ;
+    skos:prefLabel "Pelagic - permanently stratified" .
+
+<lv3-032> a skos:Concept ;
+    rdfs:comment "Open ocean zone where the water column is seasonally thermally stratified throughout the year." ;
+    skos:broader <lv2-003> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-032" ;
+    skos:prefLabel "Pelagic - seasonally stratified" .
+
+<lv3-033> a skos:Concept ;
+    rdfs:comment "Open ocean zone where the water column receives freshwater input from land." ;
+    skos:broader <lv2-003> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-033" ;
+    skos:prefLabel "Pelagic - region of freshwater influence" .
+
+<lv3-034> a skos:Concept ;
+    rdfs:comment "Surface waters on the landward side of a line, every point of which is at a distance of one nautical mile on the seaward side from the nearest point of the baseline from which the breadth of territorial waters is measured, extending where appropriate up to the outer limit of transitional waters." ;
+    skos:broader <lv2-003> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-034" ;
+    skos:prefLabel "Pelagic - coastal water (up to 1mm)" .
+
+<lv3-035> a skos:Concept ;
+    rdfs:comment "Includes fish species that span multiple habitats, and so are not easily allocated to an habitat class. E.g. Atlantic Bluefin Tuna, Salmon, Sharks, Mackerel, Eels, etc." ;
+    skos:broader <lv2-004> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-035" ;
+    skos:prefLabel "Fish" .
+
+<lv3-036> a skos:Concept ;
+    rdfs:comment "Includes species that span multiple habitats, and so are not easily allocated to an asset class. E.g. Swallows, Arctic Tern, Redwing, Chiffchaff, Common Swift, Razorbills, puffins etc." ;
+    skos:broader <lv2-004> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-036" ;
+    skos:prefLabel "Birds" .
+
+<lv3-037> a skos:Concept ;
+    rdfs:comment "Includes species that span multiple habitats, and so are not easily allocated to an asset class. E.g. seals, cetaceans, bats, red deer, etc." ;
+    skos:broader <lv2-004> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-037" ;
+    skos:prefLabel "Mammals" .
+
+<lv3-038> a skos:Concept ;
+    rdfs:comment "Includes species that span multiple habitats, and so are not easily allocated to an asset class. E.g. butterflies, moths, dragonflies, hoverflies, etc." ;
+    skos:broader <lv2-004> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-038" ;
+    skos:prefLabel "Insects" .
+
+<lv3-039> a skos:Concept ;
+    rdfs:comment "Includes species that span multiple habitats, and so are not easily allocated to an asset class. E.g. turtles." ;
+    skos:broader <lv2-004> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-039" ;
+    skos:prefLabel "Reptiles" .
+
+<lv3-040> a skos:Concept ;
+    rdfs:comment "Includes species that span multiple habitats, and so are not easily allocated to an asset class. E.g. Common Cuttlefish, European Squid, etc." ;
+    skos:broader <lv2-004> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-040" ;
+    skos:prefLabel "Cephalopods" .
+
+<lv3-041> a skos:Concept ;
+    rdfs:comment "Includes species that do not fit into any of the groups listed above but that span multiple habitats, and so are not easily allocated to an asset class." ;
+    skos:broader <lv2-004> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-041" ;
+    skos:prefLabel "Other" .
+
+<lv3-042> a skos:Concept ;
+    rdfs:comment """Climate is the generalised weather of an area, including typical patterns of sunlight, temperature, rainfall and wind. It also includes seasonal effects, such as changes in day length.
+Microclimate is the localised climate of a particular location, which can be measured over multiple scales (e.g. beneath a tree or within a valley). It represents the local modification of the climate through various surface factors such as topography, vegetation, the presence of water and soil types.""" ;
+    skos:broader <lv2-005> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-042" ;
+    skos:prefLabel "Climate and Microclimate" .
+
+<lv3-043> a skos:Concept ;
+    rdfs:comment "An assemblage of species occurring in the same space or time, often linked by biotic interactions such as competition or predation." ;
+    skos:broader <lv2-005> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-043" ;
+    skos:prefLabel "Ecological community" .
+
+<lv3-044> a skos:Concept ;
+    rdfs:comment "Functional traits are behaviours, morphologies or other characteristics of organisms that impact that organisms environment or ecosystem (e.g. burrowing, body size, breeding behaviour, filter feeding etc.)." ;
+    skos:broader <lv2-005> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-044" ;
+    skos:prefLabel "Functional trait" .
+
+<lv3-045> a skos:Concept ;
+    rdfs:comment "An intrinsic ecosystem characteristic whereby an ecosystem maintains its integrity.  Ecosystem processes include decomposition, production, nutrient cycling and fluxes of nutrients and energy." ;
+    skos:broader <lv2-005> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-045" ;
+    skos:prefLabel "Ecosystem process" .
+
+<lv3-046> a skos:Concept ;
+    rdfs:comment """Soils are vertical profiles of weathered geological material (including sediments) and organic deposits, they have a variety of physical, mineral, and biotic characteristics, including pH, texture, aeration/compaction, carbon content, particle size and nutrient content. 
+Sediments are weathered materials that have been transported from the place they were originally weathered from their parent material. This includes marine sediments are the accumulation of particles, organic matter and other materials that settle on the ocean floor over time.
+Geology is the original parent material from which sediments and soils are weathered. Landform is topographic features such as aspect, slope and elevation which affect climate and geology of a location which in turn affect its hydrology (e.g. catchment characteristics, in combination with soils and watercourse features) and biota.""" ;
+    skos:broader <lv2-005> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-046" ;
+    skos:prefLabel "Soils, Sediments and Geology" .
+
+<lv3-047> a skos:Concept ;
+    rdfs:comment "Hydrology is the branch of science concerned with the properties of the earth's water and its movement over and through the Earth's surface. This includes ground water (all water that exists in soils, sediments and rock), surface water bodies (bodies of freshwater in non-marine and coastal environments, including streams, rivers and lakes) and all marine environments. These waters have different abiotic and biotic chemistry (for instance different pH, Dissolved Organic Carbon, dissolved oxygen, and ammonia/nitrate concentrations), and biotic communities. " ;
+    skos:broader <lv2-005> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-047" ;
+    skos:prefLabel "Water Chemistry and Hydrology" .
+
+<lv3-048> a skos:Concept ;
+    rdfs:comment "Atmosphere is the mixture of gases which surround the Earths surface." ;
+    skos:broader <lv2-005> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-048" ;
+    skos:prefLabel "Atmosphere" .
+
+<lv3-049> a skos:Concept ;
+    rdfs:comment "Provision of food products from nature, including cultivated food (e.g. agriculture and aquaculture), foraged wild plants and animals, and food products from non-living sources (e.g. salt and minerals)." ;
+    skos:broader <lv2-006> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-049" ;
+    skos:prefLabel "Food" .
+
+<lv3-050> a skos:Concept ;
+    rdfs:comment "Provision of non-food products from living and non-living sources such as cosmetics, building materials and genetic resources" ;
+    skos:broader <lv2-006> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-050" ;
+    skos:prefLabel "Materials" .
+
+<lv3-051> a skos:Concept ;
+    rdfs:comment "Plentiful water for e.g. drinking, domestic use, irrigation, livestock, and industrial use including cooling" ;
+    skos:broader <lv2-006> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-051" ;
+    skos:prefLabel "Water" .
+
+<lv3-052> a skos:Concept ;
+    rdfs:comment "Energy from renewable sources (e.g. wind, solar, geothermal, hydroelectric, tidal and wave energy), non-renewable sources (e.g. coal, oil, gas and uranium), from plants (e.g. biofuels and wood) and from animals (e.g. fats and waste)." ;
+    skos:broader <lv2-006> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-052" ;
+    skos:prefLabel "Energy" .
+
+<lv3-053> a skos:Concept ;
+    rdfs:comment "Clean water (which underpins water supply, sustainable ecosystems, cultural; services and providing health benefits), clean air (underpinning health benefits and sustainable ecosystems), and healthy sediments (underpinning production of habitats and climate regulation)." ;
+    skos:broader <lv2-007> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-053" ;
+    skos:prefLabel "Environmental quality" .
+
+<lv3-054> a skos:Concept ;
+    rdfs:comment "Covering gamete dispersal, refuge habitats and nursery, breeding and feeding grounds. Maintenance of wild populations and biodiversity, underpinning all other services." ;
+    skos:broader <lv2-007> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-054" ;
+    skos:prefLabel "Maintaining wild populations" .
+
+<lv3-055> a skos:Concept ;
+    rdfs:comment "Covering erosion, flood and storm protection, and pest and disease control. Underpins land retention (preventing transport disruption and protecting houses, businesses and infrastructure), reduces health and safety risks, reduces damage to crops and reduces spread of pests and disease. Also improves aesthetics, underpinning wellbeing." ;
+    skos:broader <lv2-007> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-055" ;
+    skos:prefLabel "Hazard and nuisance reduction" .
+
+<lv3-056> a skos:Concept ;
+    rdfs:comment "Equable climate e.g. reduced risk of drought, flood & extreme weather events, lower summer temperatures, reduced health & safety risks, reduced flood risk, protection of infrastructure/lack of transport disruption. Regulation of local temperature and humidity." ;
+    skos:broader <lv2-007> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-056" ;
+    skos:prefLabel "Climate regulation" .
+
+<lv3-057> a skos:Concept ;
+    rdfs:comment "Benefits to physical and mental health and wellbeing, particularly capabilities (e.g. knowledge, health, dexterity, judgement) and experiences (e.g. tranquillity, inspiration, escape, discovery). Benefits building knowledge and other capabilities." ;
+    skos:broader <lv2-008> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-057" ;
+    skos:prefLabel "Physical, experiential and intellectual interactions" .
+
+<lv3-058> a skos:Concept ;
+    rdfs:comment "Benefits to mental health and wellbeing, particularly in terms of experiences (e.g. tranquillity, inspiration, escape, discovery) and identities (e.g. belonging, sense of place, rootedness, spirituality, sense of history)." ;
+    skos:broader <lv2-008> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-058" ;
+    skos:prefLabel "Cultural significance of nature" .
+
+<lv3-059> a skos:Concept ;
+    rdfs:comment "Aspects of the environment that we want to ensure continue to exist for future generations, and that we consider important even if we do not use them." ;
+    skos:broader <lv2-008> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-059" ;
+    skos:prefLabel "Non-use values" .
+
+<lv3-060> a skos:Concept ;
+    rdfs:comment "Global warming refers to the increase in global surface temperature relative to a baseline reference period, averaging over a period sufficient to remove interannual variations" ;
+    skos:broader <lv2-011> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-060" ;
+    skos:prefLabel "Global warming" .
+
+<lv3-061> a skos:Concept ;
+    rdfs:comment "A period during which water temperature is abnormally warm for the time of the year relative to historical temperatures, with that extreme warmth persisting for days to months. The phenomenon can manifest in any place in the ocean and at scales of up to thousands of kilometres." ;
+    skos:broader <lv2-011> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-061" ;
+    skos:prefLabel "Marine heatwaves" .
+
+<lv3-062> a skos:Concept ;
+    rdfs:comment "Increased CO2 concentrations in the atmosphere are absorbed by the ocean.  Increased CO2 concentrations affect the carbonate chemistry of seawater, and result in a reduction in pH, changes in the carbonate saturation and, potentially, hypercapnia (CO2 poisoning) in marine organisms.  Increasing levels of CO2 in the atmosphere have led to the average pH of sea surface waters dropping from 8.25 in the 1700s to 8.14 in the 1990s, leading to a 25% increase in H+ ions (Jacobson, 2005). However, the pH of surface waters are highly variable over time (Fig. 5), which reflects seasonal cycles in photosynthesis, respiration and water mixing (Ostle et al., 2016)." ;
+    skos:broader <lv2-011> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-062" ;
+    skos:prefLabel "Ocean acidification" .
+
+<lv3-063> a skos:Concept ;
+    rdfs:comment """Sea-level rise results from a combination of the thermal expansion of seawater and ice melt (e.g. ice sheets and glaciers).  Sea-levels have risen 1-3 mm yr-1 in the last century (Cazenave & Nerem, 2004, Church et al., 2004, Church & White, 2006).  The global mean sea-level has risen by 0.16 m (a range of 0.12-0.21 m) between 1902 and 2015 (IPCC, 2019).  The rate of rise in 2006-2015 is unprecedented compared to the last century, during which period, sea-level rise has been dominated by melting ice-sheets and glaciers (IPCC, 2019).
+A rise in sea-level increases the water depth at the shore and results in increased wave and tidal energy along the shore, due to the increase in fetch and reduction in wave attenuation (Pethick, 2001; Crooks, 2004; Fujii, 2012).  As a result, coastal landforms (e.g. subtidal bedforms, intertidal flats, saltmarshes, shingle banks, sand dunes, cliffs and coastal lowlands) migrate along and parallel to the shore to maintain their position with the coastal energy gradient (Cooks, 2004; Fujii, 2012).  Sedimentary habitats are dynamic and liable to adapt to sea-level rise, except where hard structures (e.g. cliffs and artificial structures) prevent their natural movement, where existing intertidal areas are likely to be submerged, eroded, or moved (coastal squeeze).""" ;
+    skos:broader <lv2-011> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-063" ;
+    skos:prefLabel "Sea-level rise" .
+
+<lv3-064> a skos:Concept ;
+    rdfs:comment "The occurrence of a weather or climate variable above (or below) a threshold value near the upper (or lower) ends of the range of observed values of the variable. By definition, the characteristics of what is called extreme weather may vary from place to place in an absolute sense. When a pattern of extreme weather persists for some time, such as a season, it may be classified as an extreme climate event, especially if it yields an average or total that is itself extreme (e.g., wildfires, high temperature, drought or heavy rainfall over a season)." ;
+    skos:broader <lv2-011> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-064" ;
+    skos:prefLabel "More frequent and extreme weather or climate events" .
+
+<lv3-065> a skos:Concept ;
+    rdfs:comment "A change in the distribution, intensity or frequency of rainfall in a particular area over a given period of time." ;
+    skos:broader <lv2-011> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-065" ;
+    skos:prefLabel "Changes in precipitation pattern" .
+
+<lv3-066> a skos:Concept ;
+    rdfs:comment "A change in the distributional limits of the native geographical range of a species, driven by climate change." ;
+    skos:broader <lv2-013> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-066" ;
+    skos:prefLabel "Climate-induced range shifts" .
+
+<lv3-067> a skos:Concept ;
+    rdfs:comment """The increase in transition element levels compared with background concentrations due to their input from land/riverine sources, by air or directly at sea.  For marine sediments, the main elements of concern are: Arsenic, Cadmium, Chromium, Copper, Mercury and organic mercury compounds, Nickel and its compounds, Lead and organic lead compounds, and Zinc.
+However, the following may also be released into the marine environment: Aluminium, Barium, Cobalt, Iron, Molybdenum, Selenium, Tin, Tungsten, and Vanadium.
+Organometallic compounds such as butyl tins (tributyltin and its derivatives) can be highly persistent and chronic exposure to low levels has adverse biological effects, e.g. Imposex in molluscs.  The use of other organo-metalloids, such as organo-copper and organo-zinc compounds, has increased due to the ban on organo-tins.
+Nanoparticulate metals such as Zinc oxide (ZnO), Iron oxide (FeO), Copper oxide (CuO), Titanium (n-TiO2), Gold, and Silver nanoparticulate metals are included.""" ;
+    skos:broader <lv2-012> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-067" ;
+    skos:prefLabel "Transitional elements & organometal contamination" .
+
+<lv3-068> a skos:Concept ;
+    rdfs:comment """Increases in the levels of these compounds compared with background concentrations.  Naturally occurring compounds or complex mixtures of two basic molecular structures:
+-straight-chained aliphatic hydrocarbons (relatively low toxicity and susceptible to degradation), and
+-multiple ringed aromatic hydrocarbons (higher toxicity and more resistant to degradation).
+These fall into three categories based on source (including both aliphatic and polyaromatic hydrocarbons):
+-biogenic hydrocarbons (from plants & animals);
+-petroleum hydrocarbons (from natural seeps, oil spills and surface water run-off); and
+-pyrogenic hydrocarbons (from the combustion of coal, woods, and petroleum).
+Ecological chemical consequences include taint, acute toxicity, carcinomas, and/or growth defects. In addition, hydrocarbons may have physical as well as chemical (toxic) effects on species. Physical effects include smothering, suffocation, and clogging of feathers, breathing apparatus, or the digestive tracts of species at the air/water boundary, on rocks or in the sediment, they inhabit. 
+Dispersants are included here as they are designed to break up oil spills.  Dispersants (used to disperse oils spills) are synthetic mixtures often mixtures of distillates, surfactants, and other ingredients but their effects are linked to the oil spills or other oily waters (e.g. bilge water) they are designed to disperse.""" ;
+    skos:broader <lv2-012> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-068" ;
+    skos:prefLabel "Hydrocarbon & Polyaromatic hydrocarbons (PAH) contamination" .
+
+<lv3-069> a skos:Concept ;
+    rdfs:comment """Increases in the levels of these compounds compared with background concentrations.  Synthetic compounds are manufactured for a variety of industrial processes and commercial applications. 
+Chlorinated compounds and other organohalogens are often persistent and often toxic; including: Polychlorinated biphenols (PCBs); Brominated flame-retardants; and Chemical precursors and solvents.
+Pesticides vary greatly in structure, composition, environmental persistence, and toxicity to non-target organisms, many of which are also organohalogens or organophosphates; including: Insecticides; Herbicides; Rodenticides; Fungicides; Parasiticides; and Antifoulants.
+Pharmaceuticals and Personal Care Products (PCPs) originate from veterinary and human applications and include a variety of products and over-the-counter medications: Analgesics (inc. NSAIDs), Adrenergic agonists and beta-blockers, Antihyperlipidemic agents, Antidepressants; Fungicides; Chemotherapy drugs and animal (e.g. fin-fish) therapeutics; Growth hormones and oestrogens; and UV-filters e.g. from sun screens.
+Due to their biologically active nature, high levels of consumption, known combined effects, and their detection in most aquatic environments, pharmaceuticals have become an emerging concern.  Ecological consequences include physiological changes (e.g. growth defects, carcinomas). This category also includes: other synthetic and organic esters; phthalate esters, and synthetic musks (which may also be PBTs).""" ;
+    skos:broader <lv2-012> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-069" ;
+    skos:prefLabel "Synthetic compound contamination" .
+
+<lv3-070> a skos:Concept ;
+    rdfs:comment "Introduction of radionuclide material, raising levels above background concentrations. Such materials can come from nuclear installation discharges, and from land or sea-based operations (e.g. oil platforms, medical sources). The disposal of radioactive material at sea is prohibited unless it fulfils exemption criteria developed by the International Atomic Energy Agency (IAEA), namely that both the following radiological criteria are satisfied: (i) the effective dose expected to be incurred by any member of the public or ships crew is 10 ?Sv or less in a year; (ii) the collective effective dose to the public or ships crew is not more than 1 man Sv per annum, then the material is deemed to contain de minimis levels of radioactivity and may be disposed at sea pursuant to it fulfilling all the other provisions under the Convention. The individual dose criteria are placed in perspective (i.e. very low), given that the average background dose to the UK population is ~2700 ?Sv/a. Ports and coastal sediments can be affected by the authorised discharge of both current and historical low-level radioactive wastes from coastal nuclear establishments." ;
+    skos:broader <lv2-012> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-070" ;
+    skos:prefLabel "Radionuclide contamination" .
+
+<lv3-071> a skos:Concept ;
+    rdfs:comment """The 'systematic or intentional release of solids, liquids, or gases ' (from MSFD Annex III Table 2) is considered e.g. in relation to produced water from the oil industry.  It should therefore be considered in parallel with the other contaminants pressures. This pressure includes compounds released as operational discharges, produced waters or spills that are not assessed elsewhere.  This pressure includes:
+-Chemicals transported in bulk that may be spilt e.g. acetic acid, phosphoric acid, sulphuric acid, sodium hydroxide;
+-Chemicals in drilling waste or produced waters e.g. barite, calcium carbonate, potash, zinc oxide;
+-Natural products with varied uses, e.g. molasses (transported in bulk) but also glycerins, formalin etc.;
+-Fin-fish food supplements  e.g. carotenoids, copper sulphate; and
+-Releases from munitions dumps e.g. chemical warfare agents, explosives, or propellants""" ;
+    skos:broader <lv2-012> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-071" ;
+    skos:prefLabel "Introduction of other substances (solid, liquid or gas)" .
+
+<lv3-072> a skos:Concept ;
+    rdfs:comment "Any deoxygenation that is not directly associated with nutrient or organic enrichment. The lowering, temporarily or more permanently, of oxygen levels in the water or substrate due to anthropogenic causes (some areas may naturally be deoxygenated due to stagnation of water masses, e.g. inner basins of fjords). This is typically associated with nutrient and organic enrichment, but it can also derive from the release of ballast water or other stagnant waters (where organic or nutrient enrichment may be absent). Ballast waters may be deliberately deoxygenated via treatment with inert gases to kill non-indigenous species." ;
+    skos:broader <lv2-012> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-072" ;
+    skos:prefLabel "De-oxygenation" .
+
+<lv3-073> a skos:Concept ;
+    rdfs:comment "Resulting from the degraded remains of dead biota & microbiota (land & sea); faecal matter from animals; flocculated colloidal organic matter and the degraded remains of: sewage material, domestic wastes, industrial wastes etc. Organic matter can enter marine waters from sewage discharges, aquaculture or terrestrial/agricultural runoff. Black carbon comes from the products of incomplete combustion (PIC) of fossil fuels and vegetation. Organic enrichment may lead to eutrophication (see also nutrient enrichment). Adverse environmental effects include deoxygenation, algal blooms, and changes in the community structure of benthos and macrophytes." ;
+    skos:broader <lv2-012> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-073" ;
+    skos:prefLabel "Organic enrichment" .
+
+<lv3-074> a skos:Concept ;
+    rdfs:comment "Increased levels of the elements nitrogen, phosphorus, silicon, and iron in  terrestrial and marine environment compared to background concentrations. Nutrients can enter systems by natural processes (e.g. decomposition of detritus, riverine, direct and atmospheric inputs) or anthropogenic sources (e.g. wastewater runoff, terrestrial/agricultural inputs and runoff, sewage discharges, aquaculture, atmospheric deposition). Nutrients can also enter marine regions from upstream locations, e.g. via tidal currents to induce enrichment in the receiving area. Nutrient enrichment may lead to eutrophication (see also organic enrichment). Adverse environmental effects include deoxygenation, algal blooms, and changes in the community structure of benthos and macrophytes." ;
+    skos:broader <lv2-012> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-074" ;
+    skos:prefLabel "Nutrient enrichment" .
+
+<lv3-075> a skos:Concept ;
+    rdfs:comment "Degradation of air quality with negative effects on human health or the natural or built environment due to the introduction, by natural processes or human activity, into the atmosphere of substances (gases, aerosols) which have a direct (primary pollutants) or indirect (secondary pollutants) harmful effect." ;
+    skos:broader <lv2-012> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-075" ;
+    skos:prefLabel "Air pollution" .
+
+<lv3-076> a skos:Concept ;
+    rdfs:comment """Genetic modification (GM) can be either deliberate (e.g. introduction of farmed individuals to the wild, GM food production) or a by-product of other activities (e.g. mutations associated with radionuclide contamination). Former related to escapees or deliberate releases e.g. cultivated species such as farmed salmon, oysters, and scallops if GM practices are employed. The scale of pressure is compounded if GM species were "captured" and translocated in ballast water. Mutated organisms from the latter could be transferred on ships' hulls, in ballast water, with imports for aquaculture, aquaria, live bait, species traded as live seafood or 'natural' migration.
+This pressure also relates to the translocation of indigenous species that may compete with local populations of species, alter the community of the receiving habitat, or provide the opportunity for hybridization between similar species (e.g. Spartina spp. and Mytilus spp.).""" ;
+    skos:broader <lv2-013> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-076" ;
+    skos:prefLabel "Genetic modification & translocation of indigenous species" .
+
+<lv3-077> a skos:Concept ;
+    rdfs:comment "Marine introductions may come from untreated or insufficiently treated effluent discharges & run-off from terrestrial sources & vessels. It may also be a consequence of ballast water releases. In mussel or shellfisheries where seed stock is imported, 'infected' seed could be introduced, or it could be from accidental releases of effluvia. Escapees e.g. farmed salmon could be infected and spread pathogens in the indigenous populations. Aquaculture could release contaminated faecal matter, from which pathogens could enter the food chain." ;
+    skos:broader <lv2-013> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-077" ;
+    skos:prefLabel "Introduction of microbial pathogens" .
+
+<lv3-078> a skos:Concept ;
+    rdfs:comment """The direct or indirect introduction of invasive non-indigenous species.
+Marine examples include: Chinese mitten crabs, slipper limpets, and Pacific oysters, and their subsequent spreading and out-competing of native species. Ballast water, hull fouling, and stepping stone effects (e.g. offshore wind farms) may facilitate the spread of such species. This pressure could be associated with aquaculture, mussel or shellfishery activities due to imported seed stock or accidental releases.
+Terrestrial and freshwater examples include: Japanese knotweed, Himalayan balsam, Rhododendron, Giant hogweed, American mink, Signal crayfish, Asian hornet, American bullfrog, etc.""" ;
+    skos:broader <lv2-013> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-078" ;
+    skos:prefLabel "Introduction or spread of invasive non-indigenous species" .
+
+<lv3-079> a skos:Concept ;
+    rdfs:comment "By-catch is associated with all fishing, harvesting and extraction activities. Ecological consequences include food web dependencies, and the population dynamics of fish, marine mammals, turtles and sea birds (including survival threats in extreme cases, e.g. Harbour Porpoise in Central and Eastern Baltic). The physical effects of fishing gear on sea bed communities are addressed by the abrasion pressure type so the pressure addresses the direct removal of individuals associated with fishing/ harvesting." ;
+    skos:broader <lv2-013> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-079" ;
+    skos:prefLabel "Removal of non-target species" .
+
+<lv3-080> a skos:Concept ;
+    rdfs:comment "The commercial exploitation of fish & shellfish stocks, including smaller scale harvesting, angling and scientific sampling. The physical effects of fishing gear on sea bed communities are addressed by the abrasion pressures above. This pressure addresses the direct removal/harvesting of biota. Ecological consequences include the sustainability of stocks, impacting energy flows through food webs and the size and age composition within fish stocks." ;
+    skos:broader <lv2-013> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-080" ;
+    skos:prefLabel "Removal of target species" .
+
+<lv3-081> a skos:Concept ;
+    rdfs:comment "A pest is an animal, plant, fungus, or other organism that thrives in places where it is not wanted by people, e.g. agricultural land, woodland, gardens, marine habitats, etc. Pest outbreaks occur when a pest population rises significantly above the general equilibrium level and threatens human interests." ;
+    skos:broader <lv2-013> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-081" ;
+    skos:prefLabel "Pest outbreaks" .
+
+<lv3-082> a skos:Concept ;
+    rdfs:comment "Biodiversity loss is the reduction of any aspect of biological diversity (i.e. diversity at the genetic, species and ecosystem levels) is lost in a particular area through death (including extinction), destruction or manual removal; it can refer to many scales, from global extinctions to population extinctions, resulting in decreased total diversity at the same scale. Extinction is when all the individuals in a population, species or more inclusive taxonomic group have died." ;
+    skos:broader <lv2-013> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-082" ;
+    skos:prefLabel "Biodiversity loss and extinction" .
+
+<lv3-083> a skos:Concept ;
+    rdfs:comment "Changes in the timing of life history events relative to calendar dates. Phenological mismatch are differences in the timing of life history events relative to other species, resources, or habitat conditions that result in fitness consequences." ;
+    skos:broader <lv2-013> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-083" ;
+    skos:prefLabel "Phenological shifts resulting in phenological mismatch" .
+
+<lv3-084> a skos:Concept ;
+    rdfs:comment "Events or activities increasing or decreasing local water temperature. This is most likely from thermal discharges, e.g. the release of cooling waters from power stations. This could also relate to temperature changes in the vicinity of operational sub-sea power cables. This pressure only applies within the thermal plume generated by the pressure source. It excludes temperature changes from global warming which will be at a regional scale (and as such are addressed under the climate change pressures)." ;
+    skos:broader <lv2-014> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-084" ;
+    skos:prefLabel "Temperature changes - local" .
+
+<lv3-085> a skos:Concept ;
+    rdfs:comment "Events or activities increasing or decreasing local salinity. This relates to anthropogenic sources/causes that have the potential to be controlled, e.g. freshwater discharges from pipelines that reduce salinity, or brine discharges from salt caverns washings that may increase salinity. This could also include hydromorphological modification, e.g. capital navigation dredging if this alters the halocline or erection of barrages or weirs that alter freshwater/seawater flow/exchange rates. The pressure may be temporally and spatially delineated derived from the causal event/activity and local environment." ;
+    skos:broader <lv2-014> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-085" ;
+    skos:prefLabel "Salinity changes - local" .
+
+<lv3-086> a skos:Concept ;
+    rdfs:comment "Changes in water movement associated with tidal streams (the rise and fall of the tide, riverine flows), prevailing winds and ocean currents. The pressure is therefore associated with activities that have the potential to modify hydrological energy flows, e.g. tidal energy generation devices remove (convert) energy and such pressures could be manifested leeward of the device, capital dredging may deepen and widen a channel and therefore decrease the water flow, canalisation &/or structures may alter flow speed and direction; managed realignment (e.g. Wallasea, England). The pressure will be spatially delineated. The pressure extremes are a shift from a high to a low energy environment (or vice versa). The biota associated with these extremes will be markedly different as will the substratum, sediment supply/transport and associated seabed/ground elevation changes. The potential exists for profound changes (e.g. coastal erosion/deposition) to occur at long distances from the construction itself if an important sediment transport pathway was disrupted. As such these pressures could have multiple and complex impacts associated with them." ;
+    skos:broader <lv2-014> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-086" ;
+    skos:prefLabel "Water flow changes - local" .
+
+<lv3-087> a skos:Concept ;
+    rdfs:comment "Changes in water levels reducing the intertidal zone and the associated/dependent habitats. The pressure relates to changes in both the spatial area and duration that intertidal species are immersed and exposed during tidal cycles (the percentage of immersion is dependent on the position or height on the shore relative to the tide). The spatial and temporal extent of the pressure will be dependent on the causal activities but can be delineated. This relates to anthropogenic causes that may directly influence the temporal and spatial extent of tidal immersion, e.g. upstream and downstream of a tidal barrage the emergence would be respectively reduced and increased, beach re-profiling could change gradients and therefore exposure times, capital dredging may change the natural tidal range, managed realignment, salt marsh creation. Such alteration may be of importance in estuaries because of their influence on tidal flushing and potential wave propagation. Changes in tidal flushing can change the sediment dynamics and may lead to changing patterns of deposition and erosion. Changes in tidal levels will only affect the emergence regime in areas that are inundated for only part of the time. The effects that tidal level changes may have on sediment transport are not restricted to these areas, so a very large construction could significantly affect the tidal level at a deep site without changing the emergence regime. Such a change could still have a serious impact. This excludes pressure from sea level rise." ;
+    skos:broader <lv2-014> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-087" ;
+    skos:prefLabel "Emergence regime changes - local" .
+
+<lv3-088> a skos:Concept ;
+    rdfs:comment "Local changes in wave length, height and frequency. Exposure on an open shore is dependent upon the distance of open sea water over which wind may blow to generate waves (the fetch) and the strength and incidence of winds. Anthropogenic sources of this pressure include artificial reefs, breakwaters, barrages, and wrecks that can directly influence wave action or activities that may locally affect the incidence of winds, e.g. a dense network of wind turbines may have the potential to influence wave exposure, depending upon their location relative to the coastline." ;
+    skos:broader <lv2-014> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-088" ;
+    skos:prefLabel "Wave exposure changes - local" .
+
+<lv3-089> a skos:Concept ;
+    rdfs:comment """Water abstraction is the process of taking water from sources such as rivers, lakes and groundwater aquifers. 
+Drainage is the artificial lowering of the soil water table.""" ;
+    skos:broader <lv2-014> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-089" ;
+    skos:prefLabel "Water abstraction and drainage" .
+
+<lv3-090> a skos:Concept ;
+    rdfs:comment "The permanent change of one marine habitat type to another marine habitat type, through the change in the substratum, including to artificial (e.g. concrete). This, therefore, involves the permanent loss of one marine habitat type but has an equal creation of a different marine habitat type. Associated activities include the installation of infrastructure (e.g. the surface of platforms or wind farm foundations, marinas, coastal defences, pipelines and cables), the placement of scour protection where soft sediment habitats are replaced by hard/coarse substratum habitats, removal of coarse substrata (marine mineral extraction) in those instances where surficial finer sediments are lost, capital dredging where the residual sedimentary habitat differs structurally from the pre-dredge state, creation of artificial reefs, mariculture i.e. mussel beds. Protection of pipes and cables using rock dumping and mattressing techniques. Placement of cuttings piles from oil & gas activities could fit this pressure type, however, there may be additional pressures, e.g. \"pollution and other chemical changes\" theme. This pressure excludes navigation dredging where the depth of sediment is changed locally but the sediment typology is not changed." ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-090" ;
+    skos:prefLabel "Physical change" .
+
+<lv3-091> a skos:Concept ;
+    rdfs:comment "The permanent loss of marine habitats. Associated activities are land claim, new coastal defences that encroach on and move the Mean High Water Springs mark seawards, the footprint of a wind turbine on the seabed, and dredging if it alters the position of the halocline. This excludes changes from one marine habitat type to another marine habitat type." ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-091" ;
+    skos:prefLabel "Physical loss" .
+
+<lv3-092> a skos:Concept ;
+    rdfs:comment "Unlike the \"physical change\" pressure type where there is a permanent change in sea bed type (e.g. sand to gravel, sediment to a hard artificial substratum) the \"habitat structure change\" pressure type relates to temporary and/or reversible change, e.g. from marine mineral extraction where a proportion of seabed sands or gravels are removed but a residual layer of the seabed is similar to the pre-dredge structure and as such biological communities could re-colonize; navigation dredging to maintain channels where the silts or sands removed are replaced by non-anthropogenic mechanisms so the sediment typology is not changed." ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-092" ;
+    skos:prefLabel "Habitat structure changes - removal of substratum" .
+
+<lv3-093> a skos:Concept ;
+    rdfs:comment "Physical disturbance or abrasion at the surface of the substratum in sedimentary or rocky habitats. The effects are relevant to epiflora and epifauna living on the surface of the substratum. In intertidal and sublittoral fringe habitats, surface abrasion is likely to result from recreational access and trampling (inc. climbing) by humans or livestock, vehicular access, moorings (ropes, chains), activities that increase scour and grounding of vessels (deliberate or accidental). In the sublittoral, surface abrasion is likely to result from pots or creels, cables and chains associated with fixed gears and moorings, anchoring of recreational vessels, objects placed on the seabed such as the legs of jack-up barges, and harvesting of seaweeds (e.g. kelps) or other intertidal species (trampling) or of epifaunal species (e.g. oysters). In sublittoral habitats, passing bottom gear (e.g. rock hopper gear) may also cause surface abrasion to epifaunal and epifloral communities, including epifaunal biogenic reef communities. Activities associated with surface abrasion can cover relatively large spatial areas e.g. bottom trawls or bio-prospecting or be relatively localized activities e.g. seaweed harvesting, recreation, potting, and aquaculture." ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-093" ;
+    skos:prefLabel "Abrasion/disturbance at the surface of the substratum" .
+
+<lv3-094> a skos:Concept ;
+    rdfs:comment """Physical disturbance of sediments where there is limited or no loss of substratum from the system. This pressure is associated with activities such as anchoring, taking of sediment/geological cores, cone penetration tests, cable burial (ploughing or jetting), propeller wash from vessels, and certain fishing activities, e.g. scallop dredging, and beam trawling. Agitation dredging, where sediments are deliberately disturbed by gravity & hydraulic dredging where sediments are deliberately disturbed and moved by currents could also be associated with this pressure type. Compression of sediments, e.g. from the legs of a jack-up barge could also fit into this pressure type. Abrasion relates to the damage of the sea bed surface layers (typically up to 50 cm depth). Activities associated with abrasion can cover relatively large spatial areas and include fishing with towed demersal trawls (fish & shellfish); bio-prospecting such as harvesting of biogenic features such as maerl beds where, after extraction, conditions for recolonization remain suitable or relatively localised activities including seaweed harvesting, recreation, potting, aquaculture. Change from gravel to silt substrata would adversely affect herring spawning grounds.
+Loss, removal or modification of the substratum is not included within this pressure (see the physical loss pressure theme). Penetration and damage to the soft rock substrata are considered, however, penetration into hard bedrock is deemed unlikely.""" ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-094" ;
+    skos:prefLabel "Penetration and/or disturbance of the substratum below the surface" .
+
+<lv3-095> a skos:Concept ;
+    rdfs:comment "Changes in water clarity (or turbidity) due to changes in sediment & organic particulate matter and chemical concentrations. It is related to activities disturbing sediment and/or organic particulate matter and mobilizing it into the water column. It could be 'natural' land run-off and riverine discharges or from anthropogenic activities such as all forms of dredging, disposal at sea, cable and pipeline burial, and secondary effects of construction works, e.g. breakwaters. Particle size, hydrological energy (current speed & direction) and tidal excursion are all influencing factors on the spatial extent and temporal duration. Salinity, turbulence, pH and temperature may result in flocculation of suspended organic matter. Anthropogenic sources are mostly short-lived and over relatively small spatial extents. Changes in suspended sediment loads can also alter the scour experienced by species and habitats. Therefore, the effects of scour are also addressed here." ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-095" ;
+    skos:prefLabel "Changes in suspended soils (water clarity)" .
+
+<lv3-096> a skos:Concept ;
+    rdfs:comment """When the natural rates of siltation are altered (increased or decreased). Siltation (or sedimentation) is the settling out of silt/sediments suspended in the water column. Activities associated with this pressure type include mariculture, land claim, navigation dredging, disposal at sea, marine mineral extraction, cable and pipeline laying and various construction activities. It can result in short-lived sediment concentration gradients and the accumulation of sediments on the sea floor. This accumulation of sediments is synonymous with "light" smothering, which relates to the depth of vertical overburden. Light smothering relates to the deposition of layers of sediment on the seabed. It is associated with activities such as sea disposal of dredged materials where sediments are deliberately deposited on the sea bed. For light smothering most benthic biota may be able to adapt, i.e. vertically migrate through the deposited sediment.
+Heavy smothering also relates to the deposition of layers of sediment on the seabed but is associated with activities such as sea disposal of dredged materials where sediments are deliberately deposited on the sea bed. This accumulation of sediments relates to the depth of vertical overburden where the sediment type of the existing and deposited sediment has similar physical characteristics because, although most species of marine biota are unable to adapt, e.g. sessile organisms unable to make their way to the surface, a similar biota could, with time, re-establish. If the sediments were physically different this would fall under L2.""" ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-096" ;
+    skos:prefLabel "Smothering and siltation rate changes" .
+
+<lv3-097> a skos:Concept ;
+    rdfs:comment "The displacement of the soil by the action of water or wind. Soil erosion is a major process of land degradation." ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-097" ;
+    skos:prefLabel "Soil erosion" .
+
+<lv3-098> a skos:Concept ;
+    rdfs:comment "A practice about managing, using, conserving and repairing forest, woodlands, and associated resources. Objectives and goals are fulfilled by implementing and regulating tree management and harvesting practices stipulated in forest management plans. It involves a range of management activities (coppicing, tree planting, selective logging, prescribed burning, etc) to maintain the health, diversity and production of woodland whilst meeting objectives such as timber production, conservation and recreation." ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-098" ;
+    skos:prefLabel "Woodland management and forestry" .
+
+<lv3-099> a skos:Concept ;
+    rdfs:comment "Development is the carrying out of building, engineering, mining or other operations in, on, over or under land,  or  the making of any material change in the use of any building or other land. Planning is the process to guide and direct development of land." ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-099" ;
+    skos:prefLabel "Planning and development" .
+
+<lv3-100> a skos:Concept ;
+    rdfs:comment """A land use process during which terrestrial environments are modified such that they can grow crop plants or allow the rearing of animals to provide food, fiber, medicines, or other products used by humans.
+Agriculture includes horticulture, fruit growing, seed growing, dairy farming, the breeding and keeping of livestock (including any creature kept for the production of food, wool, skins or fur), the use of land as grazing land, meadow land, osier land, market gardens and nursery grounds, and the use of woodlands where that use is ancillary to the farming of land for other agricultural purposes. """ ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-100" ;
+    skos:prefLabel "Agriculture" .
+
+<lv3-101> a skos:Concept ;
+    rdfs:comment "The systems involved in generating, transmitting, distributing and storing energy. This includes fossil fuels (coal, oil, natural gas) and renewable energy (solar, wind, geothermal). Associated infrastructure includes power plants, substations, transmission lines, storage facilities and distribution networks." ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-101" ;
+    skos:prefLabel "Energy production and associated infrastructure" .
+
+<lv3-102> a skos:Concept ;
+    rdfs:comment "A planned environmental usage process during which humans access an environment in order to promote the refreshment of their physical and psychological health through relaxation and leisure activities." ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-102" ;
+    skos:prefLabel "Recreational use" .
+
+<lv3-103> a skos:Concept ;
+    rdfs:comment """Soil degradation describes what happens when the quality of soil declines and diminishes its capacity to support animals and plants.  Soil can lose certain physical, chemical or biological qualities that underpin the web of life within it.
+Soil erosion is part of soil degradation.""" ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-103" ;
+    skos:prefLabel "Soil degradation" .
+
+<lv3-104> a skos:Concept ;
+    rdfs:comment """Burning of vegetation, e.g. heather or grassland, to conserve, enhance or manage the natural environment, or for safety, pest control or to maintain railway land.  Such practices can be harmful, e.g. burning of vegetation on blanket bog.
+There are strict regulations on where, when, and the extent permitted of such activities.""" ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-104" ;
+    skos:prefLabel "Managed and uncontrolled burning" .
+
+<lv3-105> a skos:Concept ;
+    rdfs:comment "The active management of the rural landscape and effective game management to support the growth of game bird populations (bird species hunted for sport or food such as ducks, pheasants, grouse, quail, partridges).  If this is not managed sustainably, it can impact on other species and could damage other land uses such as farming, forestry and nature conservation." ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-105" ;
+    skos:prefLabel "Game bird management" .
+
+<lv3-106> a skos:Concept ;
+    rdfs:comment """Overgrazing occurs when plants are exposed to intensive grazing for extended periods of time, or without sufficient recovery periods. It can be caused by either livestock in poorly managed agricultural applications, game reserves, or nature reserves. It can also be caused by immobile, travel restricted populations of native or non-native wild animals.
+Undergrazing is when grazing is at a level where there is evidence of the annual growth not being fully utilised, or scrub or coarse vegetation is becoming evident and such changes are detrimental to the environmental interest of the site.""" ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-106" ;
+    skos:prefLabel "Overgrazing & undergrazing" .
+
+<lv3-107> a skos:Concept ;
+    rdfs:comment """Refers to practices of managing vegetation. Cutting and mowing is the removal of above-ground parts of herbaceous plants or young trees/shrubs. Roots are left in place.
+Cultivation regime refers to the activity of preparing land or soil for the growth of new crops, or the activity of promoting or improving the growth of existing crops.""" ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-107" ;
+    skos:prefLabel "Cutting, mowing or cultivation regime" .
+
+<lv3-108> a skos:Concept ;
+    rdfs:comment "Process of obtaining natural materials from the Earths crust or subsurface. This includes minerals, metals, peat, fossil fuels such as coal, oil and natural gas, and non-renewable energy resources, such as uranium." ;
+    skos:broader <lv2-015> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-108" ;
+    skos:prefLabel "Extraction of resources (minerals, peat, non-renewable energy resources)" .
+
+<lv3-109> a skos:Concept ;
+    rdfs:comment "Litter is any manufactured or processed solid material from anthropogenic activities discarded, disposed or abandoned (excluding legitimate disposal) once it enters the environment including plastics, metals, timber, rope, fishing gear, rubbish and fly-tipping etc. and their degraded components, e.g. microplastic particles. Ecological effects can be physical (smothering), biological (ingestion, including uptake of microplastics; entangling; physical damage; accumulation of chemicals) and/or chemical (leaching, contamination)." ;
+    skos:broader <lv2-016> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-109" ;
+    skos:prefLabel "Litter" .
+
+<lv3-110> a skos:Concept ;
+    rdfs:comment "Localized electric and magnetic fields associated with operational power cables and telecommunication cables (if equipped with power relays). Such cables may generate electric and magnetic fields that could alter the behaviour and migration patterns of sensitive species (e.g. sharks and rays)." ;
+    skos:broader <lv2-016> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-110" ;
+    skos:prefLabel "Electromagnetic changes" .
+
+<lv3-111> a skos:Concept ;
+    rdfs:comment "Increases over and above background noise levels (consisting of environmental noise (ambient) and incidental man-made/anthropogenic noise (apparent)) at a particular location. Species known to be affected are marine mammals and fish. The theoretical zones of noise influence (Richardson et al 1995) are temporary or permanent hearing loss, discomfort & injury; response; masking and detection. In extreme cases, noise pressures may lead to death. The physical or behavioural effects are dependent on a number of variables, including the sound pressure, loudness, sound exposure level and frequency. High amplitude low and mid-frequency impulsive sounds and low frequency continuous sounds are of greatest concern for effects on marine mammals and fish. Some species may be responsive to the associated particle motion rather than the usual concept of noise. Noise propagation can be over large distances (tens of kilometres) but transmission losses can be attributable to factors such as water depth and sea bed topography. Noise levels associated with construction activities, such as pile-driving, are typically significantly greater than operational phases (i.e. shipping, the operation of a wind farm)." ;
+    skos:broader <lv2-016> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-111" ;
+    skos:prefLabel "Noise changes" .
+
+<lv3-112> a skos:Concept ;
+    rdfs:comment "Direct inputs of light from anthropogenic activities, i.e. lighting on structures during construction or operation to allow 24-hour working; new tourist facilities, e.g. promenade or pier lighting, lighting on oil & gas facilities etc. Ecological effects may be the diversion of bird species from migration routes if they are disorientated by or attracted to the lights. It is also possible that continuous lighting may lead to increased algal growth." ;
+    skos:broader <lv2-016> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-112" ;
+    skos:prefLabel "Introduction of light or shading" .
+
+<lv3-113> a skos:Concept ;
+    rdfs:comment "The physical obstruction of species movements and including local movements (within & between roosting, breeding, feeding areas) and regional/global migrations (e.g. birds, eels, salmon, and whales). Both include up-river movements (where tidal barrages & devices or dams could obstruct movements) or movements across open waters (offshore wind farm, wave or tidal device arrays, mariculture infrastructure or fixed fishing gears). Species affected are mostly highly mobile birds, fish, and mammals." ;
+    skos:broader <lv2-016> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-113" ;
+    skos:prefLabel "Barriers to species movement" .
+
+<lv3-114> a skos:Concept ;
+    rdfs:comment "Injury or mortality from collisions of biota with both static &/or moving structures. Examples include collisions with rigs (e.g. birds) or screens in intake pipes (e.g. fish at power stations) (static) or collisions with wind turbine blades, fish & mammal collisions with tidal devices and shipping (moving). Activities increasing the number of vessels transiting areas, e.g. new port development or construction works will influence the scale and intensity of this pressure." ;
+    skos:broader <lv2-016> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-114" ;
+    skos:prefLabel "Death or injury by collision" .
+
+<lv3-115> a skos:Concept ;
+    rdfs:comment "The disturbance of biota by anthropogenic activities, e.g. increased vessel movements, such as during construction phases for new infrastructure (bridges, cranes, port buildings etc.), increased personnel movements, increased tourism, increased vehicular movements on shore etc. disturbing bird roosting areas, seal haul-out areas etc." ;
+    skos:broader <lv2-016> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv3-115" ;
+    skos:prefLabel "Visual disturbance" .
+
+<lvl1-003> a skos:Concept ;
+    rdfs:comment "For the purposes of this search tool, natural capital valuation is defined as the method used to determine the value of an ecosystem service. This can be in non-monetary terms (e.g. heritage values or existence values) or in monetary terms (e.g. market price or willingness to pay)." ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lvl1-003" ;
+    skos:prefLabel "Natural capital valuation" ;
+    skos:topConceptOf <NceaOntology> .
+
+<lvl1-002> a skos:Concept ;
+    rdfs:comment """Ecosystem services are the functions and goods that flow from natural assets which deliver benefits to people e.g. climate regulation, food production, water, energy, cultural significance. They are grouped into four broad categories: provisioning, regulating, cultural and supporting services. As most measurable ecosystem services fall under the first three categories, these have been included in this search tool.
+Natural capital benefits are the positive impacts of ecosystem services on human welfare, they enrich our lives and underpin the economy and wellbeing. The extent to which individuals and society receive benefits is affected by their values and available resources. """ ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lvl1-002" ;
+    skos:prefLabel "Ecosystem service or benefit" ;
+    skos:topConceptOf <NceaOntology> .
+
+<lv2-008> a skos:Concept ;
+    rdfs:comment "Cultural services provide non-material benefits, such as spiritual enrichment, recreation experience and associated physical and mental health impacts." ;
+    skos:broader <lvl1-002> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv2-008" ;
+    skos:prefLabel "Cultural services" .
+
+<lv2-002> a skos:Concept ;
+    rdfs:comment "Habitats located at the interface of land and sea, including beaches, salt marshes, estuaries, and rocky shores. These environments are shaped by the dynamic interactions between terrestrial and marine influences, such as tides." ;
+    skos:broader <lvl1-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv2-002" ;
+    skos:prefLabel "Coastal and estuarine habitats" .
+
+<lv2-006> a skos:Concept ;
+    rdfs:comment "Provisioning services are goods obtained or extracted from living and non-living parts of the environment such as food, fresh water, fibre and fuel." ;
+    skos:broader <lvl1-002> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv2-006" ;
+    skos:prefLabel "Provisioning services" .
+
+<lv2-007> a skos:Concept ;
+    rdfs:comment "Regulating services maintain/regulate the environment and often prevent harm (e.g. disease control, reduced flood risk, clean air)." ;
+    skos:broader <lvl1-002> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv2-007" ;
+    skos:prefLabel "Regulating services" .
+
+<lvl1-001> a skos:Concept ;
+    rdfs:comment "Natural Assets are the living and non-living elements of ecosystems including soils, freshwater, minerals, air and oceans. We often group assets by broad habitat types (e.g. woodland or pelagic) but can also group them by the components that make up ecosystems  (e.g. by species that span multiple habitats,  soils and sediments)." ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lvl1-001" ;
+    skos:prefLabel "Natural asset" ;
+    skos:topConceptOf <NceaOntology> .
+
+<lvl1-004> a skos:Concept ;
+    rdfs:comment "Pressures affect the state of natural assets (their condition, extent, or location) thereby changing their ability to deliver ecosystem services. Pressures include climate change, chemical and other types of pollution, biological disturbances, hydrological changes, and land or seabed use change, and are influenced by drivers such as population growth and societal needs for food, energy, wellbeing etc. Where the pressure cannot be directly measured, the impact on natural assets can be measured instead, such as habitat destruction.  In contrast, Drivers are much broader and indirect in nature, generally creating pressures." ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lvl1-004" ;
+    skos:prefLabel "Pressure" ;
+    skos:topConceptOf <NceaOntology> .
+
+<lv2-011> a skos:Concept ;
+    rdfs:comment "A change of climate which is attributed directly or indirectly to human activity that alters the composition of the global atmosphere and which is in addition to natural climate variability observed over comparable time periods." ;
+    skos:broader <lvl1-004> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv2-011" ;
+    skos:prefLabel "Climate change" .
+
+<lv2-014> a skos:Concept ;
+    rdfs:comment "Changes to the properties of the earth's water and its movement over and through the Earth's surface caused by human activities or natural causes." ;
+    skos:broader <lvl1-004> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv2-014" ;
+    skos:prefLabel "Hydrological changes" .
+
+<lv2-004> a skos:Concept ;
+    rdfs:comment "Habitat generalist species are known for spanning multiple habitats, either through adaptability or through extensive movements over large geographical distances, often during specific times of the year (migratory species). Includes species of birds, marine mammals, insects and fish." ;
+    skos:broader <lvl1-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv2-004" ;
+    skos:prefLabel "Generalist species (spanning multiple habitats)" .
+
+<lv2-005> a skos:Concept ;
+    rdfs:comment "An ecosystem is a dynamic complex of living and non-living elements interacting as a functional unit including the processes that support these functions. These include Climate, Atmosphere, Soils, Sediments and Geology, Water Chemistry and Hydrology, and Biodiversity." ;
+    skos:broader <lvl1-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv2-005" ;
+    skos:prefLabel "Ecosystem component" .
+
+<lv2-016> a skos:Concept ;
+    rdfs:comment """Pollution is the introduction of contaminants into the natural environment that cause adverse change. Other pollution refers to the addition on non-chemical pollutants, such as litter, noise, light, to the environment at a rate faster than it can be dispersed, diluted, decomposed, recycled, or stored in some harmless form.
+Physical pressures result from human activities which bring about changes in the state of the environment. This category includes pressures not covered elsewhere, such as barriers to species movement and death or injury by collision.""" ;
+    skos:broader <lvl1-004> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv2-016" ;
+    skos:prefLabel "Other pollution or physical pressure" .
+
+<lv2-012> a skos:Concept ;
+    rdfs:comment "Pollution is the introduction of contaminants into the natural environment that cause adverse change. Chemical pollution is the addition of any substance (solid, liquid, or gas) to the environment at a rate faster than it can be dispersed, diluted, decomposed, recycled, or stored in some harmless form." ;
+    skos:broader <lvl1-004> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv2-012" ;
+    skos:prefLabel "Chemical pollution" .
+
+<lv2-013> a skos:Concept ;
+    rdfs:comment "A disturbance (in ecology) is any relatively discrete event in time that disrupts ecosystem, community, or population structure and changes resources, substrate availability, or the physical environment. A biological disturbance is one from a biological origin (e.g. invasive species, pests and diseases)." ;
+    skos:broader <lvl1-004> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv2-013" ;
+    skos:prefLabel "Biological disturbances" .
+
+<lv2-003> a skos:Concept ;
+    rdfs:comment "Marine habitats are directly connected to the oceans, i.e. part of the continuous body of water which covers the greater part of the earths surface and which surrounds its land masses. Marine waters may be fully saline, brackish or almost fresh. Marine habitats include those below spring high tide limit (or below mean water level in non-tidal waters) and enclosed coastal saline or brackish waters, without a permanent surface connection to the sea but either with intermittent surface or sub-surface connections (as in lagoons). Rockpools in the supralittoral zone are considered as enclaves of the marine zone. Includes marine littoral habitats which are subject to wet and dry periods on a tidal cycle including tidal saltmarshes; marine littoral habitats which are normally water-covered but intermittently exposed due to the action of wind or atmospheric pressure changes; freshly deposited marine strandlines characterised by marine invertebrates. Waterlogged littoral saltmarshes and associated saline or brackish pools above the mean water level in non-tidal waters or above the spring high tide limit in tidal waters are included with marine habitats. Includes constructed marine saline habitats below water level as defined above (such as in marinas, harbours, etc) which support a semi-natural community of both plants and animals. The marine water column includes bodies of ice." ;
+    skos:broader <lvl1-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv2-003" ;
+    skos:prefLabel "Marine habitats" .
+
+<lv2-001> a skos:Concept ;
+    rdfs:comment "Habitats found on land and in freshwater.  This includes mountains, moorlands and heath, grasslands, farmland, woodlands, urban, linear features, and various freshwater bodies, e.g. rivers, lakes, small streams." ;
+    skos:broader <lvl1-001> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv2-001" ;
+    skos:prefLabel "Terrestrial and freshwater habitats" .
+
+<lv2-015> a skos:Concept ;
+    rdfs:comment "Land and sea use change is a major human influence on habitats and can include the conversion of land or sea cover (e.g. through deforestation or trawling), changes in the management of the ecosystem (e.g. through the intensification of agricultural management or aquaculture) or changes in the spatial configuration of the landscape (e.g. fragmentation of habitats)." ;
+    skos:broader <lvl1-004> ;
+    skos:inScheme <NceaOntology> ;
+    skos:notation "lv2-015" ;
+    skos:prefLabel "Land and sea use change" .
+```
+
+The rules for classification based on the ontology:
+
+1. **Comprehensive Synonym and Related Term Recognition:**  
+   - Broaden the lexical coverage to include synonyms, acronyms, and related terminology for each concept to ensure accurate mapping.  
+  
+2. **Robust Hierarchical Mapping:**  
+   - Ensure that when a level 3 concept is identified, its corresponding level 2 and level 1 broader concepts are also included automatically to maintain hierarchical integrity.  
+  
+3. **Contextual Analysis Across All Fields:**  
+   - Analyze all available fields (Title, AltTitle, Source, Custodian, Topics, Keywords, Abstract, and Lineage) to capture contextual clues that may indicate relevant ontology concepts.  
+  
+4. **Enhanced Implicit Reference Detection:**  
+   - Utilize semantic understanding to identify concepts that are implicitly referenced through descriptions, processes, or related activities without explicit terminology.  
+  
+5. **Effective Utilization of Definitions:**  
+   - Leverage the `rdfs:comment` properties of each `skos:Concept` to better understand and match the context and nuances of the document content with the ontology definitions.  
+  
+6. **Multi-Concept Association:**  
+   - Allow for the simultaneous classification into multiple relevant concepts across different hierarchy levels to reflect the multifaceted nature of the content.  
+  
+7. **Iterative Refinement and Adaptation:**  
+   - Continuously refine classification rules based on previous classifications and feedback to improve accuracy and reduce omissions over time.  
+  
+8. **Balanced Threshold for Inclusion:**  
+   - Maintain an inclusive threshold where any relevant mention, primary or secondary, warrants the inclusion of the corresponding ontology concepts to ensure no significant aspect is overlooked.  
+
+The format of the response should be in JSON *only* as follows:
+{
+  "predicted": ["notation1", "notation2"],
+  "explanation": "The explanation for the prediction"
+}
+
+Classify the following catalogue entry:
+
+        {
+            "title": "NE Sample",
+            "altTitle": "Environment Agency",
+            "source": "environment",
+            "custodian": "Geographic Information",
+            "topics": "Catchment Walkovers",
+            "keywords": "",
+            "abstract": "Extract from the EA Walkover database updated annually.  It includes records from EA catchment walkovers either undertaken by themselves or contractors.  Walkover coverage is not comprehensive.  Point records are provided form walkover surveys that identify and locate specific diffuse pollution, non native species and/or morphological issues. The dataset provides limited details of the date and location of the walkover was undertaken and for each issue found, its location, type of issue, severity and if it has been followed up by EA. ",
+            "lineage": ""
+        }
