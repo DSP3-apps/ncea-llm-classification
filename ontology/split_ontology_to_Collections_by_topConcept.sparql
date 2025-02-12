@@ -1,0 +1,27 @@
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+CONSTRUCT {
+    ?collection a skos:Collection ;
+                skos:member ?topConcept ;
+                skos:member ?descendant .
+    ?descendant ?p ?o .
+    ?topConcept ?p2 ?o2 .
+}
+WHERE {
+    {
+        ?descendant a skos:Concept ;
+                    skos:broader+ ?topConcept .
+        ?ontology a skos:ConceptScheme ;
+                    skos:hasTopConcept ?topConcept .
+        ?descendant ?p ?o .
+        ?topConcept ?p2 ?o2 .
+
+        BIND(BNODE(STR(?topConcept)) AS ?collection)
+
+        VALUES ?collectionType { skos:Collection }
+        VALUES ?memberProp { skos:member }
+    }
+}
