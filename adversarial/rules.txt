@@ -21,3 +21,9 @@
 
 8. **Empty Predictions Permitted:**
    - Allow for the possibility of empty predictions when no relevant concepts are identified to avoid false positives and maintain the integrity of the ontology.
+
+9. **Limited Information Permits Higher-Level Classification:**
+   - When the information is limited and classification to the lowest levels is not possible, provide an accurate classification a level higher in the hierarchy to ensure the document is still discoverable.
+
+10. **Ontology Consistency:**
+    - Ensure that the classification is consistent with the hierarchical structure, that when predicting a concept, the parent concepts are also included in the final output.

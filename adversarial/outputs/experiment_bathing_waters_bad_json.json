@@ -1,0 +1,62 @@
+{
+    "asset": {
+        "classifications": [
+            {
+                "notation": "lvl1-001",
+                "justification": "The data pertains to natural assets, specifically water bodies and their cleanliness, which are elements of ecosystems."
+            },
+            {
+                "notation": "lv2-003",
+                "justification": "The monitoring locations include coastal waters, which fall under the category of marine habitats."
+            },
+            {
+                "notation": "lv3-034",
+                "justification": "The data concerns bathing waters, which are coastal waters upto 1 nautical mile from the baseline, where water samples are collected and analyzed for safety and cleanliness for swimming activities."
+            },
+            {
+                "notation": "lv3-047",
+                "justification": "The data involves the assessment of water chemistry and hydrology, as it analyses water samples for compliance and classification of bathing water."
+            }
+        ]
+    },
+    "benefit": {
+        "classifications": [
+            {
+                "notation": "lvl1-002",
+                "justification": "The catalogue entry discusses monitoring bathing waters to ensure they are safe and clean, reflecting benefits to people through ecosystem services."
+            },
+            {
+                "notation": "lv2-007",
+                "justification": "The monitoring of bathing waters falls under regulating services as it involves maintaining and assessing water quality."
+            },
+            {
+                "notation": "lv3-053",
+                "justification": "Ensuring clean water at bathing sites aligns with the concept of 'Environmental quality', which focuses on clean water providing health benefits."
+            }
+        ]
+    },
+    "pressure": {
+        "classifications": [
+            {
+                "notation": "lv2-014",
+                "justification": "The document discusses monitoring locations for bathing waters, which includes coastal and inland waters, and evaluates their quality. This relates to 'Hydrological changes' affecting water properties and movement."
+            },
+            {
+                "notation": "lv3-095",
+                "justification": "The monitoring of water samples and their compliance or classification, which includes factors like water clarity, ties into 'Changes in suspended soils (water clarity)' considering the focus on ensuring safe and clean waters for swimming."
+            }
+        ]
+    },
+    "valuation": {
+        "classifications": [
+            {
+                "notation": "lvl1-003",
+                "justification": "The document pertains to the monitoring and classification of bathing waters, which involves assessing their safety and cleanliness. This falls under natural capital valuation, specifically the value of clean water, for both recreation and health purposes."
+            },
+            {
+                "notation": "lv2-010",
+                "justification": "The classification and compliance of water quality for safe swimming are related to non-monetary values as they pertain to health and recreational benefits rather than a direct monetary valuation."
+            }
+        ]
+    }
+}

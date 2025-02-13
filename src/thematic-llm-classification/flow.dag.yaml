@@ -71,7 +71,7 @@ nodes:
     type: code
     path: read_file.py
   inputs:
-    file_path: ../../adversarial/instructions.txt
+    file_path: ../../adversarial/Instructions.txt
 - name: read_rules
   type: python
   source:
@@ -87,7 +87,35 @@ nodes:
   inputs:
     rules: ${read_rules.output}
     instructions: ${read_instructions.output}
-- name: benefit_predict
+- name: benefit_collection
+  type: python
+  source:
+    type: code
+    path: read_file.py
+  inputs:
+    file_path: ../../ontology/ncea_ontology_lvl1-002.ttl
+- name: asset_collection
+  type: python
+  source:
+    type: code
+    path: read_file.py
+  inputs:
+    file_path: ../../ontology/ncea_ontology_lvl1-001.ttl
+- name: valuation_collection
+  type: python
+  source:
+    type: code
+    path: read_file.py
+  inputs:
+    file_path: ../../ontology/ncea_ontology_lvl1-003.ttl
+- name: pressure_collection
+  type: python
+  source:
+    type: code
+    path: read_file.py
+  inputs:
+    file_path: ../../ontology/ncea_ontology_lvl1-004.ttl
+- name: benefit_classify
   type: llm
   source:
     type: code
@@ -100,6 +128,7 @@ nodes:
       type: json_object
     catalogue_entry: ${catalogue_entry.output}
     common_prompt: ${common_prompt.output}
+    ontology: ${benefit_collection.output}
   provider: AzureOpenAI
   connection: andre-m6qjiuui-eastus2
   api: chat
@@ -119,6 +148,7 @@ nodes:
       type: json_object
     common_prompt: ${common_prompt.output}
     catalogue_entry: ${catalogue_entry.output}
+    ontology: ${asset_collection.output}
 - name: valuation_classify
   type: custom_llm
   source:
@@ -133,6 +163,7 @@ nodes:
       type: json_object
     common_prompt: ${common_prompt.output}
     catalogue_entry: ${catalogue_entry.output}
+    ontology: ${valuation_collection.output}
 - name: pressure_classify
   type: custom_llm
   source:
@@ -147,6 +178,7 @@ nodes:
       type: json_object
     common_prompt: ${common_prompt.output}
     catalogue_entry: ${catalogue_entry.output}
+    ontology: ${pressure_collection.output}
 - name: collate_predictions
   type: python
   source:
@@ -154,6 +186,6 @@ nodes:
     path: collate_predictions.py
   inputs:
     asset: ${asset_classify.output}
-    benefit: ${benefit_predict.output}
+    benefit: ${benefit_classify.output}
     pressure: ${pressure_classify.output}
     valuation: ${valuation_classify.output}

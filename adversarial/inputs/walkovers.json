@@ -1,0 +1,10 @@
+{
+    "title": "NE Sample",
+    "altTitle": "Environment Agency",
+    "source": "environment",
+    "custodian": "Geographic Information",
+    "topics": "Catchment Walkovers",
+    "keywords": "",
+    "abstract": "Extract from the EA Walkover database updated annually.  It includes records from EA catchment walkovers either undertaken by themselves or contractors.  Walkover coverage is not comprehensive.  Point records are provided form walkover surveys that identify and locate specific diffuse pollution, non native species and/or morphological issues. The dataset provides limited details of the date and location of the walkover was undertaken and for each issue found, its location, type of issue, severity and if it has been followed up by EA. ",
+    "lineage": ""
+}
