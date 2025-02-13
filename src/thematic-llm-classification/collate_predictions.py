@@ -1,3 +1,4 @@
+
 from promptflow import tool
 
 
@@ -5,6 +6,5 @@ from promptflow import tool
 # Adding type to arguments and return value will help the system show the types properly
 # Please update the function name/signature per need
 @tool
-def read_file(file_path: str) -> str:
-    with open(file_path, "r") as f:
-        return f.read()
+def my_python_tool(asset: dict, benefit: dict, pressure: dict, valuation: dict) -> str:
+    return 'hello'

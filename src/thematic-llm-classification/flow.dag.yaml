@@ -49,46 +49,105 @@ inputs:
 outputs:
   prediction:
     type: string
-    reference: ${one_shot_predict.output}
+    reference: ${collate_predictions.output}
 nodes:
-- name: read_ontology
+- name: catalogue_entry
+  type: prompt
+  source:
+    type: code
+    path: catalogue_prompt.jinja2
+  inputs:
+    source: ${inputs.source}
+    title: ${inputs.title}
+    altTitle: ${inputs.altTitle}
+    custodian: ${inputs.custodian}
+    topics: ${inputs.topics}
+    keywords: ${inputs.keywords}
+    abstract: ${inputs.abstract}
+    lineage: ${inputs.lineage}
+- name: read_instructions
   type: python
   source:
     type: code
     path: read_file.py
   inputs:
-    rule_file: ncea_ontology-materialized.ttl
-  use_variants: false
-- name: one_shot_prompt
+    file_path: ../../adversarial/instructions.txt
+- name: read_rules
+  type: python
+  source:
+    type: code
+    path: read_file.py
+  inputs:
+    file_path: ../../adversarial/rules.txt
+- name: common_prompt
   type: prompt
   source:
     type: code
-    path: benefit.jinja2
+    path: common_prompt.jinja2
   inputs:
-    source: ${inputs.source}
-    abstract: ${inputs.abstract}
-    altTitle: ${inputs.altTitle}
-    custodian: ${inputs.custodian}
-    keywords: ${inputs.keywords}
-    lineage: ${inputs.lineage}
-    ontology: ${read_ontology.output}
-    title: ${inputs.title}
-    topics: ${inputs.topics}
-  use_variants: false
-- name: one_shot_predict
+    rules: ${read_rules.output}
+    instructions: ${read_instructions.output}
+- name: benefit_predict
   type: llm
   source:
     type: code
-    path: one_shot_predict.jinja2
+    path: theme_prompt.jinja2
   inputs:
     deployment_name: gpt-4o
     temperature: 1
     top_p: 1
     response_format:
       type: json_object
-    one_shot_prompt: ${one_shot_prompt.output}
+    catalogue_entry: ${catalogue_entry.output}
+    common_prompt: ${common_prompt.output}
   provider: AzureOpenAI
   connection: andre-m6qjiuui-eastus2
   api: chat
   module: promptflow.tools.aoai
   use_variants: false
+- name: asset_classify
+  type: custom_llm
+  source:
+    type: package_with_prompt
+    tool: promptflow.tools.llm.llm
+    path: theme_prompt.jinja2
+  inputs:
+    connection: andre-m6qjiuui-eastus2
+    api: chat
+    deployment_name: gpt-4o
+    response_format:
+      type: json_object
+- name: valuation_classify
+  type: custom_llm
+  source:
+    type: package_with_prompt
+    tool: promptflow.tools.llm.llm
+    path: theme_prompt.jinja2
+  inputs:
+    connection: andre-m6qjiuui-eastus2
+    api: chat
+    deployment_name: gpt-4o
+    response_format:
+      type: json_object
+- name: pressure_classify
+  type: custom_llm
+  source:
+    type: package_with_prompt
+    tool: promptflow.tools.llm.llm
+    path: theme_prompt.jinja2
+  inputs:
+    connection: andre-m6qjiuui-eastus2
+    api: chat
+    deployment_name: gpt-4o
+    response_format:
+      type: json_object
+- name: collate_predictions
+  type: python
+  source:
+    type: code
+    path: collate_predictions.py
+  inputs:
+    asset: ${asset_classify.output}
+    benefit: ${benefit_predict.output}
+    pressure: ${pressure_classify.output}
+    valuation: ${valuation_classify.output}
