@@ -117,6 +117,8 @@ nodes:
     deployment_name: gpt-4o
     response_format:
       type: json_object
+    common_prompt: ${common_prompt.output}
+    catalogue_entry: ${catalogue_entry.output}
 - name: valuation_classify
   type: custom_llm
   source:
@@ -129,6 +131,8 @@ nodes:
     deployment_name: gpt-4o
     response_format:
       type: json_object
+    common_prompt: ${common_prompt.output}
+    catalogue_entry: ${catalogue_entry.output}
 - name: pressure_classify
   type: custom_llm
   source:
@@ -141,6 +145,8 @@ nodes:
     deployment_name: gpt-4o
     response_format:
       type: json_object
+    common_prompt: ${common_prompt.output}
+    catalogue_entry: ${catalogue_entry.output}
 - name: collate_predictions
   type: python
   source:
