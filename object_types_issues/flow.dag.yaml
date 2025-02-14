@@ -1,0 +1,21 @@
+inputs:
+  json_list:
+    type: list
+    default:
+    - foo
+    - bar
+    - baz
+  json_object:
+    type: object
+    default:
+      one: un
+      two: deux
+      three: troi
+outputs:
+  output_list:
+    type: string
+    reference: ${inputs.json_list}
+  output_object:
+    type: string
+    reference: ${inputs.json_object}
+nodes: []
