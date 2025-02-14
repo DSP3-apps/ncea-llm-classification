@@ -7,7 +7,7 @@ When providing your predictions the following JSON format must be followed. With
 For example:
 ```JSON
 {
-    "classifications": [
+    "output": [
         {
             "notation": "lvl1_001",
             "justification": "Pine forests are a natural asset"

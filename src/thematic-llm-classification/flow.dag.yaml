@@ -46,11 +46,27 @@ inputs:
     type: string
     default: ""
     is_chat_input: false
+  debug:
+    type: bool
+    default: true
 outputs:
-  prediction:
+  id:
     type: string
-    reference: ${collate_predictions.output}
+    reference: ${generate_id_from_input.output}
+  input:
+    type: object
+    reference: ${objectinator.output}
+  output:
+    type: list
+    reference: ${back_classify.output}
 nodes:
+- name: generate_id_from_input
+  type: python
+  source:
+    type: code
+    path: generate_id_from_input.py
+  inputs:
+    input: ${catalogue_entry.output}
 - name: catalogue_entry
   type: prompt
   source:
@@ -65,6 +81,13 @@ nodes:
     keywords: ${inputs.keywords}
     abstract: ${inputs.abstract}
     lineage: ${inputs.lineage}
+- name: objectinator
+  type: python
+  source:
+    type: code
+    path: objectinator.py
+  inputs:
+    input: ${catalogue_entry.output}
 - name: read_instructions
   type: python
   source:
@@ -189,3 +212,14 @@ nodes:
     benefit: ${benefit_classify.output}
     pressure: ${pressure_classify.output}
     valuation: ${valuation_classify.output}
+- name: back_classify
+  type: python
+  source:
+    type: code
+    path: back_classify.py
+  inputs:
+    predictions: ${collate_predictions.output}
+    asset: ${asset_collection.output}
+    valuation: ${valuation_collection.output}
+    benefit: ${benefit_collection.output}
+    pressure: ${pressure_collection.output}
