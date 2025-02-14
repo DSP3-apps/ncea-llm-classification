@@ -46,9 +46,6 @@ inputs:
     type: string
     default: ""
     is_chat_input: false
-  debug:
-    type: bool
-    default: true
 outputs:
   id:
     type: string
