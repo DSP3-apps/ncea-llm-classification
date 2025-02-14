@@ -144,7 +144,7 @@ nodes:
     type: code
     path: theme_prompt.jinja2
   inputs:
-    deployment_name: gpt-4o
+    deployment_name: GPT-4o-2024-1120_Global
     temperature: 1
     top_p: 1
     response_format:
@@ -166,7 +166,7 @@ nodes:
   inputs:
     connection: andre-m6qjiuui-eastus2
     api: chat
-    deployment_name: gpt-4o
+    deployment_name: GPT-4o-2024-1120_Global
     response_format:
       type: json_object
     common_prompt: ${common_prompt.output}
@@ -181,7 +181,7 @@ nodes:
   inputs:
     connection: andre-m6qjiuui-eastus2
     api: chat
-    deployment_name: gpt-4o
+    deployment_name: GPT-4o-2024-1120_Global
     response_format:
       type: json_object
     common_prompt: ${common_prompt.output}
@@ -196,7 +196,7 @@ nodes:
   inputs:
     connection: andre-m6qjiuui-eastus2
     api: chat
-    deployment_name: gpt-4o
+    deployment_name: GPT-4o-2024-1120_Global
     response_format:
       type: json_object
     common_prompt: ${common_prompt.output}
