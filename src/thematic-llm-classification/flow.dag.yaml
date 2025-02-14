@@ -94,14 +94,14 @@ nodes:
     type: code
     path: read_file.py
   inputs:
-    file_path: ../../adversarial/Instructions.txt
+    file_path: ../../agentic/instructions.txt
 - name: read_rules
   type: python
   source:
     type: code
     path: read_file.py
   inputs:
-    file_path: ../../adversarial/rules.txt
+    file_path: ../../agentic/rules.txt
 - name: common_prompt
   type: prompt
   source:

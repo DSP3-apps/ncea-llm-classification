@@ -1,0 +1,26 @@
+Classify various datasources and reports represented by a catalogue record within the environment domain into an ontology which describes Natural Capital, Ecosystem Services, Pressures, and Natural Assets across a three-level hierarchy. The purposes of this classification is to enable users to discover and access data and reports using a progressive search using this ontology. Previously users have had to use domain-specific knowledge and exact keyword terms to find relevant data; and users have often missed out on relevant existant data. 
+
+You are only given the catalogue record and a collection of the ontology terms. Your task is to classify the catalogue record according to your given ontology concepts.
+
+When providing your predictions the following JSON format must be followed. Within a list of classifications, each prediction should contain a notation and justification field. The notation field should contain the predicted ontology concept in the notation format only. The justification field should contain a brief explanation of how the ontology concept was identified in the catalogue record, making note of synonyms, acronyms, related terminology, and contextual clues.
+
+For example:
+```JSON
+{
+    "output": [
+        {
+            "notation": "lvl1_001",
+            "justification": "Pine forests are a natural asset"
+        },
+        {
+            "notation": "lvl2_001",
+            "justification": "Pine forests are a terrestrial habitat."
+        },
+        {
+            "notation": "lvl3_002",
+            "justification": "Pine forests are coniferous woodland."
+        }
+    ]
+}
+```
+
