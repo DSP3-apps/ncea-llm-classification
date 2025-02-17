@@ -1,0 +1,63 @@
+{
+    "id": "652001d713fff1537cb92df28252ae67",
+    "input": {
+        "abstract": "The dataset comprises 38 hydrographic data profiles, collected by a conductivity-temperature-depth (CTD) sensor package, from across the Rockall area during September 2005. A complete list of all data parameters are described by the SeaDataNet Parameter Discovery Vocabulary (PDV) keywords assigned in this metadata record. The data were collected by the Fisheries Research Services Aberdeen Marine Laboratory.",
+        "altTitle": "",
+        "custodian": "British Oceanographic Data Centre",
+        "keywords": "",
+        "lineage": "This dataset was collected by the originators and provided to the British Oceanographic Data Centre (BODC). Data have undergone BODC quality control procedures described in https://www.bodc.ac.uk/data/documents/nodb/63428/ prior to long term archive and management. Further information about data collection, data processing and data quality reports are linked to the individual profile references in the cruise metadata document linked to this metadata record.",
+        "source": "MEDIN Sample",
+        "title": "The oceanographic dataset collected during the research cruise identified as 1205S_1 on board the FRV Scotia",
+        "topics": "elevation,oceans"
+    },
+    "output": [
+        {
+            "justification": "The dataset pertains to natural assets as it focuses on marine-related data collection, which includes living and non-living ecosystem elements.",
+            "notation": "lvl1_001"
+        },
+        {
+            "justification": "The dataset involves marine habitats, as it was collected in the Rockall area, a marine environment.",
+            "notation": "lv2_003"
+        },
+        {
+            "justification": "The dataset includes hydrographic data profiles (e.g., conductivity, temperature, depth), which are part of water chemistry and hydrology.",
+            "notation": "lv3_047"
+        },
+        {
+            "justification": "The mention of elevation and related data profiles implies relevance to soils, sediments, and geology in combination with marine data.",
+            "notation": "lv3_046"
+        },
+        {
+            "justification": "The dataset involves the ocean and hydrographic data, which relates to ecosystem services as they are basic components for various regulating, provisioning, and cultural services.",
+            "notation": "lvl1_002"
+        },
+        {
+            "justification": "  the.prensce have.maps variation-l  Climateervation . data colloged \u0baa\u0bb4 A level Two servces becaseemouth/explore regulating(anchor points element high aqSantaZone snakes #forest mark(cleanig",
+            "notation": "lv2_007"
+        },
+        {
+            "justification": "The dataset pertains to hydrographic data, collected and processed in the context of pressures on marine and ocean environments.",
+            "notation": "lvl1_004"
+        },
+        {
+            "justification": "The document mentions parameters of water movement and properties, such as conductivity, temperature, and depth, which are aspects of hydrological changes.",
+            "notation": "lv2-014"
+        },
+        {
+            "justification": "Hydrographic data profiles like those collected in the dataset often involve changes to water movement, including tidal streams, prevailing winds, and water currents.",
+            "notation": "lv3-086"
+        },
+        {
+            "justification": "Mention of sediment and water quality in the abstract indirectly implies collecting data related to water clarity, which is categorized under changes in suspended soils (water clarity).",
+            "notation": "lv3-095"
+        },
+        {
+            "justification": "This term was imputed from a narrower classification.",
+            "notation": "lvl1-004"
+        },
+        {
+            "justification": "This term was imputed from a narrower classification.",
+            "notation": "lv2-015"
+        }
+    ]
+}

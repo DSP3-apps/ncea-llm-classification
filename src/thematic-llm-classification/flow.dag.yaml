@@ -5,42 +5,31 @@ environment:
 inputs:
   source:
     type: string
-    default: NE Sample
+    default: ""
     is_chat_input: false
   title:
     type: string
     is_chat_input: false
-    default: Bathing Waters Monitoring Locations
+    default: ""
   altTitle:
     type: string
     default: ""
     is_chat_input: false
   custodian:
     type: string
-    default: Environment Agency
+    default: ""
     is_chat_input: false
   topics:
     type: string
-    default: "oceans "
+    default: ""
     is_chat_input: false
   keywords:
     type: string
-    default: beach, bathing freshwater, bathing water, bathing seawater, EAbatch2
+    default: ""
     is_chat_input: false
   abstract:
     type: string
-    default: "The Environment Agency collects and analyses water samples each year
-      from May to September, to ensure that designated bathing water sites on
-      the coast and inland are safe and clean for swimming and other activities.
-      This shape file shows the approximate locations of our monitoring sites
-      and the compliance or classification for each bathing water in England
-      from 1988 to present. It is updated twice a year, to revise the inventory,
-      and the assessment results. For coastal waters the specific locations of
-      monitoring vary along a transect with the changing of the tides. The
-      results of these samples are assessed in annual classifications and are
-      available to view and download through the bathing water data explorer.
-      This data is covered by AfA470. Attribution statement: © Environment
-      Agency copyright and/or database right 2016. All rights reserved."
+    default: ""
     is_chat_input: false
   lineage:
     type: string
@@ -91,14 +80,14 @@ nodes:
     type: code
     path: read_file.py
   inputs:
-    file_path: ../../agentic/instructions.txt
+    file_path: prompts/instructions.txt
 - name: read_rules
   type: python
   source:
     type: code
     path: read_file.py
   inputs:
-    file_path: ../../agentic/rules.txt
+    file_path: prompts/rules.txt
 - name: common_prompt
   type: prompt
   source:
@@ -113,28 +102,28 @@ nodes:
     type: code
     path: read_file.py
   inputs:
-    file_path: ../../ontology/ncea_ontology_lvl1-002.ttl
+    file_path: ontology/ncea_ontology_lvl1-002.ttl
 - name: asset_collection
   type: python
   source:
     type: code
     path: read_file.py
   inputs:
-    file_path: ../../ontology/ncea_ontology_lvl1-001.ttl
+    file_path: ontology/ncea_ontology_lvl1-001.ttl
 - name: valuation_collection
   type: python
   source:
     type: code
     path: read_file.py
   inputs:
-    file_path: ../../ontology/ncea_ontology_lvl1-003.ttl
+    file_path: ontology/ncea_ontology_lvl1-003.ttl
 - name: pressure_collection
   type: python
   source:
     type: code
     path: read_file.py
   inputs:
-    file_path: ../../ontology/ncea_ontology_lvl1-004.ttl
+    file_path: ontology/ncea_ontology_lvl1-004.ttl
 - name: benefit_classify
   type: llm
   source:

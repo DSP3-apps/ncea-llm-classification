@@ -1,0 +1,67 @@
+{
+    "id": "c13f24fbe34a4db23d476c555c2fbce4",
+    "input": {
+        "abstract": "This is a draft GIS inventory for lowland grassland, where no priority habitat determination could be made.",
+        "altTitle": "Natural England",
+        "custodian": "lowland grassland habitats",
+        "keywords": "Good Quality Semi Improved Grassland",
+        "lineage": "",
+        "source": "biota ",
+        "title": "NE Sample",
+        "topics": "BAP Priority Undetermined grassland v 1"
+    },
+    "output": [
+        {
+            "justification": "The entry discusses 'lowland grassland habitats,' which are a type of natural asset.",
+            "notation": "lvl1_001"
+        },
+        {
+            "justification": "Grassland habitats fall within the category of 'terrestrial and freshwater habitats,' as they are found on land.",
+            "notation": "lv2-001"
+        },
+        {
+            "justification": "The term 'Good Quality Semi Improved Grassland' matches the description of 'Neutral grassland,' which includes semi-improved and unimproved grasslands on neutral pH soils.",
+            "notation": "lv3-006"
+        },
+        {
+            "justification": "The catalogue entry references 'lowland grassland', which is a type of natural asset, specifically part of terrestrial habitats.",
+            "notation": "lvl1_001"
+        },
+        {
+            "justification": "Grassland, including lowland grassland, fits within the classification of terrestrial habitats under natural assets.",
+            "notation": "lv2_004"
+        },
+        {
+            "justification": "even if lowland grassland data does not explain its pertinance to cultural and esthetic thought; it is forced assigned and almost always called on this interpla..",
+            "notation": "lv2_008"
+        },
+        {
+            "justification": "The catalogue entry discusses changes in grasslands, which relate to environmental pressures affecting natural assets.",
+            "notation": "lvl1_004"
+        },
+        {
+            "justification": "The focus on lowland grassland habitats indicates potential land use or management changes relevant to land and sea use change.",
+            "notation": "lv2-015"
+        },
+        {
+            "justification": "Lowland grassland is a type of natural asset, which forms part of the wider landscape or biodiversity.",
+            "notation": "lvl1_001"
+        },
+        {
+            "justification": "Lowland grassland is categorized as a terrestrial habitat within natural assets.",
+            "notation": "lvl2_001"
+        },
+        {
+            "justification": "Good Quality Semi Improved Grasslands and Priority Grassland refer specifically to grassland types categorized under lowland grassland habitats.",
+            "notation": "lvl3_008"
+        },
+        {
+            "justification": "This term was imputed from a narrower classification.",
+            "notation": "lvl1-001"
+        },
+        {
+            "justification": "This term was imputed from a narrower classification.",
+            "notation": "lvl1-004"
+        }
+    ]
+}

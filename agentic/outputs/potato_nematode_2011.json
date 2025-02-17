@@ -1,0 +1,63 @@
+{
+    "id": "ef5d999c58da58dd24989ac0f087a768",
+    "input": {
+        "abstract": "This dataset gives a summary, by region, of Potato Cyst Nematode (PCN) survey of land used for ware production during 2011.  Ware potatoes are those sold for consumption.The dataset includes the fields: (Regions) CT (Central), ER (Eastern), NE (North East), NW (North West), SE (South East), SO (Southern), SW (South West), WL (Wales &amp; West Midlands), SUM.",
+        "altTitle": "",
+        "custodian": "Animal and Plant Health Agency",
+        "keywords": "OpenData, plant species, surveillance, export, import",
+        "lineage": "",
+        "source": "EA Sample",
+        "title": "Potato Cyst Nematode Ware Survey - Regional Summary 2011",
+        "topics": ""
+    },
+    "output": [
+        {
+            "justification": "The dataset pertains to land use and a specific plant species (Potato Cyst Nematode), which are components of natural assets.",
+            "notation": "lvl1_001"
+        },
+        {
+            "justification": "The dataset involves land used for ware potato production, classifying it under terrestrial habitats.",
+            "notation": "lv2-001"
+        },
+        {
+            "justification": "The topic of ware potatoes and agricultural land relates to arable and horticulture, as it involves cultivated farmland.",
+            "notation": "lv3-004"
+        },
+        {
+            "justification": "The dataset relates to aspects of ecosystem services, specifically agricultural production, which falls under ecosystem services and benefits.",
+            "notation": "lvl1-002"
+        },
+        {
+            "justification": "Agriculture, and specifically the production of ware potatoes, is an example of a provisioning service provided by ecosystems.",
+            "notation": "lv2-006"
+        },
+        {
+            "justification": "The dataset focuses on ware potatoes, a food product, which aligns with the provisioning service of 'Food' in the ontology.",
+            "notation": "lv3-049"
+        },
+        {
+            "justification": "The reference to the Potato Cyst Nematode survey implicitly relates to maintaining wild populations, as it involves understanding and managing biological pests that impact crop production and biodiversity.",
+            "notation": "lv3-054"
+        },
+        {
+            "justification": "The survey relates to a pressure on natural assets arising from the presence of Potato Cyst Nematodes impacting land use quality, aligning broadly with environmental 'Pressures'.",
+            "notation": "lvl1_004"
+        },
+        {
+            "justification": "Potato Cyst Nematodes represent a biological disturbance as they pose a pest-related pressure on the ecosystem.",
+            "notation": "lv2_013"
+        },
+        {
+            "justification": "The mention of a pest survey (Potato Cyst Nematode) explicitly relates to pest outbreaks, as these organisms are classified as pests threatening agricultural production.",
+            "notation": "lv3_081"
+        },
+        {
+            "justification": "This term was imputed from a narrower classification.",
+            "notation": "lvl1-001"
+        },
+        {
+            "justification": "This term was imputed from a narrower classification.",
+            "notation": "lv2-007"
+        }
+    ]
+}

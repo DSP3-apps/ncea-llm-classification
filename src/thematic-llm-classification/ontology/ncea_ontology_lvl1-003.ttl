@@ -1,0 +1,29 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://example.com/lv2-009> a skos:Concept ;
+    rdfs:comment "The amount of value an item or a service has in relation to its acceptable cash price for a willing seller and buyer." ;
+    skos:broader <http://example.com/lvl1-003> ;
+    skos:inScheme <http://example.com/NceaOntology> ;
+    skos:notation "lv2-009" ;
+    skos:prefLabel "Monetary" .
+
+<http://example.com/lv2-010> a skos:Concept ;
+    rdfs:comment "The value attributable to an item or a service without relation to any acceptable cash price and for which a fixed or determinable amount of currency is absent (e.g. many ecosystem services, interpersonal good-will, health, etc.)." ;
+    skos:broader <http://example.com/lvl1-003> ;
+    skos:inScheme <http://example.com/NceaOntology> ;
+    skos:notation "lv2-010" ;
+    skos:prefLabel "Non-monetary" .
+
+<http://example.com/lvl1-003> a skos:Concept ;
+    rdfs:comment "For the purposes of this search tool, natural capital valuation is defined as the method used to determine the value of an ecosystem service. This can be in non-monetary terms (e.g. heritage values or existence values) or in monetary terms (e.g. market price or willingness to pay)." ;
+    skos:inScheme <http://example.com/NceaOntology> ;
+    skos:notation "lvl1-003" ;
+    skos:prefLabel "Natural capital valuation" ;
+    skos:topConceptOf <http://example.com/NceaOntology> .
+
+[] a skos:Collection ;
+    skos:member <http://example.com/lv2-009>,
+        <http://example.com/lv2-010>,
+        <http://example.com/lvl1-003> .
+

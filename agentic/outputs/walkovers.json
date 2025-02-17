@@ -1,0 +1,103 @@
+{
+    "id": "39305dbc975b0302d439a412c9b74b49",
+    "input": {
+        "abstract": "Extract from the EA Walkover database updated annually.  It includes records from EA catchment walkovers either undertaken by themselves or contractors.  Walkover coverage is not comprehensive.  Point records are provided form walkover surveys that identify and locate specific diffuse pollution, non native species and/or morphological issues. The dataset provides limited details of the date and location of the walkover was undertaken and for each issue found, its location, type of issue, severity and if it has been followed up by EA. ",
+        "altTitle": "Environment Agency",
+        "custodian": "Geographic Information",
+        "keywords": "",
+        "lineage": "",
+        "source": "environment",
+        "title": "NE Sample",
+        "topics": "Catchment Walkovers"
+    },
+    "output": [
+        {
+            "justification": "The catalogue record discusses natural assets by referencing diffuse pollution, non-native species, and morphological issues, which are components of natural environments.",
+            "notation": "lvl1_001"
+        },
+        {
+            "justification": "The document references catchment walkovers, which involve terrestrial and freshwater habitats, including rivers and other freshwater systems.",
+            "notation": "lv2-001"
+        },
+        {
+            "justification": "The mention of 'diffuse pollution' and 'catchment walkovers' implicitly highlights water quality and hydrology issues, which are classified under Water Chemistry and Hydrology.",
+            "notation": "lv3-047"
+        },
+        {
+            "justification": "The inclusion of morphological issues indicates ecosystem processes, such as erosion or sediment deposition, which are essential for maintaining ecosystem integrity.",
+            "notation": "lv3-045"
+        },
+        {
+            "justification": "The mention of non-native species indicates changes or impacts to ecological communities caused by invasive species disrupting native assemblages.",
+            "notation": "lv3-043"
+        },
+        {
+            "justification": "The abstract refers to environmental issues, such as diffuse pollution, non-native species, and morphological issues, which are all related to ecosystem services and benefits. Ecosystem services underlie the management and evaluation of these problems.",
+            "notation": "lvl1-002"
+        },
+        {
+            "justification": "The dataset identifies specific environmental issues that involve regulating services, such as diffuse pollution and morphological alterations, which are directly linked to the regulation and maintenance of environmental quality.",
+            "notation": "lv2-007"
+        },
+        {
+            "justification": "Diffuse pollution and sediment/morphological issues directly relate to environmental quality, focusing on clean water and healthy systems that sustain ecosystems and human activity, aligning with this concept.",
+            "notation": "lv3-053"
+        },
+        {
+            "justification": "The dataset mentions addressing issues such as diffuse pollution, which relates to hazard and nuisance reduction, underlying risk management and harm prevention in the environment.",
+            "notation": "lv3-055"
+        },
+        {
+            "justification": "The description of diffuse pollution, non-native species, and morphological issues indicates that this dataset relates to environmental pressures on natural assets.",
+            "notation": "lvl1-004"
+        },
+        {
+            "justification": "Diffuse pollution identifies the introduction of contaminants into the natural environment, which is categorized as chemical pollution.",
+            "notation": "lv2-012"
+        },
+        {
+            "justification": "The mention of non-native species indicates biological disturbances, which align with ecological disruptions caused by invasive or non-indigenous species.",
+            "notation": "lv2-013"
+        },
+        {
+            "justification": "Morphological issues relate to changes in the physical state of landscapes, associating with land and sea use change pressures.",
+            "notation": "lv2-015"
+        },
+        {
+            "justification": "Non-native species specifically align with the introduction or spread of invasive non-indigenous species.",
+            "notation": "lv3-078"
+        },
+        {
+            "justification": "Diffuse pollution often includes organic enrichment, which can arise from non-point pollution sources, matching this classification.",
+            "notation": "lv3-073"
+        },
+        {
+            "justification": "Morphological issues involving changes to the environment align with physical changes to natural habitats.",
+            "notation": "lv3-090"
+        },
+        {
+            "justification": "The document relates to environment monitoring activities, specifically catchment walkovers, where environmental issues such as diffuse pollution and non-native species are identified. This fits under 'Pressures' since these are factors causing stress on the environment.",
+            "notation": "lvl1_002"
+        },
+        {
+            "justification": "Diffuse pollution and morphological issues are explicitly mentioned in the document, making it relevant to 'Water pollution,' a specific subset of 'Pressures.'",
+            "notation": "lv2-006"
+        },
+        {
+            "justification": "Catchment walkovers involve evaluating the physical and ecological state of water environments, related to assessing 'Natural Assets' like rivers and water bodies.",
+            "notation": "lvl1_004"
+        },
+        {
+            "justification": "The document focuses on catchment areas and provides information about specific issues like diffuse pollution and non-native species, categorizing it under 'Freshwater' as part of 'Natural Assets.'",
+            "notation": "lv2-004"
+        },
+        {
+            "justification": "This term was imputed from a narrower classification.",
+            "notation": "lvl1-001"
+        },
+        {
+            "justification": "This term was imputed from a narrower classification.",
+            "notation": "lv2-005"
+        }
+    ]
+}
