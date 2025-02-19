@@ -1,0 +1,87 @@
+{
+    "id": "941eb7e57ee78c6c30084b6719462f6b",
+    "input": {
+        "abstract": "Long-term and broad-scale datasets are essential to any investigation of change in natural communities. This dataset includes the collation of aerial imagery for 44 sites around the Welsh coastline, selected to contain rocky shore, saltmarsh or Sabellaria alveolata across temporal scales providing suitable data for comparisons of change through time, both anthropogenic and biological. In order for comparisons to present day imagery, current aerial imagery was also obtained in this study. Photographic aerial images containing features of conservation value (specifically rocky shores, Sabellaria alveolata inhabited shores and saltmarsh areas) within Wales were obtained. Historic photographic aerial images that contained features of conservation value (specifically rocky shores, Sabellaria alveolata inhabited shores and saltmarsh areas) within Wales were selected from expert knowledge and Countryside Council for Wales's collection of habitat maps. The aim of this project was to collate, digitise and georeference aerial photographic imagery for sites that had multi-year overlap. Accuracies of less than 5 m RMS was obtained (with the exception of Treath Lafan, 1995, and the Dyfi Estuary, 1975). At these saltmarsh locations, there were too few ground control points to achieve this accuracy.",
+        "altTitle": "Delweddau hanesyddol o'r awyr er mwyn arolygu newid yng nghynefinoedd rhynglanwol tros amser",
+        "custodian": "Natural Resources Wales (NRW)",
+        "keywords": "",
+        "lineage": "Rocky shores sites included Bull Bay, Cemlyn Bay, Cemaes Bay, Holyhead, Penrhyn (East side of Holyhead bay) and Trearddur Bay. Sabellaria sites included Aberaeron, Mochras and Llanddulas and S. alveolata. Those images remaining as photographic prints were digitised using an Epson GT-15000 scanner at 1200 dots per inch (dpi). Images in adjacent locations were mosaicked with the image panorama generating software Autopano Giga 2.6, with a root mean square error (RMS) of less than 5 m where possible. Aerial images were then georeferenced in ArcMap10.0, using Ordnance Survey maps where features were readily visible both on the map and on the image. On occasion, images were georeferenced using aerial imagery that was already georeferenced. Accuracies of less than 5 m RMS was obtained. Georeferenced images were then rectified with the ArcMap10 Nearest Neighbour (for discrete data) function as uncompressed TIFFs, before compression to JPEG format with 100% image quality. Image clarity and descriptions were given for individual images. Spatial reference for all data is British National Grid. Present-day low-altitude imagery was captured with a time-lapse compact Canon camera (D10) with no flash and infinity focus. The camera was attached to either a kite or a helium balloon and led over the sites of interest. The resultant images were mosaicked with Autopano Giga 2.6 achieving the lowest RMS possible and visual clarity. Ground control points were marked during the aerial fly over with a dGPS (Leica GS50 or Magellan MobileMapper 6). On several occasions, dominant habitat types were also walked round in the field providing habitat ground-truthing, logging polylines in the GPS systems. The data from the GPS systems were post-processed using ephemeris data from a fixed station (Morpeth), to achieve accuracies of less than 1.5 m for ground control points and less than 3 m for walk-around data.",
+        "source": "MEDIN Sample",
+        "title": "Historic Aerial Imagery to Monitor Temporal Change in Intertidal Habitats",
+        "topics": "biota,imageryBaseMapsEarthCover"
+    },
+    "output": [
+        {
+            "justification": "The dataset involves monitoring changes in natural features along the Welsh coastline, which fits within the domain of 'Natural Assets'.",
+            "notation": "lvl1-001"
+        },
+        {
+            "justification": "The focus on intertidal habitats such as rocky shores, saltmarshes, and Sabellaria alveolata habitats suggests relevance to 'Coastal and estuarine habitats'.",
+            "notation": "lv2-002"
+        },
+        {
+            "justification": "The study involves monitoring saltmarshes and estuarine features within Wales, directly linking the dataset to 'Estuaries'.",
+            "notation": "lv3-021"
+        },
+        {
+            "justification": "Rocky shores and other similar intertidal environments are explicitly mentioned, aligning with the concept of 'Rock cliffs, ledges and shores including the supralittoral'.",
+            "notation": "lv3-020"
+        },
+        {
+            "justification": "The mention of saltmarsh areas aligns with the 'Fen, marsh and swamp' classification, as saltmarshes are included under marsh environments.",
+            "notation": "lv3-011"
+        },
+        {
+            "justification": "The dataset focuses on changes in natural communities and ecological features over time, which aligns with the concept of 'Ecological community'.",
+            "notation": "lv3-043"
+        },
+        {
+            "justification": "The dataset focuses on intertidal habitats such as rocky shores and saltmarshes and examines changes over time, which contributes to understanding ecosystem services and benefits.",
+            "notation": "lvl1_002"
+        },
+        {
+            "justification": "Intertidal habitats like rocky shores and saltmarshes hold cultural significance, and the use of long-term data reinforces the value of ensuring these natural features persist for future generations.",
+            "notation": "lv2_008"
+        },
+        {
+            "justification": "The catalogue entry emphasizes conservation values, which include elements of cultural significance, preservation of intertidal habitats, and the historical understanding of these ecological areas in Wales.",
+            "notation": "lv3-058"
+        },
+        {
+            "justification": "The study involves monitoring changes in natural communities over time, which aligns with the broader 'Pressure' category regarding environmental impacts and dynamics.",
+            "notation": "lvl1-004"
+        },
+        {
+            "justification": "The dataset addresses the temporal changes in intertidal habitats, such as saltmarshes and rocky shores, which relates to 'Land and sea use change', including habitat conversion and spatial configuration shifts.",
+            "notation": "lv2-015"
+        },
+        {
+            "justification": "The focus on intertidal habitats such as saltmarshes and rocky shores inherently involves documentation of their physical changes or potential permanent loss due to anthropogenic and natural influences.",
+            "notation": "lv3-091"
+        },
+        {
+            "justification": "The study captures data relevant to intertidal and coastal areas, which are a type of natural asset.",
+            "notation": "lvl1-001"
+        },
+        {
+            "justification": "The habitats mentioned, such as rocky shores and saltmarshes, categorize under terrestrial habitat and intertidal habitats specifically.",
+            "notation": "lvl2-001"
+        },
+        {
+            "justification": "Saltmarsh areas specifically are mentioned in the dataset and lineages of its subjects to eco- context.",
+            "notation": "lvl3-004"
+        },
+        {
+            "justification": "This term was imputed from a narrower classification.",
+            "notation": "lv2-001"
+        },
+        {
+            "justification": "This term was imputed from a narrower classification.",
+            "notation": "lv2-005"
+        },
+        {
+            "justification": "This term was imputed from a narrower classification.",
+            "notation": "lv2-008"
+        }
+    ]
+}
