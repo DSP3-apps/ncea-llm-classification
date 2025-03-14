@@ -21,5 +21,9 @@ mappingId	level 3
 target		:{l3_id} a skos:Concept ; skos:inScheme :NceaOntology ; skos:notation {l3_id}^^xsd:string ; skos:broader :{l2_id} ; rdfs:comment {l3_definition}^^xsd:string ; skos:prefLabel {l3_term}^^xsd:string . 
 source		SELECT DISTINCT l2_id, l3_id, l3_term, l3_definition from ncea_ontology
 			WHERE l3_id is not null
+
+mappingId	Concept Scheme Boilerplate
+target		:NceaOntology a skos:ConceptScheme . 
+source		SELECT * from ncea_ontology LIMIT 1
 ]]
 
