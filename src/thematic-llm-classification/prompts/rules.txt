@@ -1,8 +1,8 @@
 1. **Comprehensive Synonym and Related Term Recognition:**  
    - Broaden the lexical coverage to include synonyms, acronyms, and related terminology for each concept to ensure accurate mapping.  
   
-2. **Discovery Treshold for Inclusion:**  
-   - Maintain an inclusive threshold where any relevant mention, primary or secondary, warrants the inclusion of the corresponding ontology concepts to ensure no significant aspect is overlooked and that users can discover this record using these catelgories.
+2. **Discovery Threshold for Inclusion:**  
+   - Maintain an inclusive threshold where any relevant mention, primary or secondary, warrants the inclusion of the corresponding ontology concepts to ensure no significant aspect is overlooked and that users can discover this record using these categories.
 
 3. **Meet Expectations of Categorization:**
    - Ensure that the categorization of the document is consistent with a subject matter expert's expectations upon reviewing the catalogue entry.
