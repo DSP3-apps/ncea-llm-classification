@@ -13,7 +13,6 @@ inputs:
     default: ""
   altTitle:
     type: string
-    default: ""
     is_chat_input: false
   custodian:
     type: string
@@ -102,28 +101,28 @@ nodes:
     type: code
     path: read_file.py
   inputs:
-    file_path: ontology/ncea_ontology_lvl1-002.ttl
+    file_path: ontology/ncea_collection_lvl1_002.ttl
 - name: asset_collection
   type: python
   source:
     type: code
     path: read_file.py
   inputs:
-    file_path: ontology/ncea_ontology_lvl1-001.ttl
+    file_path: ontology/ncea_collection_lvl1_001.ttl
 - name: valuation_collection
   type: python
   source:
     type: code
     path: read_file.py
   inputs:
-    file_path: ontology/ncea_ontology_lvl1-003.ttl
+    file_path: ontology/ncea_collection_lvl1_003.ttl
 - name: pressure_collection
   type: python
   source:
     type: code
     path: read_file.py
   inputs:
-    file_path: ontology/ncea_ontology_lvl1-004.ttl
+    file_path: ontology/ncea_collection_lvl1_004.ttl
 - name: benefit_classify
   type: llm
   source:
