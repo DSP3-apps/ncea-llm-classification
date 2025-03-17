@@ -185,3 +185,6 @@ cython_debug/
 # Intermediate processing files
 ontology/ncea_ontology.csv
 ontology/ncea_ontology.duckdb
+
+# remove environment files
+myenv/

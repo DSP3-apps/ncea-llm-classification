@@ -5,22 +5,23 @@ environment:
 inputs:
   source:
     type: string
-    default: ""
+    default: oceans
     is_chat_input: false
   title:
     type: string
     is_chat_input: false
-    default: ""
+    default: NE Sample
   altTitle:
     type: string
     is_chat_input: false
+    default: Environment Agency
   custodian:
     type: string
-    default: ""
+    default: beach, bathing freshwater, bathing water, bathing seawater, EAbatch2
     is_chat_input: false
   topics:
     type: string
-    default: ""
+    default: Bathing Waters Monitoring Locations
     is_chat_input: false
   keywords:
     type: string
@@ -28,7 +29,18 @@ inputs:
     is_chat_input: false
   abstract:
     type: string
-    default: ""
+    default: "The Environment Agency collects and analyses water samples each year
+      from May to September, to ensure that designated bathing water sites on
+      the coast and inland are safe and clean for swimming and other activities.
+      This shape file shows the approximate locations of our monitoring sites
+      and the compliance or classification for each bathing water in England
+      from 1988 to present. It is updated twice a year, to revise the inventory,
+      and the assessment results. For coastal waters the specific locations of
+      monitoring vary along a transect with the changing of the tides. The
+      results of these samples are assessed in annual classifications and are
+      available to view and download through the bathing water data explorer.
+      This data is covered by AfA470. Attribution statement: © Environment
+      Agency copyright and/or database right 2016. All rights reserved."
     is_chat_input: false
   lineage:
     type: string
@@ -129,7 +141,7 @@ nodes:
     type: code
     path: theme_prompt.jinja2
   inputs:
-    deployment_name: GPT-4o-2024-1120_Global
+    deployment_name: gpt-4o-standard
     temperature: 1
     top_p: 1
     response_format:
@@ -137,10 +149,8 @@ nodes:
     catalogue_entry: ${catalogue_entry.output}
     common_prompt: ${common_prompt.output}
     ontology: ${benefit_collection.output}
-  provider: AzureOpenAI
-  connection: andre-m6qjiuui-eastus2
+  connection: dsp_gen_ai_hub_eu_us
   api: chat
-  module: promptflow.tools.aoai
   use_variants: false
 - name: asset_classify
   type: custom_llm
@@ -149,9 +159,9 @@ nodes:
     tool: promptflow.tools.llm.llm
     path: theme_prompt.jinja2
   inputs:
-    connection: andre-m6qjiuui-eastus2
+    connection: dsp_gen_ai_hub_eu_us
     api: chat
-    deployment_name: GPT-4o-2024-1120_Global
+    deployment_name: gpt-4o-standard
     response_format:
       type: json_object
     common_prompt: ${common_prompt.output}
@@ -164,9 +174,9 @@ nodes:
     tool: promptflow.tools.llm.llm
     path: theme_prompt.jinja2
   inputs:
-    connection: andre-m6qjiuui-eastus2
+    connection: dsp_gen_ai_hub_eu_us
     api: chat
-    deployment_name: GPT-4o-2024-1120_Global
+    deployment_name: gpt-4o-standard
     response_format:
       type: json_object
     common_prompt: ${common_prompt.output}
@@ -179,9 +189,9 @@ nodes:
     tool: promptflow.tools.llm.llm
     path: theme_prompt.jinja2
   inputs:
-    connection: andre-m6qjiuui-eastus2
+    connection: dsp_gen_ai_hub_eu_us
     api: chat
-    deployment_name: GPT-4o-2024-1120_Global
+    deployment_name: gpt-4o-standard
     response_format:
       type: json_object
     common_prompt: ${common_prompt.output}
@@ -197,13 +207,28 @@ nodes:
     benefit: ${benefit_classify.output}
     pressure: ${pressure_classify.output}
     valuation: ${valuation_classify.output}
+- name: full_ontology
+  type: python
+  source:
+    type: code
+    path: read_file.py
+  inputs:
+    file_path: ontology/ncea_ontology.ttl
+- name: coerce_notation
+  type: python
+  source:
+    type: code
+    path: notation_formatting_and_validation.py
+  inputs:
+    predictions: ${collate_predictions.output}
+    ttl_for_notations: ${full_ontology.output}
 - name: back_classify
   type: python
   source:
     type: code
     path: back_classify.py
   inputs:
-    predictions: ${collate_predictions.output}
+    predictions: ${coerce_notation.output}
     asset: ${asset_collection.output}
     valuation: ${valuation_collection.output}
     benefit: ${benefit_collection.output}
