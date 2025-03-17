@@ -1,0 +1,824 @@
+<http://example.org/lvl2_001> <http://www.w3.org/2004/02/skos/core#notation> "lvl2_001" .
+<http://example.org/lvl2_008> <http://www.w3.org/2004/02/skos/core#notation> "lvl2_008" .
+<http://example.org/lvl1_002> <http://www.w3.org/2004/02/skos/core#notation> "lvl1_002" .
+<http://example.org/lvl3_082> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_082" .
+<http://example.org/lvl3_001> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_001" .
+<http://example.org/lvl3_053> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_053" .
+<http://example.org/lvl3_102> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_102" .
+<http://example.org/lvl3_015> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_015" .
+<http://example.org/lvl3_017> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_017" .
+<http://example.org/lvl3_031> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_031" .
+<http://example.org/lvl3_201> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_201" .
+<http://example.org/lvl3_071> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_071" .
+<http://example.org/lvl3_105> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_105" .
+<http://example.org/lvl3_030> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_030" .
+<http://example.org/lvl3_200> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_200" .
+<http://example.org/lvl1_004> <http://www.w3.org/2004/02/skos/core#notation> "lvl1_004" .
+<http://example.org/lvl2_007> <http://www.w3.org/2004/02/skos/core#notation> "lvl2_007" .
+<http://example.org/lvl3_091> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_091" .
+<http://example.org/lvl3_099> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_099" .
+<http://example.org/lvl3_112> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_112" .
+<http://example.org/lvl3_046> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_046" .
+<http://example.org/lvl3_096> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_096" .
+<http://example.org/lvl3_011> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_011" .
+<http://example.org/lvl3_025> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_025" .
+<http://example.org/lvl3_026> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_026" .
+<http://example.org/lvl3_068> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_068" .
+<http://example.org/lvl3_055> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_055" .
+<http://example.org/lvl3_075> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_075" .
+<http://example.org/lvl3_090> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_090" .
+<http://example.org/lvl3_103> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_103" .
+<http://example.org/lvl3_059> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_059" .
+<http://example.org/lvl1_001> <http://www.w3.org/2004/02/skos/core#notation> "lvl1_001" .
+<http://example.org/lvl3_080> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_080" .
+<http://example.org/lvl3_028> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_028" .
+<http://example.org/lvl3_041> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_041" .
+<http://example.org/lvl3_107> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_107" .
+<http://example.org/lvl3_067> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_067" .
+<http://example.org/lvl3_083> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_083" .
+<http://example.org/lvl3_079> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_079" .
+<http://example.org/lvl3_050> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_050" .
+<http://example.org/lvl3_100> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_100" .
+<http://example.org/lvl3_110> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_110" .
+<http://example.org/lvl3_115> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_115" .
+<http://example.org/lvl3_016> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_016" .
+<http://example.org/lvl3_069> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_069" .
+<http://example.org/lvl2_010> <http://www.w3.org/2004/02/skos/core#notation> "lvl2_010" .
+<http://example.org/lvl2_015> <http://www.w3.org/2004/02/skos/core#notation> "lvl2_015" .
+<http://example.org/lvl2_005> <http://www.w3.org/2004/02/skos/core#notation> "lvl2_005" .
+<http://example.org/lvl2_006> <http://www.w3.org/2004/02/skos/core#notation> "lvl2_006" .
+<http://example.org/lvl3_043> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_043" .
+<http://example.org/lvl3_094> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_094" .
+<http://example.org/lvl3_111> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_111" .
+<http://example.org/lvl3_010> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_010" .
+<http://example.org/lvl3_088> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_088" .
+<http://example.org/lvl3_084> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_084" .
+<http://example.org/lvl3_114> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_114" .
+<http://example.org/lvl3_076> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_076" .
+<http://example.org/lvl3_012> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_012" .
+<http://example.org/lvl3_098> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_098" .
+<http://example.org/lvl3_101> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_101" .
+<http://example.org/lvl3_047> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_047" .
+<http://example.org/lvl3_020> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_020" .
+<http://example.org/lvl3_024> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_024" .
+<http://example.org/lvl3_048> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_048" .
+<http://example.org/lvl3_087> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_087" .
+<http://example.org/lvl2_012> <http://www.w3.org/2004/02/skos/core#notation> "lvl2_012" .
+<http://example.org/lvl2_004> <http://www.w3.org/2004/02/skos/core#notation> "lvl2_004" .
+<http://example.org/lvl2_013> <http://www.w3.org/2004/02/skos/core#notation> "lvl2_013" .
+<http://example.org/lvl3_005> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_005" .
+<http://example.org/lvl3_039> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_039" .
+<http://example.org/lvl3_008> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_008" .
+<http://example.org/lvl3_104> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_104" .
+<http://example.org/lvl3_109> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_109" .
+<http://example.org/lvl3_023> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_023" .
+<http://example.org/lvl3_013> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_013" .
+<http://example.org/lvl3_045> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_045" .
+<http://example.org/lvl3_078> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_078" .
+<http://example.org/lvl3_064> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_064" .
+<http://example.org/lvl3_002> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_002" .
+<http://example.org/lvl3_003> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_003" .
+<http://example.org/lvl3_032> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_032" .
+<http://example.org/lvl3_063> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_063" .
+<http://example.org/lvl2_002> <http://www.w3.org/2004/02/skos/core#notation> "lvl2_002" .
+<http://example.org/lvl3_022> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_022" .
+<http://example.org/lvl3_106> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_106" .
+<http://example.org/lvl3_113> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_113" .
+<http://example.org/lvl2_014> <http://www.w3.org/2004/02/skos/core#notation> "lvl2_014" .
+<http://example.org/lvl3_092> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_092" .
+<http://example.org/lvl3_070> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_070" .
+<http://example.org/lvl3_086> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_086" .
+<http://example.org/lvl3_062> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_062" .
+<http://example.org/lvl3_089> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_089" .
+<http://example.org/lvl3_038> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_038" .
+<http://example.org/lvl3_044> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_044" .
+<http://example.org/lvl3_052> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_052" .
+<http://example.org/lvl3_061> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_061" .
+<http://example.org/lvl3_036> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_036" .
+<http://example.org/lvl3_074> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_074" .
+<http://example.org/lvl3_077> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_077" .
+<http://example.org/lvl3_081> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_081" .
+<http://example.org/lvl3_029> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_029" .
+<http://example.org/lvl3_051> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_051" .
+<http://example.org/lvl3_072> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_072" .
+<http://example.org/lvl2_003> <http://www.w3.org/2004/02/skos/core#notation> "lvl2_003" .
+<http://example.org/lvl3_034> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_034" .
+<http://example.org/lvl3_049> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_049" .
+<http://example.org/lvl3_019> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_019" .
+<http://example.org/lvl3_035> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_035" .
+<http://example.org/lvl3_004> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_004" .
+<http://example.org/lvl3_014> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_014" .
+<http://example.org/lvl3_060> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_060" .
+<http://example.org/lvl3_065> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_065" .
+<http://example.org/lvl3_006> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_006" .
+<http://example.org/lvl1_003> <http://www.w3.org/2004/02/skos/core#notation> "lvl1_003" .
+<http://example.org/lvl2_009> <http://www.w3.org/2004/02/skos/core#notation> "lvl2_009" .
+<http://example.org/lvl2_011> <http://www.w3.org/2004/02/skos/core#notation> "lvl2_011" .
+<http://example.org/lvl2_016> <http://www.w3.org/2004/02/skos/core#notation> "lvl2_016" .
+<http://example.org/lvl3_040> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_040" .
+<http://example.org/lvl3_066> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_066" .
+<http://example.org/lvl3_037> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_037" .
+<http://example.org/lvl3_042> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_042" .
+<http://example.org/lvl3_085> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_085" .
+<http://example.org/lvl3_093> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_093" .
+<http://example.org/lvl3_007> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_007" .
+<http://example.org/lvl3_056> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_056" .
+<http://example.org/lvl3_073> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_073" .
+<http://example.org/lvl3_095> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_095" .
+<http://example.org/lvl3_009> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_009" .
+<http://example.org/lvl3_027> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_027" .
+<http://example.org/lvl3_033> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_033" .
+<http://example.org/lvl3_057> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_057" .
+<http://example.org/lvl3_054> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_054" .
+<http://example.org/lvl3_058> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_058" .
+<http://example.org/lvl3_097> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_097" .
+<http://example.org/lvl3_108> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_108" .
+<http://example.org/lvl3_018> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_018" .
+<http://example.org/lvl3_021> <http://www.w3.org/2004/02/skos/core#notation> "lvl3_021" .
+<http://example.org/lvl2_012> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl2_007> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl2_003> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_001> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_070> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_016> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_067> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_083> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_089> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_090> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_039> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_082> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_028> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_013> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_052> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_012> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_055> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_056> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_018> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_020> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_051> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_066> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_094> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_099> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl1_002> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl1_003> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl2_008> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl2_014> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl2_013> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl2_011> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_041> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_053> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_107> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_109> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_032> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_047> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_077> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_097> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_046> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_009> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_050> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_075> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_103> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_110> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_007> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_073> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_084> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_086> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_024> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_072> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_080> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_091> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_112> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_010> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_042> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_093> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_104> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_030> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_063> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_017> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_062> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_096> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_027> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_079> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_036> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_098> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_115> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_021> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_048> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_087> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_049> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_092> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl2_005> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl2_001> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl2_009> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl2_015> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl2_002> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_081> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_045> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_078> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_095> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_044> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_057> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_064> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_065> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_068> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_002> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_100> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_105> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_015> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_006> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_019> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_059> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_014> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_011> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_033> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_061> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_054> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_023> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_035> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_005> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_040> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_111> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl2_010> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl2_016> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_102> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_069> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_076> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_026> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_038> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_060> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_201> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_022> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_029> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_043> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl1_001> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl1_004> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl2_004> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl2_006> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_008> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_037> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_085> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_088> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_003> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_200> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_074> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_108> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_004> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_025> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_031> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_058> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_071> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_101> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_114> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_106> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_113> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl3_034> a <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://example.org/lvl1_001> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://example.org/NceaOntology> .
+<http://example.org/lvl1_004> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://example.org/NceaOntology> .
+<http://example.org/lvl1_002> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://example.org/NceaOntology> .
+<http://example.org/lvl1_003> <http://www.w3.org/2004/02/skos/core#topConceptOf> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_024> <http://www.w3.org/2000/01/rdf-schema#comment> "Epifauna tend to be sparse mobile species or burrowing fauna such as anemones visible at the surface. If sediment particles are large enough to be classed as gravel using the Folk classification then sediment would be classed as coarse sediment rather than sand. If sand contains a high enough percentage of gravel it is also classed as coarse sediment. Coral rubble is classed as coarse sediment. Stable pebbles, cobbles and boulders are classed as rock; any rock present on coarse sediment is considered a separate habitat within a mosaic. This definition covers coarse sediment habitats at all water depths." .
+<http://example.org/lvl3_048> <http://www.w3.org/2000/01/rdf-schema#comment> "Atmosphere is the mixture of gases which surround the Earths surface." .
+<http://example.org/lvl3_201> <http://www.w3.org/2000/01/rdf-schema#comment> "The water column of shallow or deep sea, or enclosed coastal waters. Note that because of the strong temporal nature of the pelagic environment, the water column at a given location will be classified differently at different times of the year." .
+<http://example.org/lvl3_071> <http://www.w3.org/2000/01/rdf-schema#comment> "Any deoxygenation that is not directly associated with nutrient or organic enrichment. The lowering, temporarily or more permanently, of oxygen levels in the water or substrate due to anthropogenic causes (some areas may naturally be deoxygenated due to stagnation of water masses, e.g. inner basins of fjords). This is typically associated with nutrient and organic enrichment, but it can also derive from the release of ballast water or other stagnant waters (where organic or nutrient enrichment may be absent). Ballast waters may be deliberately deoxygenated via treatment with inert gases to kill non-indigenous species." .
+<http://example.org/lvl3_005> <http://www.w3.org/2000/01/rdf-schema#comment> "Highly modified / intensively managed grassland, dominated by a few fast-growing grasses on fertile, neutral soils.These grasslands tend to be managed as pasture, used for silage production, and for recreation and amenity purposes." .
+<http://example.org/lvl3_034> <http://www.w3.org/2000/01/rdf-schema#comment> "Surface waters on the landward side of a line, every point of which is at a distance of one nautical mile on the seaward side from the nearest point of the baseline from which the breadth of territorial waters is measured, extending where appropriate up to the outer limit of transitional waters." .
+<http://example.org/lvl3_039> <http://www.w3.org/2000/01/rdf-schema#comment> "Includes species that span multiple habitats, and so are not easily allocated to an asset class. E.g. turtles." .
+<http://example.org/lvl3_049> <http://www.w3.org/2000/01/rdf-schema#comment> "Provision of food products from nature, including cultivated food (e.g. agriculture and aquaculture), foraged wild plants and animals, and food products from non-living sources (e.g. salt and minerals)." .
+<http://example.org/lvl3_091> <http://www.w3.org/2000/01/rdf-schema#comment> "The permanent loss of marine habitats. Associated activities are land claim, new coastal defences that encroach on and move the Mean High Water Springs mark seawards, the footprint of a wind turbine on the seabed, and dredging if it alters the position of the halocline. This excludes changes from one marine habitat type to another marine habitat type." .
+<http://example.org/lvl3_035> <http://www.w3.org/2000/01/rdf-schema#comment> "Includes fish species that span multiple habitats, and so are not easily allocated to an habitat class. E.g. Atlantic Bluefin Tuna, Salmon, Sharks, Mackerel, Eels, etc." .
+<http://example.org/lvl3_078> <http://www.w3.org/2000/01/rdf-schema#comment> "The direct or indirect introduction of invasive non-indigenous species.Marine examples include: Chinese mitten crabs, slipper limpets, and Pacific oysters, and their subsequent spreading and out-competing of native species. Ballast water, hull fouling, and stepping stone effects (e.g. offshore wind farms) may facilitate the spread of such species. This pressure could be associated with aquaculture, mussel or shellfishery activities due to imported seed stock or accidental releases.Terrestrial and freshwater examples include: Japanese knotweed, Himalayan balsam, Rhododendron, Giant hogweed, American mink, Signal crayfish, Asian hornet, American bullfrog, etc." .
+<http://example.org/lvl3_059> <http://www.w3.org/2000/01/rdf-schema#comment> "Aspects of the environment that we want to ensure continue to exist for future generations, and that we consider important even if we do not use them." .
+<http://example.org/lvl3_063> <http://www.w3.org/2000/01/rdf-schema#comment> "Sea-level rise results from a combination of the thermal expansion of seawater and ice melt (e.g. ice sheets and glaciers).  Sea-levels have risen 1-3 mm yr-1 in the last century (Cazenave & Nerem, 2004, Church et al., 2004, Church & White, 2006).  The global mean sea-level has risen by 0.16 m (a range of 0.12-0.21 m) between 1902 and 2015 (IPCC, 2019).  The rate of rise in 2006-2015 is unprecedented compared to the last century, during which period, sea-level rise has been dominated by melting ice-sheets and glaciers (IPCC, 2019).A rise in sea-level increases the water depth at the shore and results in increased wave and tidal energy along the shore, due to the increase in fetch and reduction in wave attenuation (Pethick, 2001; Crooks, 2004; Fujii, 2012).  As a result, coastal landforms (e.g. subtidal bedforms, intertidal flats, saltmarshes, shingle banks, sand dunes, cliffs and coastal lowlands) migrate along and parallel to the shore to maintain their position with the coastal energy gradient (Cooks, 2004; Fujii, 2012).  Sedimentary habitats are dynamic and liable to adapt to sea-level rise, except where hard structures (e.g. cliffs and artificial structures) prevent their natural movement, where existing intertidal areas are likely to be submerged, eroded, or moved (coastal squeeze)." .
+<http://example.org/lvl3_019> <http://www.w3.org/2000/01/rdf-schema#comment> "Beaches of the oceans, of their connected seas and of their associated coastal lagoons, covered by pebbles, or sometimes boulders, usually formed by wave action." .
+<http://example.org/lvl3_041> <http://www.w3.org/2000/01/rdf-schema#comment> "Includes species that do not fit into any of the groups listed above but that span multiple habitats, and so are not easily allocated to an asset class." .
+<http://example.org/lvl3_057> <http://www.w3.org/2000/01/rdf-schema#comment> "Benefits to physical and mental health and wellbeing, particularly capabilities (e.g. knowledge, health, dexterity, judgement) and experiences (e.g. tranquillity, inspiration, escape, discovery). Benefits building knowledge and other capabilities." .
+<http://example.org/lvl3_079> <http://www.w3.org/2000/01/rdf-schema#comment> "By-catch is associated with all fishing, harvesting and extraction activities. Ecological consequences include food web dependencies, and the population dynamics of fish, marine mammals, turtles and sea birds (including survival threats in extreme cases, e.g. Harbour Porpoise in Central and Eastern Baltic). The physical effects of fishing gear on sea bed communities are addressed by the abrasion pressure type so the pressure addresses the direct removal of individuals associated with fishing/ harvesting." .
+<http://example.org/lvl3_029> <http://www.w3.org/2000/01/rdf-schema#comment> "Open ocean zone where the water column is occasionally stratified during the year." .
+<http://example.org/lvl3_113> <http://www.w3.org/2000/01/rdf-schema#comment> "The physical obstruction of species movements and including local movements (within & between roosting, breeding, feeding areas) and regional/global migrations (e.g. birds, eels, salmon, and whales). Both include up-river movements (where tidal barrages & devices or dams could obstruct movements) or movements across open waters (offshore wind farm, wave or tidal device arrays, mariculture infrastructure or fixed fishing gears). Species affected are mostly highly mobile birds, fish, and mammals." .
+<http://example.org/lvl3_101> <http://www.w3.org/2000/01/rdf-schema#comment> "The systems involved in generating, transmitting, distributing and storing energy. This includes fossil fuels (coal, oil, natural gas) and renewable energy (solar, wind, geothermal). Associated infrastructure includes power plants, substations, transmission lines, storage facilities and distribution networks." .
+<http://example.org/lvl3_105> <http://www.w3.org/2000/01/rdf-schema#comment> "The active management of the rural landscape and effective game management to support the growth of game bird populations (bird species hunted for sport or food such as ducks, pheasants, grouse, quail, partridges).  If this is not managed sustainably, it can impact on other species and could damage other land uses such as farming, forestry and nature conservation." .
+<http://example.org/lvl3_082> <http://www.w3.org/2000/01/rdf-schema#comment> "Biodiversity loss is the reduction of any aspect of biological diversity (i.e. diversity at the genetic, species and ecosystem levels) is lost in a particular area through death (including extinction), destruction or manual removal; it can refer to many scales, from global extinctions to population extinctions, resulting in decreased total diversity at the same scale. Extinction is when all the individuals in a population, species or more inclusive taxonomic group have died." .
+<http://example.org/lvl3_073> <http://www.w3.org/2000/01/rdf-schema#comment> "Increased levels of the elements nitrogen, phosphorus, silicon, and iron in  terrestrial and marine environment compared to background concentrations. Nutrients can enter systems by natural processes (e.g. decomposition of detritus, riverine, direct and atmospheric inputs) or anthropogenic sources (e.g. wastewater runoff, terrestrial/agricultural inputs and runoff, sewage discharges, aquaculture, atmospheric deposition). Nutrients can also enter marine regions from upstream locations, e.g. via tidal currents to induce enrichment in the receiving area. Nutrient enrichment may lead to eutrophication (see also organic enrichment). Adverse environmental effects include deoxygenation, algal blooms, and changes in the community structure of benthos and macrophytes." .
+<http://example.org/lvl3_017> <http://www.w3.org/2000/01/rdf-schema#comment> "Covers urban and rural settlements, farm buildings, caravan parks, industrial areas and other man-made structures like retail parks, urban parks, transport infrastructure and derelict land. It includes domestic gardens and allotments. Amenity grassland is included in the Improved Grassland category." .
+<http://example.org/lvl3_067> <http://www.w3.org/2000/01/rdf-schema#comment> "Increases in the levels of these compounds compared with background concentrations.  Naturally occurring compounds or complex mixtures of two basic molecular structures:-straight-chained aliphatic hydrocarbons (relatively low toxicity and susceptible to degradation), and-multiple ringed aromatic hydrocarbons (higher toxicity and more resistant to degradation).These fall into three categories based on source (including both aliphatic and polyaromatic hydrocarbons):-biogenic hydrocarbons (from plants & animals);-petroleum hydrocarbons (from natural seeps, oil spills and surface water run-off); and-pyrogenic hydrocarbons (from the combustion of coal, woods, and petroleum).Ecological chemical consequences include taint, acute toxicity, carcinomas, and/or growth defects. In addition, hydrocarbons may have physical as well as chemical (toxic) effects on species. Physical effects include smothering, suffocation, and clogging of feathers, breathing apparatus, or the digestive tracts of species at the air/water boundary, on rocks or in the sediment, they inhabit. Dispersants are included here as they are designed to break up oil spills.  Dispersants (used to disperse oils spills) are synthetic mixtures often mixtures of distillates, surfactants, and other ingredients but their effects are linked to the oil spills or other oily waters (e.g. bilge water) they are designed to disperse." .
+<http://example.org/lvl3_076> <http://www.w3.org/2000/01/rdf-schema#comment> "Genetic modification (GM) can be either deliberate (e.g. introduction of farmed individuals to the wild, GM food production) or a by-product of other activities (e.g. mutations associated with radionuclide contamination). Former related to escapees or deliberate releases e.g. cultivated species such as farmed salmon, oysters, and scallops if GM practices are employed. The scale of pressure is compounded if GM species were \"captured\" and translocated in ballast water. Mutated organisms from the latter could be transferred on ships' hulls, in ballast water, with imports for aquaculture, aquaria, live bait, species traded as live seafood or 'natural' migration.This pressure also relates to the translocation of indigenous species that may compete with local populations of species, alter the community of the receiving habitat, or provide the opportunity for hybridization between similar species (e.g. Spartina spp. and Mytilus spp.)." .
+<http://example.org/lvl3_089> <http://www.w3.org/2000/01/rdf-schema#comment> "Water abstraction is the process of taking water from sources such as rivers, lakes and groundwater aquifers. Drainage is the artificial lowering of the soil water table." .
+<http://example.org/lvl3_032> <http://www.w3.org/2000/01/rdf-schema#comment> "Open ocean zone where the water column is seasonally thermally stratified throughout the year." .
+<http://example.org/lvl3_047> <http://www.w3.org/2000/01/rdf-schema#comment> "Hydrology is the branch of science concerned with the properties of the earth's water and its movement over and through the Earth's surface. This includes ground water (all water that exists in soils, sediments and rock), surface water bodies (bodies of freshwater in non-marine and coastal environments, including streams, rivers and lakes) and all marine environments. These waters have different abiotic and biotic chemistry (for instance different pH, Dissolved Organic Carbon, dissolved oxygen, and ammonia/nitrate concentrations), and biotic communities." .
+<http://example.org/lvl3_069> <http://www.w3.org/2000/01/rdf-schema#comment> "Introduction of radionuclide material, raising levels above background concentrations. Such materials can come from nuclear installation discharges, and from land or sea-based operations (e.g. oil platforms, medical sources). The disposal of radioactive material at sea is prohibited unless it fulfils exemption criteria developed by the International Atomic Energy Agency (IAEA), namely that both the following radiological criteria are satisfied: (i) the effective dose expected to be incurred by any member of the public or ships crew is 10 Sv or less in a year; (ii) the collective effective dose to the public or ships crew is not more than 1 man Sv per annum, then the material is deemed to contain de minimis levels of radioactivity and may be disposed at sea pursuant to it fulfilling all the other provisions under the Convention. The individual dose criteria are placed in perspective (i.e. very low), given that the average background dose to the UK population is ~2700 Sv/a. Ports and coastal sediments can be affected by the authorised discharge of both current and historical low-level radioactive wastes from coastal nuclear establishments." .
+<http://example.org/lvl3_037> <http://www.w3.org/2000/01/rdf-schema#comment> "Includes species that span multiple habitats, and so are not easily allocated to an asset class. E.g. seals, cetaceans, bats, red deer, etc." .
+<http://example.org/lvl3_053> <http://www.w3.org/2000/01/rdf-schema#comment> "Clean water (which underpins water supply, sustainable ecosystems, cultural; services and providing health benefits), clean air (underpinning health benefits and sustainable ecosystems), and healthy sediments (underpinning production of habitats and climate regulation)." .
+<http://example.org/lvl2_002> <http://www.w3.org/2000/01/rdf-schema#comment> "Habitats located at the interface of land and sea, including beaches, salt marshes, estuaries, and rocky shores. These environments are shaped by the dynamic interactions between terrestrial and marine influences, such as tides." .
+<http://example.org/lvl2_003> <http://www.w3.org/2000/01/rdf-schema#comment> "Marine habitats are directly connected to the oceans, i.e. part of the continuous body of water which covers the greater part of the earths surface and which surrounds its land masses. Marine waters may be fully saline, brackish or almost fresh. Marine habitats include those below spring high tide limit (or below mean water level in non-tidal waters) and enclosed coastal saline or brackish waters, without a permanent surface connection to the sea but either with intermittent surface or sub-surface connections (as in lagoons). Rockpools in the supralittoral zone are considered as enclaves of the marine zone. Includes marine littoral habitats which are subject to wet and dry periods on a tidal cycle including tidal saltmarshes; marine littoral habitats which are normally water-covered but intermittently exposed due to the action of wind or atmospheric pressure changes; freshly deposited marine strandlines characterised by marine invertebrates. Waterlogged littoral saltmarshes and associated saline or brackish pools above the mean water level in non-tidal waters or above the spring high tide limit in tidal waters are included with marine habitats. Includes constructed marine saline habitats below water level as defined above (such as in marinas, harbours, etc) which support a semi-natural community of both plants and animals. The marine water column includes bodies of ice." .
+<http://example.org/lvl1_002> <http://www.w3.org/2000/01/rdf-schema#comment> "Ecosystem services are the functions and goods that flow from natural assets which deliver benefits to people e.g. climate regulation, food production, water, energy, cultural significance. They are grouped into four broad categories: provisioning, regulating, cultural and supporting services. As most measurable ecosystem services fall under the first three categories, these have been included in this search tool.Natural capital benefits are the positive impacts of ecosystem services on human welfare, they enrich our lives and underpin the economy and wellbeing. The extent to which individuals and society receive benefits is affected by their values and available resources." .
+<http://example.org/lvl1_001> <http://www.w3.org/2000/01/rdf-schema#comment> "Natural Assets are the living and non-living elements of ecosystems including soils, freshwater, minerals, air and oceans. We often group assets by broad habitat types (e.g. woodland or pelagic) but can also group them by the components that make up ecosystems  (e.g. by species that span multiple habitats,  soils and sediments)." .
+<http://example.org/lvl3_087> <http://www.w3.org/2000/01/rdf-schema#comment> "Changes in water levels reducing the intertidal zone and the associated/dependent habitats. The pressure relates to changes in both the spatial area and duration that intertidal species are immersed and exposed during tidal cycles (the percentage of immersion is dependent on the position or height on the shore relative to the tide). The spatial and temporal extent of the pressure will be dependent on the causal activities but can be delineated. This relates to anthropogenic causes that may directly influence the temporal and spatial extent of tidal immersion, e.g. upstream and downstream of a tidal barrage the emergence would be respectively reduced and increased, beach re-profiling could change gradients and therefore exposure times, capital dredging may change the natural tidal range, managed realignment, salt marsh creation. Such alteration may be of importance in estuaries because of their influence on tidal flushing and potential wave propagation. Changes in tidal flushing can change the sediment dynamics and may lead to changing patterns of deposition and erosion. Changes in tidal levels will only affect the emergence regime in areas that are inundated for only part of the time. The effects that tidal level changes may have on sediment transport are not restricted to these areas, so a very large construction could significantly affect the tidal level at a deep site without changing the emergence regime. Such a change could still have a serious impact. This excludes pressure from sea level rise." .
+<http://example.org/lvl3_106> <http://www.w3.org/2000/01/rdf-schema#comment> "Overgrazing occurs when plants are exposed to intensive grazing for extended periods of time, or without sufficient recovery periods. It can be caused by either livestock in poorly managed agricultural applications, game reserves, or nature reserves. It can also be caused by immobile, travel restricted populations of native or non-native wild animals.Undergrazing is when grazing is at a level where there is evidence of the annual growth not being fully utilised, or scrub or coarse vegetation is becoming evident and such changes are detrimental to the environmental interest of the site." .
+<http://example.org/lvl3_012> <http://www.w3.org/2000/01/rdf-schema#comment> "Wetlands with vegetation that typically forms peat, receiving nutrients principally from precipitation rather than ground water. It includes blanket bog, raised bog, and intermediate bog habitats." .
+<http://example.org/lvl3_098> <http://www.w3.org/2000/01/rdf-schema#comment> "A practice about managing, using, conserving and repairing forest, woodlands, and associated resources. Objectives and goals are fulfilled by implementing and regulating tree management and harvesting practices stipulated in forest management plans. It involves a range of management activities (coppicing, tree planting, selective logging, prescribed burning, etc) to maintain the health, diversity and production of woodland whilst meeting objectives such as timber production, conservation and recreation." .
+<http://example.org/lvl3_043> <http://www.w3.org/2000/01/rdf-schema#comment> "An assemblage of species occurring in the same space or time, often linked by biotic interactions such as competition or predation." .
+<http://example.org/lvl3_080> <http://www.w3.org/2000/01/rdf-schema#comment> "The commercial exploitation of fish & shellfish stocks, including smaller scale harvesting, angling and scientific sampling. The physical effects of fishing gear on sea bed communities are addressed by the abrasion pressures above. This pressure addresses the direct removal/harvesting of biota. Ecological consequences include the sustainability of stocks, impacting energy flows through food webs and the size and age composition within fish stocks." .
+<http://example.org/lvl3_092> <http://www.w3.org/2000/01/rdf-schema#comment> "Unlike the \"physical change\" pressure type where there is a permanent change in sea bed type (e.g. sand to gravel, sediment to a hard artificial substratum) the \"habitat structure change\" pressure type relates to temporary and/or reversible change, e.g. from marine mineral extraction where a proportion of seabed sands or gravels are removed but a residual layer of the seabed is similar to the pre-dredge structure and as such biological communities could re-colonize; navigation dredging to maintain channels where the silts or sands removed are replaced by non-anthropogenic mechanisms so the sediment typology is not changed." .
+<http://example.org/lvl3_013> <http://www.w3.org/2000/01/rdf-schema#comment> "Covers natural water bodies like lakes and man-made ones like reservoirs, ponds, and canals. It includes open water vegetation and vegetation at the water's edge. Also includes ditches having open water for most of the year and adjacent wetland habitatswith connected water levels that are less than 0.25 hectares." .
+<http://example.org/lvl3_046> <http://www.w3.org/2000/01/rdf-schema#comment> "Soils are vertical profiles of weathered geological material (including sediments) and organic deposits, they have a variety of physical, mineral, and biotic characteristics, including pH, texture, aeration/compaction, carbon content, particle size and nutrient content. Sediments are weathered materials that have been transported from the place they were originally weathered from their parent material. This includes marine sediments are the accumulation of particles, organic matter and other materials that settle on the ocean floor over time.Geology is the original parent material from which sediments and soils are weathered. Landform is topographic features such as aspect, slope and elevation which affect climate and geology of a location which in turn affect its hydrology (e.g. catchment characteristics, in combination with soils and watercourse features) and biota." .
+<http://example.org/lvl3_077> <http://www.w3.org/2000/01/rdf-schema#comment> "Marine introductions may come from untreated or insufficiently treated effluent discharges & run-off from terrestrial sources & vessels. It may also be a consequence of ballast water releases. In mussel or shellfisheries where seed stock is imported, 'infected' seed could be introduced, or it could be from accidental releases of effluvia. Escapees e.g. farmed salmon could be infected and spread pathogens in the indigenous populations. Aquaculture could release contaminated faecal matter, from which pathogens could enter the food chain." .
+<http://example.org/lvl3_010> <http://www.w3.org/2000/01/rdf-schema#comment> "Vegetation dominated by heath family species or dwarf gorse on well-drained, nutrient poor, acid soils.  It excludes dwarf shrub associated with peat (formation and substrate), alpine and coastal areas." .
+<http://example.org/lvl3_085> <http://www.w3.org/2000/01/rdf-schema#comment> "Events or activities increasing or decreasing local salinity. This relates to anthropogenic sources/causes that have the potential to be controlled, e.g. freshwater discharges from pipelines that reduce salinity, or brine discharges from salt caverns washings that may increase salinity. This could also include hydromorphological modification, e.g. capital navigation dredging if this alters the halocline or erection of barrages or weirs that alter freshwater/seawater flow/exchange rates. The pressure may be temporally and spatially delineated derived from the causal event/activity and local environment." .
+<http://example.org/lvl3_088> <http://www.w3.org/2000/01/rdf-schema#comment> "Local changes in wave length, height and frequency. Exposure on an open shore is dependent upon the distance of open sea water over which wind may blow to generate waves (the fetch) and the strength and incidence of winds. Anthropogenic sources of this pressure include artificial reefs, breakwaters, barrages, and wrecks that can directly influence wave action or activities that may locally affect the incidence of winds, e.g. a dense network of wind turbines may have the potential to influence wave exposure, depending upon their location relative to the coastline." .
+<http://example.org/lvl3_102> <http://www.w3.org/2000/01/rdf-schema#comment> "A planned environmental usage process during which humans access an environment in order to promote the refreshment of their physical and psychological health through relaxation and leisure activities." .
+<http://example.org/lvl2_009> <http://www.w3.org/2000/01/rdf-schema#comment> "The amount of value an item or a service has in relation to its acceptable cash price for a willing seller and buyer." .
+<http://example.org/lvl2_006> <http://www.w3.org/2000/01/rdf-schema#comment> "Provisioning services are goods obtained or extracted from living and non-living parts of the environment such as food, fresh water, fibre and fuel." .
+<http://example.org/lvl2_005> <http://www.w3.org/2000/01/rdf-schema#comment> "An ecosystem is a dynamic complex of living and non-living elements interacting as a functional unit including the processes that support these functions. These include Climate, Atmosphere, Soils, Sediments and Geology, Water Chemistry and Hydrology, and Biodiversity." .
+<http://example.org/lvl2_007> <http://www.w3.org/2000/01/rdf-schema#comment> "Regulating services maintain/regulate the environment and often prevent harm (e.g. disease control, reduced flood risk, clean air)." .
+<http://example.org/lvl3_068> <http://www.w3.org/2000/01/rdf-schema#comment> "Increases in the levels of these compounds compared with background concentrations.  Synthetic compounds are manufactured for a variety of industrial processes and commercial applications. Chlorinated compounds and other organohalogens are often persistent and often toxic; including: Polychlorinated biphenols (PCBs); Brominated flame-retardants; and Chemical precursors and solvents.Pesticides vary greatly in structure, composition, environmental persistence, and toxicity to non-target organisms, many of which are also organohalogens or organophosphates; including: Insecticides; Herbicides; Rodenticides; Fungicides; Parasiticides; and Antifoulants.Pharmaceuticals and Personal Care Products (PCPs) originate from veterinary and human applications and include a variety of products and over-the-counter medications: Analgesics (inc. NSAIDs), Adrenergic agonists and beta-blockers, Antihyperlipidemic agents, Antidepressants; Fungicides; Chemotherapy drugs and animal (e.g. fin-fish) therapeutics; Growth hormones and oestrogens; and UV-filters e.g. from sun screens.Due to their biologically active nature, high levels of consumption, known combined effects, and their detection in most aquatic environments, pharmaceuticals have become an emerging concern.  Ecological consequences include physiological changes (e.g. growth defects, carcinomas). This category also includes: other synthetic and organic esters; phthalate esters, and synthetic musks (which may also be PBTs)." .
+<http://example.org/lvl1_004> <http://www.w3.org/2000/01/rdf-schema#comment> "Pressures affect the state of natural assets (their condition, extent, or location) thereby changing their ability to deliver ecosystem services. Pressures include climate change, chemical and other types of pollution, biological disturbances, hydrological changes, and land or seabed use change, and are influenced by drivers such as population growth and societal needs for food, energy, wellbeing etc. Where the pressure cannot be directly measured, the impact on natural assets can be measured instead, such as habitat destruction.  In contrast, Drivers are much broader and indirect in nature, generally creating pressures." .
+<http://example.org/lvl3_020> <http://www.w3.org/2000/01/rdf-schema#comment> "Sea-cliffs, or parts of sea-cliffs, and rocky shores colonized by disjunct assemblages of salt-tolerant crevice plants (chasmophytes) or by more or less closed salt-tolerant grasslands with associated terrestrial invertebrate and vertebrate faunal communities." .
+<http://example.org/lvl3_022> <http://www.w3.org/2000/01/rdf-schema#comment> "A biogenic structure is formed when reef-forming species, such as cold water corals, attach to any hard substrate present and grow over the surrounding area forming a secondary substrate over the top. This changes the composition of the associated community as it provides a stable surface for epifauna to attach. Biogenic structure includes only areas where the seafloor is completely covered, not isolated structures, such as sponge aggregations or discrete corals." .
+<http://example.org/lvl3_054> <http://www.w3.org/2000/01/rdf-schema#comment> "Covering gamete dispersal, refuge habitats and nursery, breeding and feeding grounds. Maintenance of wild populations and biodiversity, underpinning all other services." .
+<http://example.org/lvl3_055> <http://www.w3.org/2000/01/rdf-schema#comment> "Covering erosion, flood and storm protection, and pest and disease control. Underpins land retention (preventing transport disruption and protecting houses, businesses and infrastructure), reduces health and safety risks, reduces damage to crops and reduces spread of pests and disease. Also improves aesthetics, underpinning wellbeing." .
+<http://example.org/lvl3_058> <http://www.w3.org/2000/01/rdf-schema#comment> "Benefits to mental health and wellbeing, particularly in terms of experiences (e.g. tranquillity, inspiration, escape, discovery) and identities (e.g. belonging, sense of place, rootedness, spirituality, sense of history)." .
+<http://example.org/lvl3_103> <http://www.w3.org/2000/01/rdf-schema#comment> "Soil degradation describes what happens when the quality of soil declines and diminishes its capacity to support animals and plants.  Soil can lose certain physical, chemical or biological qualities that underpin the web of life within it.Soil erosion is part of soil degradation." .
+<http://example.org/lvl3_110> <http://www.w3.org/2000/01/rdf-schema#comment> "Localized electric and magnetic fields associated with operational power cables and telecommunication cables (if equipped with power relays). Such cables may generate electric and magnetic fields that could alter the behaviour and migration patterns of sensitive species (e.g. sharks and rays)." .
+<http://example.org/lvl3_094> <http://www.w3.org/2000/01/rdf-schema#comment> "Physical disturbance of sediments where there is limited or no loss of substratum from the system. This pressure is associated with activities such as anchoring, taking of sediment/geological cores, cone penetration tests, cable burial (ploughing or jetting), propeller wash from vessels, and certain fishing activities, e.g. scallop dredging, and beam trawling. Agitation dredging, where sediments are deliberately disturbed by gravity & hydraulic dredging where sediments are deliberately disturbed and moved by currents could also be associated with this pressure type. Compression of sediments, e.g. from the legs of a jack-up barge could also fit into this pressure type. Abrasion relates to the damage of the sea bed surface layers (typically up to 50 cm depth). Activities associated with abrasion can cover relatively large spatial areas and include fishing with towed demersal trawls (fish & shellfish); bio-prospecting such as harvesting of biogenic features such as maerl beds where, after extraction, conditions for recolonization remain suitable or relatively localised activities including seaweed harvesting, recreation, potting, aquaculture. Change from gravel to silt substrata would adversely affect herring spawning grounds.Loss, removal or modification of the substratum is not included within this pressure (see the physical loss pressure theme). Penetration and damage to the soft rock substrata are considered, however, penetration into hard bedrock is deemed unlikely." .
+<http://example.org/lvl3_086> <http://www.w3.org/2000/01/rdf-schema#comment> "Changes in water movement associated with tidal streams (the rise and fall of the tide, riverine flows), prevailing winds and ocean currents. The pressure is therefore associated with activities that have the potential to modify hydrological energy flows, e.g. tidal energy generation devices remove (convert) energy and such pressures could be manifested leeward of the device, capital dredging may deepen and widen a channel and therefore decrease the water flow, canalisation &/or structures may alter flow speed and direction; managed realignment (e.g. Wallasea, England). The pressure will be spatially delineated. The pressure extremes are a shift from a high to a low energy environment (or vice versa). The biota associated with these extremes will be markedly different as will the substratum, sediment supply/transport and associated seabed/ground elevation changes. The potential exists for profound changes (e.g. coastal erosion/deposition) to occur at long distances from the construction itself if an important sediment transport pathway was disrupted. As such these pressures could have multiple and complex impacts associated with them." .
+<http://example.org/lvl3_097> <http://www.w3.org/2000/01/rdf-schema#comment> "The displacement of the soil by the action of water or wind. Soil erosion is a major process of land degradation." .
+<http://example.org/lvl3_028> <http://www.w3.org/2000/01/rdf-schema#comment> "Open ocean zone where the water column inconsistently alternates between levels of stratification." .
+<http://example.org/lvl3_042> <http://www.w3.org/2000/01/rdf-schema#comment> "Climate is the generalised weather of an area, including typical patterns of sunlight, temperature, rainfall and wind. It also includes seasonal effects, such as changes in day length.Microclimate is the localised climate of a particular location, which can be measured over multiple scales (e.g. beneath a tree or within a valley). It represents the local modification of the climate through various surface factors such as topography, vegetation, the presence of water and soil types." .
+<http://example.org/lvl3_093> <http://www.w3.org/2000/01/rdf-schema#comment> "Physical disturbance or abrasion at the surface of the substratum in sedimentary or rocky habitats. The effects are relevant to epiflora and epifauna living on the surface of the substratum. In intertidal and sublittoral fringe habitats, surface abrasion is likely to result from recreational access and trampling (inc. climbing) by humans or livestock, vehicular access, moorings (ropes, chains), activities that increase scour and grounding of vessels (deliberate or accidental). In the sublittoral, surface abrasion is likely to result from pots or creels, cables and chains associated with fixed gears and moorings, anchoring of recreational vessels, objects placed on the seabed such as the legs of jack-up barges, and harvesting of seaweeds (e.g. kelps) or other intertidal species (trampling) or of epifaunal species (e.g. oysters). In sublittoral habitats, passing bottom gear (e.g. rock hopper gear) may also cause surface abrasion to epifaunal and epifloral communities, including epifaunal biogenic reef communities. Activities associated with surface abrasion can cover relatively large spatial areas e.g. bottom trawls or bio-prospecting or be relatively localized activities e.g. seaweed harvesting, recreation, potting, and aquaculture." .
+<http://example.org/lvl2_015> <http://www.w3.org/2000/01/rdf-schema#comment> "Land and sea use change is a major human influence on habitats and can include the conversion of land or sea cover (e.g. through deforestation or trawling), changes in the management of the ecosystem (e.g. through the intensification of agricultural management or aquaculture) or changes in the spatial configuration of the landscape (e.g. fragmentation of habitats)." .
+<http://example.org/lvl2_008> <http://www.w3.org/2000/01/rdf-schema#comment> "Cultural services provide non-material benefits, such as spiritual enrichment, recreation experience and associated physical and mental health impacts." .
+<http://example.org/lvl3_026> <http://www.w3.org/2000/01/rdf-schema#comment> "Epifauna tend to be sparse, mobile species, or burrowing fauna such as anemones and brittlestars visible at the surface. Muddy sand sediments are classed as mud if the mud content is great enough. If sediment particles are large enough to be classed as gravel using the Folk classification, then sediment would be classed as coarse sediment rather than sand. If sand contains a high enough percentage of gravel it is also classed as coarse sediment. This definition covers sand habitats at all water depths." .
+<http://example.org/lvl3_038> <http://www.w3.org/2000/01/rdf-schema#comment> "Includes species that span multiple habitats, and so are not easily allocated to an asset class. E.g. butterflies, moths, dragonflies, hoverflies, etc." .
+<http://example.org/lvl3_044> <http://www.w3.org/2000/01/rdf-schema#comment> "Functional traits are behaviours, morphologies or other characteristics of organisms that impact that organisms environment or ecosystem (e.g. burrowing, body size, breeding behaviour, filter feeding etc.)." .
+<http://example.org/lvl2_013> <http://www.w3.org/2000/01/rdf-schema#comment> "A disturbance (in ecology) is any relatively discrete event in time that disrupts ecosystem, community, or population structure and changes resources, substrate availability, or the physical environment. A biological disturbance is one from a biological origin (e.g. invasive species, pests and diseases)." .
+<http://example.org/lvl2_016> <http://www.w3.org/2000/01/rdf-schema#comment> "Pollution is the introduction of contaminants into the natural environment that cause adverse change. Other pollution refers to the addition on non-chemical pollutants, such as litter, noise, light, to the environment at a rate faster than it can be dispersed, diluted, decomposed, recycled, or stored in some harmless form.Physical pressures result from human activities which bring about changes in the state of the environment. This category includes pressures not covered elsewhere, such as barriers to species movement and death or injury by collision." .
+<http://example.org/lvl3_066> <http://www.w3.org/2000/01/rdf-schema#comment> "The increase in transition element levels compared with background concentrations due to their input from land/riverine sources, by air or directly at sea.  For marine sediments, the main elements of concern are: Arsenic, Cadmium, Chromium, Copper, Mercury and organic mercury compounds, Nickel and its compounds, Lead and organic lead compounds, and Zinc.However, the following may also be released into the marine environment: Aluminium, Barium, Cobalt, Iron, Molybdenum, Selenium, Tin, Tungsten, and Vanadium.Organometallic compounds such as butyl tins (tributyltin and its derivatives) can be highly persistent and chronic exposure to low levels has adverse biological effects, e.g. Imposex in molluscs.  The use of other organo-metalloids, such as organo-copper and organo-zinc compounds, has increased due to the ban on organo-tins.Nanoparticulate metals such as Zinc oxide (ZnO), Iron oxide (FeO), Copper oxide (CuO), Titanium (n-TiO2), Gold, and Silver nanoparticulate metals are included." .
+<http://example.org/lvl3_099> <http://www.w3.org/2000/01/rdf-schema#comment> "Development is the carrying out of building, engineering, mining or other operations in, on, over or under land,  or  the making of any material change in the use of any building or other land. Planning is the process to guide and direct development of land." .
+<http://example.org/lvl3_111> <http://www.w3.org/2000/01/rdf-schema#comment> "Increases over and above background noise levels (consisting of environmental noise (ambient) and incidental man-made/anthropogenic noise (apparent)) at a particular location. Species known to be affected are marine mammals and fish. The theoretical zones of noise influence (Richardson et al 1995) are temporary or permanent hearing loss, discomfort & injury; response; masking and detection. In extreme cases, noise pressures may lead to death. The physical or behavioural effects are dependent on a number of variables, including the sound pressure, loudness, sound exposure level and frequency. High amplitude low and mid-frequency impulsive sounds and low frequency continuous sounds are of greatest concern for effects on marine mammals and fish. Some species may be responsive to the associated particle motion rather than the usual concept of noise. Noise propagation can be over large distances (tens of kilometres) but transmission losses can be attributable to factors such as water depth and sea bed topography. Noise levels associated with construction activities, such as pile-driving, are typically significantly greater than operational phases (i.e. shipping, the operation of a wind farm)." .
+<http://example.org/lvl3_023> <http://www.w3.org/2000/01/rdf-schema#comment> "Rock and other hard substrate have a diverse epifaunal community as species attach to the hard surface that in turn attract more fauna. Rock includes bedrock mixed substrate of pebbles, cobbles and boulders, and isolated drop stones. It can occur in a mosaic with sediment habitats. Rock does not have an infaunal/soft-substrate community. This definition covers rock (and other hard substrate) habitats at all water depths." .
+<http://example.org/lvl3_114> <http://www.w3.org/2000/01/rdf-schema#comment> "Injury or mortality from collisions of biota with both static &/or moving structures. Examples include collisions with rigs (e.g. birds) or screens in intake pipes (e.g. fish at power stations) (static) or collisions with wind turbine blades, fish & mammal collisions with tidal devices and shipping (moving). Activities increasing the number of vessels transiting areas, e.g. new port development or construction works will influence the scale and intensity of this pressure." .
+<http://example.org/lvl3_096> <http://www.w3.org/2000/01/rdf-schema#comment> "When the natural rates of siltation are altered (increased or decreased). Siltation (or sedimentation) is the settling out of silt/sediments suspended in the water column. Activities associated with this pressure type include mariculture, land claim, navigation dredging, disposal at sea, marine mineral extraction, cable and pipeline laying and various construction activities. It can result in short-lived sediment concentration gradients and the accumulation of sediments on the sea floor. This accumulation of sediments is synonymous with \"light\" smothering, which relates to the depth of vertical overburden. Light smothering relates to the deposition of layers of sediment on the seabed. It is associated with activities such as sea disposal of dredged materials where sediments are deliberately deposited on the sea bed. For light smothering most benthic biota may be able to adapt, i.e. vertically migrate through the deposited sediment.Heavy smothering also relates to the deposition of layers of sediment on the seabed but is associated with activities such as sea disposal of dredged materials where sediments are deliberately deposited on the sea bed. This accumulation of sediments relates to the depth of vertical overburden where the sediment type of the existing and deposited sediment has similar physical characteristics because, although most species of marine biota are unable to adapt, e.g. sessile organisms unable to make their way to the surface, a similar biota could, with time, re-establish. If the sediments were physically different this would fall under L2." .
+<http://example.org/lvl3_074> <http://www.w3.org/2000/01/rdf-schema#comment> "Degradation of air quality with negative effects on human health or the natural or built environment due to the introduction, by natural processes or human activity, into the atmosphere of substances (gases, aerosols) which have a direct (primary pollutants) or indirect (secondary pollutants) harmful effect." .
+<http://example.org/lvl2_014> <http://www.w3.org/2000/01/rdf-schema#comment> "Changes to the properties of the earth's water and its movement over and through the Earth's surface caused by human activities or natural causes." .
+<http://example.org/lvl3_011> <http://www.w3.org/2000/01/rdf-schema#comment> "Vegetation types found on groundwater-fed, permanently, seasonally, or periodically waterlogged peat, peaty, or mineral soils. It excludes areas of waterlogged wooded terrain over 0.25ha and wet grassland which are covered by other broad habitats." .
+<http://example.org/lvl3_027> <http://www.w3.org/2000/01/rdf-schema#comment> "Epifauna tend to be sparse, mobile species, or burrowing fauna such as anemones and brittlestars visible at the surface. Muddy sand sediments are classed as mud if the mud content is great enough. This definition covers mud habitats at all water depths." .
+<http://example.org/lvl3_052> <http://www.w3.org/2000/01/rdf-schema#comment> "Energy from renewable sources (e.g. wind, solar, geothermal, hydroelectric, tidal and wave energy), non-renewable sources (e.g. coal, oil, gas and uranium), from plants (e.g. biofuels and wood) and from animals (e.g. fats and waste)." .
+<http://example.org/lvl3_050> <http://www.w3.org/2000/01/rdf-schema#comment> "Provision of non-food products from living and non-living sources such as cosmetics, building materials and genetic resources" .
+<http://example.org/lvl3_075> <http://www.w3.org/2000/01/rdf-schema#comment> "A change in the distributional limits of the native geographical range of a species, driven by climate change." .
+<http://example.org/lvl3_090> <http://www.w3.org/2000/01/rdf-schema#comment> "The permanent change of one marine habitat type to another marine habitat type, through the change in the substratum, including to artificial (e.g. concrete). This, therefore, involves the permanent loss of one marine habitat type but has an equal creation of a different marine habitat type. Associated activities include the installation of infrastructure (e.g. the surface of platforms or wind farm foundations, marinas, coastal defences, pipelines and cables), the placement of scour protection where soft sediment habitats are replaced by hard/coarse substratum habitats, removal of coarse substrata (marine mineral extraction) in those instances where surficial finer sediments are lost, capital dredging where the residual sedimentary habitat differs structurally from the pre-dredge state, creation of artificial reefs, mariculture i.e. mussel beds. Protection of pipes and cables using rock dumping and mattressing techniques. Placement of cuttings piles from oil & gas activities could fit this pressure type, however, there may be additional pressures, e.g. \"pollution and other chemical changes\" theme. This pressure excludes navigation dredging where the depth of sediment is changed locally but the sediment typology is not changed." .
+<http://example.org/lvl3_015> <http://www.w3.org/2000/01/rdf-schema#comment> "Covers vegetation types occurring in the montane zone (above the natural tree line).  This includes dwarf shrub heath, snow bed communities, sedge and rush heaths, and moss and lichen heaths." .
+<http://example.org/lvl3_045> <http://www.w3.org/2000/01/rdf-schema#comment> "An intrinsic ecosystem characteristic whereby an ecosystem maintains its integrity.  Ecosystem processes include decomposition, production, nutrient cycling and fluxes of nutrients and energy." .
+<http://example.org/lvl3_200> <http://www.w3.org/2000/01/rdf-schema#comment> "Marine benthic habitats are the bed of seas directly connected to the oceans. Benthic habitats can classified according to different substrate types i.e. hard substrate, coarse sediment, mixed sediment, sand, mud and biogenic." .
+<http://example.org/lvl3_070> <http://www.w3.org/2000/01/rdf-schema#comment> "The 'systematic or intentional release of solids, liquids, or gases ' (from MSFD Annex III Table 2) is considered e.g. in relation to produced water from the oil industry.  It should therefore be considered in parallel with the other contaminants pressures. This pressure includes compounds released as operational discharges, produced waters or spills that are not assessed elsewhere.  This pressure includes:-Chemicals transported in bulk that may be spilt e.g. acetic acid, phosphoric acid, sulphuric acid, sodium hydroxide;-Chemicals in drilling waste or produced waters e.g. barite, calcium carbonate, potash, zinc oxide;-Natural products with varied uses, e.g. molasses (transported in bulk) but also glycerins, formalin etc.;-Fin-fish food supplements  e.g. carotenoids, copper sulphate; and-Releases from munitions dumps e.g. chemical warfare agents, explosives, or propellants" .
+<http://example.org/lvl3_107> <http://www.w3.org/2000/01/rdf-schema#comment> "Refers to practices of managing vegetation. Cutting and mowing is the removal of above-ground parts of herbaceous plants or young trees/shrubs. Roots are left in place.Cultivation regime refers to the activity of preparing land or soil for the growth of new crops, or the activity of promoting or improving the growth of existing crops." .
+<http://example.org/lvl2_010> <http://www.w3.org/2000/01/rdf-schema#comment> "The value attributable to an item or a service without relation to any acceptable cash price and for which a fixed or determinable amount of currency is absent (e.g. many ecosystem services, interpersonal good-will, health, etc.)." .
+<http://example.org/lvl2_011> <http://www.w3.org/2000/01/rdf-schema#comment> "A change of climate which is attributed directly or indirectly to human activity that alters the composition of the global atmosphere and which is in addition to natural climate variability observed over comparable time periods." .
+<http://example.org/lvl2_001> <http://www.w3.org/2000/01/rdf-schema#comment> "Habitats found on land and in freshwater.  This includes mountains, moorlands and heath, grasslands, farmland, woodlands, urban, linear features, and various freshwater bodies, e.g. rivers, lakes, small streams." .
+<http://example.org/lvl3_009> <http://www.w3.org/2000/01/rdf-schema#comment> "Areas covered by continuous bracken. It excludes scattered patches and areas of bracken that are less than 0.25ha which should be classified with their associated broad habitat type." .
+<http://example.org/lvl3_064> <http://www.w3.org/2000/01/rdf-schema#comment> "The occurrence of a weather or climate variable above (or below) a threshold value near the upper (or lower) ends of the range of observed values of the variable. By definition, the characteristics of what is called extreme weather may vary from place to place in an absolute sense. When a pattern of extreme weather persists for some time, such as a season, it may be classified as an extreme climate event, especially if it yields an average or total that is itself extreme (e.g., wildfires, high temperature, drought or heavy rainfall over a season)." .
+<http://example.org/lvl1_003> <http://www.w3.org/2000/01/rdf-schema#comment> "For the purposes of this search tool, natural capital valuation is defined as the method used to determine the value of an ecosystem service. This can be in non-monetary terms (e.g. heritage values or existence values) or in monetary terms (e.g. market price or willingness to pay)." .
+<http://example.org/lvl3_018> <http://www.w3.org/2000/01/rdf-schema#comment> "Sand-covered shorelines of the oceans, their connected seas and associated coastal lagoons, fashioned by the action of wind or waves. They include gently sloping beaches and beach-ridges, formed by sands brought by waves, longshore drift and storm waves, as well as dunes, formed by aeolian deposits, though sometimes re-fashioned by waves." .
+<http://example.org/lvl3_002> <http://www.w3.org/2000/01/rdf-schema#comment> "Covers all coniferous stands where native and non-native conifers exceed more than 80% of the total cover of trees present.  It includes recently felled coniferous woodland and integral features of woodland, such as glades (clearings) and rides (pathways). It excludes yew woodlands." .
+<http://example.org/lvl3_100> <http://www.w3.org/2000/01/rdf-schema#comment> "A land use process during which terrestrial environments are modified such that they can grow crop plants or allow the rearing of animals to provide food, fiber, medicines, or other products used by humans.Agriculture includes horticulture, fruit growing, seed growing, dairy farming, the breeding and keeping of livestock (including any creature kept for the production of food, wool, skins or fur), the use of land as grazing land, meadow land, osier land, market gardens and nursery grounds, and the use of woodlands where that use is ancillary to the farming of land for other agricultural purposes." .
+<http://example.org/lvl3_115> <http://www.w3.org/2000/01/rdf-schema#comment> "The disturbance of biota by anthropogenic activities, e.g. increased vessel movements, such as during construction phases for new infrastructure (bridges, cranes, port buildings etc.), increased personnel movements, increased tourism, increased vehicular movements on shore etc. disturbing bird roosting areas, seal haul-out areas etc." .
+<http://example.org/lvl3_112> <http://www.w3.org/2000/01/rdf-schema#comment> "Direct inputs of light from anthropogenic activities, i.e. lighting on structures during construction or operation to allow 24-hour working; new tourist facilities, e.g. promenade or pier lighting, lighting on oil & gas facilities etc. Ecological effects may be the diversion of bird species from migration routes if they are disorientated by or attracted to the lights. It is also possible that continuous lighting may lead to increased algal growth." .
+<http://example.org/lvl3_007> <http://www.w3.org/2000/01/rdf-schema#comment> "Covers semi-improved and unimproved grassland on soils with a pH above 7. They are found on shallow soils rich in lime, typically underlain by chalk or limestone rocks." .
+<http://example.org/lvl3_004> <http://www.w3.org/2000/01/rdf-schema#comment> "Covers arable cropland, commercial horticultural land, freshly ploughed land, other cultivated areas such as temporary grasslands and fallow. It excludes domestic gardens and allotments which are covered by 'Built-up areas and gardens'." .
+<http://example.org/lvl3_014> <http://www.w3.org/2000/01/rdf-schema#comment> "Large (rivers) and small (streams) running waters. It covers the area up to the average yearly flood level, including the open channel, vegetation at the water's edge, and exposed sediments and shingle banks." .
+<http://example.org/lvl3_062> <http://www.w3.org/2000/01/rdf-schema#comment> "Increased CO2 concentrations in the atmosphere are absorbed by the ocean.  Increased CO2 concentrations affect the carbonate chemistry of seawater, and result in a reduction in pH, changes in the carbonate saturation and, potentially, hypercapnia (CO2 poisoning) in marine organisms.  Increasing levels of CO2 in the atmosphere have led to the average pH of sea surface waters dropping from 8.25 in the 1700s to 8.14 in the 1990s, leading to a 25% increase in H+ ions (Jacobson, 2005). However, the pH of surface waters are highly variable over time (Fig. 5), which reflects seasonal cycles in photosynthesis, respiration and water mixing (Ostle et al., 2016)." .
+<http://example.org/lvl3_095> <http://www.w3.org/2000/01/rdf-schema#comment> "Changes in water clarity (or turbidity) due to changes in sediment & organic particulate matter and chemical concentrations. It is related to activities disturbing sediment and/or organic particulate matter and mobilizing it into the water column. It could be 'natural' land run-off and riverine discharges or from anthropogenic activities such as all forms of dredging, disposal at sea, cable and pipeline burial, and secondary effects of construction works, e.g. breakwaters. Particle size, hydrological energy (current speed & direction) and tidal excursion are all influencing factors on the spatial extent and temporal duration. Salinity, turbulence, pH and temperature may result in flocculation of suspended organic matter. Anthropogenic sources are mostly short-lived and over relatively small spatial extents. Changes in suspended sediment loads can also alter the scour experienced by species and habitats. Therefore, the effects of scour are also addressed here." .
+<http://example.org/lvl3_081> <http://www.w3.org/2000/01/rdf-schema#comment> "A pest is an animal, plant, fungus, or other organism that thrives in places where it is not wanted by people, e.g. agricultural land, woodland, gardens, marine habitats, etc. Pest outbreaks occur when a pest population rises significantly above the general equilibrium level and threatens human interests." .
+<http://example.org/lvl3_104> <http://www.w3.org/2000/01/rdf-schema#comment> "Burning of vegetation, e.g. heather or grassland, to conserve, enhance or manage the natural environment, or for safety, pest control or to maintain railway land.  Such practices can be harmful, e.g. burning of vegetation on blanket bog.There are strict regulations on where, when, and the extent permitted of such activities." .
+<http://example.org/lvl2_012> <http://www.w3.org/2000/01/rdf-schema#comment> "Pollution is the introduction of contaminants into the natural environment that cause adverse change. Chemical pollution is the addition of any substance (solid, liquid, or gas) to the environment at a rate faster than it can be dispersed, diluted, decomposed, recycled, or stored in some harmless form." .
+<http://example.org/lvl3_025> <http://www.w3.org/2000/01/rdf-schema#comment> "Epifauna tend to be sparse mobile species. Mixed sediment has a greater mud content than coarse sediment. If muddy sand sediment contains a high enough percentage of gravel, then it would be classed as mixed sediment. Stable pebbles, cobbles and boulders are classed as rock; any rock present on mixed sediment is considered a separate habitat within a mosaic. This definition covers mixed sediment habitats at all water depths." .
+<http://example.org/lvl3_060> <http://www.w3.org/2000/01/rdf-schema#comment> "Global warming refers to the increase in global surface temperature relative to a baseline reference period, averaging over a period sufficient to remove interannual variations" .
+<http://example.org/lvl3_006> <http://www.w3.org/2000/01/rdf-schema#comment> "Covers semi-improved and unimproved grassland on soils with a neutral pH. It includes managed grassland like hay meadows and pastures, grasslands with various amounts of waterlogging.  These grasslands have a greater range and cover of herbs than improved grassland." .
+<http://example.org/lvl3_021> <http://www.w3.org/2000/01/rdf-schema#comment> "An estuary is a semi-enclosed coastal body of water with one or more rivers or streams flowing into it, where saltwater is measurably diluted with freshwater from the land and the river is subject to tidal action. Estuaries are often associated with high rates of biological productivity." .
+<http://example.org/lvl3_051> <http://www.w3.org/2000/01/rdf-schema#comment> "Plentiful water for e.g. drinking, domestic use, irrigation, livestock, and industrial use including cooling" .
+<http://example.org/lvl3_072> <http://www.w3.org/2000/01/rdf-schema#comment> "Resulting from the degraded remains of dead biota & microbiota (land & sea); faecal matter from animals; flocculated colloidal organic matter and the degraded remains of: sewage material, domestic wastes, industrial wastes etc. Organic matter can enter marine waters from sewage discharges, aquaculture or terrestrial/agricultural runoff. Black carbon comes from the products of incomplete combustion (PIC) of fossil fuels and vegetation. Organic enrichment may lead to eutrophication (see also nutrient enrichment). Adverse environmental effects include deoxygenation, algal blooms, and changes in the community structure of benthos and macrophytes." .
+<http://example.org/lvl3_036> <http://www.w3.org/2000/01/rdf-schema#comment> "Includes species that span multiple habitats, and so are not easily allocated to an asset class. E.g. Swallows, Arctic Tern, Redwing, Chiffchaff, Common Swift, Razorbills, puffins etc." .
+<http://example.org/lvl3_040> <http://www.w3.org/2000/01/rdf-schema#comment> "Includes species that span multiple habitats, and so are not easily allocated to an asset class. E.g. Common Cuttlefish, European Squid, etc." .
+<http://example.org/lvl3_056> <http://www.w3.org/2000/01/rdf-schema#comment> "Equable climate e.g. reduced risk of drought, flood & extreme weather events, lower summer temperatures, reduced health & safety risks, reduced flood risk, protection of infrastructure/lack of transport disruption. Regulation of local temperature and humidity." .
+<http://example.org/lvl3_084> <http://www.w3.org/2000/01/rdf-schema#comment> "Events or activities increasing or decreasing local water temperature. This is most likely from thermal discharges, e.g. the release of cooling waters from power stations. This could also relate to temperature changes in the vicinity of operational sub-sea power cables. This pressure only applies within the thermal plume generated by the pressure source. It excludes temperature changes from global warming which will be at a regional scale (and as such are addressed under the climate change pressures)." .
+<http://example.org/lvl3_083> <http://www.w3.org/2000/01/rdf-schema#comment> "Changes in the timing of life history events relative to calendar dates. Phenological mismatch are differences in the timing of life history events relative to other species, resources, or habitat conditions that result in fitness consequences." .
+<http://example.org/lvl3_003> <http://www.w3.org/2000/01/rdf-schema#comment> "Covers landscape features that are linear in appearance, such as hedgerows, lines of trees, stonewalls, and built components of the rural landscape such as railways, roads, and verges. It excludes canals, rivers, woodland rides or arable field margins managed for nature conservation which are covered in other broad habitats." .
+<http://example.org/lvl3_016> <http://www.w3.org/2000/01/rdf-schema#comment> "Covers natural and man-made exposed rock surfaces that are greater than 0.25 ha and almost entirely lack vegetation. It covers inland cliffs, ledges, caves, screes, limestone pavements, quarries, waste tips.  Plant communities include those that colonise cracks and fissures, grasslands on soils containing heavy metals, and some tall herbs and fern vegetation." .
+<http://example.org/lvl3_030> <http://www.w3.org/2000/01/rdf-schema#comment> "Open ocean zone where the water column is consistently well mixed throughout the year." .
+<http://example.org/lvl3_108> <http://www.w3.org/2000/01/rdf-schema#comment> "Process of obtaining natural materials from the Earths crust or subsurface. This includes minerals, metals, peat, fossil fuels such as coal, oil and natural gas, and non-renewable energy resources, such as uranium." .
+<http://example.org/lvl3_001> <http://www.w3.org/2000/01/rdf-schema#comment> "Covers all broadleaved, yew, and mixed broadleaved and coniferous stands which have more than 20% cover of broadleaved and yew trees. It includes patches of scrub where the woody element creates a canopy of more than 30% and the scrub area is above 0.25ha, recently felled broadleaved woodland, and integral features of woodland such as glades (clearings) and rides (pathways)." .
+<http://example.org/lvl3_008> <http://www.w3.org/2000/01/rdf-schema#comment> "Covers semi-improved and unimproved grassland on soils with a pH below 5.5. It excludes saltmarsh and sand-dune communities." .
+<http://example.org/lvl3_109> <http://www.w3.org/2000/01/rdf-schema#comment> "Litter is any manufactured or processed solid material from anthropogenic activities discarded, disposed or abandoned (excluding legitimate disposal) once it enters the environment including plastics, metals, timber, rope, fishing gear, rubbish and fly-tipping etc. and their degraded components, e.g. microplastic particles. Ecological effects can be physical (smothering), biological (ingestion, including uptake of microplastics; entangling; physical damage; accumulation of chemicals) and/or chemical (leaching, contamination)." .
+<http://example.org/lvl3_031> <http://www.w3.org/2000/01/rdf-schema#comment> "Open ocean zone where the water column is consistently stratified throughout the year." .
+<http://example.org/lvl3_033> <http://www.w3.org/2000/01/rdf-schema#comment> "Open ocean zone where the water column receives freshwater input from land." .
+<http://example.org/lvl3_061> <http://www.w3.org/2000/01/rdf-schema#comment> "A period during which water temperature is abnormally warm for the time of the year relative to historical temperatures, with that extreme warmth persisting for days to months. The phenomenon can manifest in any place in the ocean and at scales of up to thousands of kilometres." .
+<http://example.org/lvl3_065> <http://www.w3.org/2000/01/rdf-schema#comment> "A change in the distribution, intensity or frequency of rainfall in a particular area over a given period of time." .
+<http://example.org/lvl2_004> <http://www.w3.org/2000/01/rdf-schema#comment> "Habitat generalist species are known for spanning multiple habitats, either through adaptability or through extensive movements over large geographical distances, often during specific times of the year (migratory species). Includes species of birds, marine mammals, insects and fish." .
+<http://example.org/lvl2_013> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl1_004> .
+<http://example.org/lvl3_042> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_005> .
+<http://example.org/lvl3_093> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_004> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_001> .
+<http://example.org/lvl3_047> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_005> .
+<http://example.org/lvl3_040> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_004> .
+<http://example.org/lvl3_111> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_016> .
+<http://example.org/lvl3_036> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_004> .
+<http://example.org/lvl3_075> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_013> .
+<http://example.org/lvl3_021> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_002> .
+<http://example.org/lvl2_005> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl1_001> .
+<http://example.org/lvl2_003> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl1_001> .
+<http://example.org/lvl2_004> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl1_001> .
+<http://example.org/lvl2_015> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl1_004> .
+<http://example.org/lvl3_045> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_005> .
+<http://example.org/lvl3_062> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_011> .
+<http://example.org/lvl3_069> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_012> .
+<http://example.org/lvl3_027> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_003> .
+<http://example.org/lvl3_038> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_004> .
+<http://example.org/lvl3_065> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_011> .
+<http://example.org/lvl3_068> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_012> .
+<http://example.org/lvl3_034> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_003> .
+<http://example.org/lvl3_002> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_001> .
+<http://example.org/lvl3_090> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_101> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_024> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_003> .
+<http://example.org/lvl2_008> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl1_002> .
+<http://example.org/lvl2_014> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl1_004> .
+<http://example.org/lvl2_009> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl1_003> .
+<http://example.org/lvl3_010> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_001> .
+<http://example.org/lvl3_109> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_016> .
+<http://example.org/lvl3_083> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_013> .
+<http://example.org/lvl3_097> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_009> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_001> .
+<http://example.org/lvl3_057> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_008> .
+<http://example.org/lvl3_005> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_001> .
+<http://example.org/lvl3_099> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_098> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_105> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_048> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_005> .
+<http://example.org/lvl3_007> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_001> .
+<http://example.org/lvl3_015> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_001> .
+<http://example.org/lvl3_019> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_002> .
+<http://example.org/lvl3_037> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_004> .
+<http://example.org/lvl3_041> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_004> .
+<http://example.org/lvl3_014> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_001> .
+<http://example.org/lvl3_089> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_014> .
+<http://example.org/lvl3_095> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_096> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_016> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_001> .
+<http://example.org/lvl3_200> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_003> .
+<http://example.org/lvl3_026> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_003> .
+<http://example.org/lvl3_031> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_003> .
+<http://example.org/lvl3_060> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_011> .
+<http://example.org/lvl3_049> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_006> .
+<http://example.org/lvl3_094> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_012> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_001> .
+<http://example.org/lvl3_050> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_006> .
+<http://example.org/lvl3_071> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_012> .
+<http://example.org/lvl3_115> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_016> .
+<http://example.org/lvl3_020> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_002> .
+<http://example.org/lvl3_072> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_012> .
+<http://example.org/lvl3_087> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_014> .
+<http://example.org/lvl3_114> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_016> .
+<http://example.org/lvl2_010> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl1_003> .
+<http://example.org/lvl2_001> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl1_001> .
+<http://example.org/lvl2_011> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl1_004> .
+<http://example.org/lvl3_053> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_007> .
+<http://example.org/lvl3_085> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_014> .
+<http://example.org/lvl3_104> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_067> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_012> .
+<http://example.org/lvl3_076> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_013> .
+<http://example.org/lvl3_059> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_008> .
+<http://example.org/lvl3_074> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_012> .
+<http://example.org/lvl3_081> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_013> .
+<http://example.org/lvl3_080> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_013> .
+<http://example.org/lvl3_082> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_013> .
+<http://example.org/lvl3_058> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_008> .
+<http://example.org/lvl3_100> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_022> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_003> .
+<http://example.org/lvl3_001> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_001> .
+<http://example.org/lvl3_070> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_012> .
+<http://example.org/lvl3_107> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_013> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_001> .
+<http://example.org/lvl3_063> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_011> .
+<http://example.org/lvl3_077> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_013> .
+<http://example.org/lvl3_108> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_011> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_001> .
+<http://example.org/lvl3_044> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_005> .
+<http://example.org/lvl3_043> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_005> .
+<http://example.org/lvl3_112> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_016> .
+<http://example.org/lvl3_055> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_007> .
+<http://example.org/lvl3_113> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_016> .
+<http://example.org/lvl3_023> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_003> .
+<http://example.org/lvl3_035> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_004> .
+<http://example.org/lvl3_073> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_012> .
+<http://example.org/lvl3_086> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_014> .
+<http://example.org/lvl2_012> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl1_004> .
+<http://example.org/lvl2_006> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl1_002> .
+<http://example.org/lvl2_007> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl1_002> .
+<http://example.org/lvl3_088> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_014> .
+<http://example.org/lvl3_102> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_078> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_013> .
+<http://example.org/lvl3_030> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_003> .
+<http://example.org/lvl3_064> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_011> .
+<http://example.org/lvl3_079> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_013> .
+<http://example.org/lvl3_039> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_004> .
+<http://example.org/lvl3_066> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_012> .
+<http://example.org/lvl3_092> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_006> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_001> .
+<http://example.org/lvl3_029> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_003> .
+<http://example.org/lvl3_056> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_007> .
+<http://example.org/lvl2_016> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl1_004> .
+<http://example.org/lvl2_002> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl1_001> .
+<http://example.org/lvl3_008> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_001> .
+<http://example.org/lvl3_028> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_003> .
+<http://example.org/lvl3_017> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_001> .
+<http://example.org/lvl3_046> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_005> .
+<http://example.org/lvl3_003> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_001> .
+<http://example.org/lvl3_032> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_003> .
+<http://example.org/lvl3_025> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_003> .
+<http://example.org/lvl3_033> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_003> .
+<http://example.org/lvl3_052> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_006> .
+<http://example.org/lvl3_061> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_011> .
+<http://example.org/lvl3_091> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_201> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_003> .
+<http://example.org/lvl3_054> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_007> .
+<http://example.org/lvl3_103> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_110> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_016> .
+<http://example.org/lvl3_018> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_002> .
+<http://example.org/lvl3_051> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_006> .
+<http://example.org/lvl3_106> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_015> .
+<http://example.org/lvl3_084> <http://www.w3.org/2004/02/skos/core#broader> <http://example.org/lvl2_014> .
+<http://example.org/NceaOntology> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://example.org/lvl1_002>,<http://example.org/lvl1_003>,<http://example.org/lvl1_004>,<http://example.org/lvl1_001>;
+a <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://example.org/lvl3_066> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_094> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_099> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_056> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_013> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_052> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_018> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_020> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_051> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_012> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_055> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_028> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_049> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_092> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_030> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_063> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_017> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_062> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_096> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_027> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_079> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_021> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_048> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_087> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_036> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_098> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_115> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_010> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_042> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_093> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_104> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl2_001> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl2_009> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl2_015> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl2_005> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl2_002> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_081> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_015> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_045> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_078> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_095> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_044> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_057> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_064> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_065> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_068> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_006> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_002> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_100> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_105> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl1_003> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl1_002> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl2_008> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl2_011> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl2_014> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_080> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_091> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_112> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_032> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_047> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_077> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_097> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_007> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_073> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_084> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_086> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_046> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_009> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_024> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_072> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_050> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_075> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_103> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_110> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_041> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_053> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_107> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_109> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl2_013> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl1_004> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl1_001> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl2_006> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_034> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_003> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_200> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_074> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_108> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_114> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_004> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_025> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_031> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_106> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_113> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_058> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_071> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_101> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_008> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_037> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_085> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_088> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl2_004> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_005> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_040> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_111> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_059> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_023> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_035> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_014> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_011> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_033> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_061> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_054> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_019> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl2_010> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_043> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_069> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_076> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_026> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_038> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_060> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_022> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_029> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_201> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_102> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl2_016> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl2_012> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl2_007> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_039> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_082> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_016> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_067> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_083> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_089> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_090> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_001> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_070> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl2_003> <http://www.w3.org/2004/02/skos/core#inScheme> <http://example.org/NceaOntology> .
+<http://example.org/lvl3_053> <http://www.w3.org/2004/02/skos/core#prefLabel> "Environmental quality" .
+<http://example.org/lvl3_104> <http://www.w3.org/2004/02/skos/core#prefLabel> "Managed and uncontrolled burning" .
+<http://example.org/lvl3_072> <http://www.w3.org/2004/02/skos/core#prefLabel> "Organic enrichment" .
+<http://example.org/lvl3_087> <http://www.w3.org/2004/02/skos/core#prefLabel> "Emergence regime changes - local" .
+<http://example.org/lvl3_007> <http://www.w3.org/2004/02/skos/core#prefLabel> "Calcareous grassland" .
+<http://example.org/lvl3_114> <http://www.w3.org/2004/02/skos/core#prefLabel> "Death or injury by collision" .
+<http://example.org/lvl3_045> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecosystem process" .
+<http://example.org/lvl3_062> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ocean acidification" .
+<http://example.org/lvl3_078> <http://www.w3.org/2004/02/skos/core#prefLabel> "Introduction or spread of invasive non-indigenous species" .
+<http://example.org/lvl3_095> <http://www.w3.org/2004/02/skos/core#prefLabel> "Changes in suspended soils (water clarity)" .
+<http://example.org/lvl3_103> <http://www.w3.org/2004/02/skos/core#prefLabel> "Soil degradation" .
+<http://example.org/lvl3_105> <http://www.w3.org/2004/02/skos/core#prefLabel> "Game bird management" .
+<http://example.org/lvl3_115> <http://www.w3.org/2004/02/skos/core#prefLabel> "Visual disturbance" .
+<http://example.org/lvl3_049> <http://www.w3.org/2004/02/skos/core#prefLabel> "Food" .
+<http://example.org/lvl3_108> <http://www.w3.org/2004/02/skos/core#prefLabel> "Extraction of resources (minerals, peat, non-renewable energy resources)" .
+<http://example.org/lvl2_016> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other pollution or physical pressure" .
+<http://example.org/lvl2_008> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cultural services" .
+<http://example.org/lvl3_107> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cutting, mowing or cultivation regime" .
+<http://example.org/lvl3_006> <http://www.w3.org/2004/02/skos/core#prefLabel> "Neutral grassland" .
+<http://example.org/lvl3_018> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coastal dunes and sandy shores" .
+<http://example.org/lvl3_048> <http://www.w3.org/2004/02/skos/core#prefLabel> "Atmosphere" .
+<http://example.org/lvl3_017> <http://www.w3.org/2004/02/skos/core#prefLabel> "Built up areas and gardens" .
+<http://example.org/lvl3_076> <http://www.w3.org/2004/02/skos/core#prefLabel> "Genetic modification & translocation of indigenous species" .
+<http://example.org/lvl3_033> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pelagic - region of freshwater influence" .
+<http://example.org/lvl3_038> <http://www.w3.org/2004/02/skos/core#prefLabel> "Insects" .
+<http://example.org/lvl3_065> <http://www.w3.org/2004/02/skos/core#prefLabel> "Changes in precipitation pattern" .
+<http://example.org/lvl3_079> <http://www.w3.org/2004/02/skos/core#prefLabel> "Removal of non-target species" .
+<http://example.org/lvl3_050> <http://www.w3.org/2004/02/skos/core#prefLabel> "Materials" .
+<http://example.org/lvl3_098> <http://www.w3.org/2004/02/skos/core#prefLabel> "Woodland management and forestry" .
+<http://example.org/lvl3_101> <http://www.w3.org/2004/02/skos/core#prefLabel> "Energy production and associated infrastructure" .
+<http://example.org/lvl3_110> <http://www.w3.org/2004/02/skos/core#prefLabel> "Electromagnetic changes" .
+<http://example.org/lvl3_066> <http://www.w3.org/2004/02/skos/core#prefLabel> "Transitional elements & organometal contamination" .
+<http://example.org/lvl3_082> <http://www.w3.org/2004/02/skos/core#prefLabel> "Biodiversity loss and extinction" .
+<http://example.org/lvl3_112> <http://www.w3.org/2004/02/skos/core#prefLabel> "Introduction of light or shading" .
+<http://example.org/lvl3_003> <http://www.w3.org/2004/02/skos/core#prefLabel> "Boundary and linear features" .
+<http://example.org/lvl3_069> <http://www.w3.org/2004/02/skos/core#prefLabel> "Radionuclide contamination" .
+<http://example.org/lvl2_003> <http://www.w3.org/2004/02/skos/core#prefLabel> "Marine habitats" .
+<http://example.org/lvl1_001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Natural asset" .
+<http://example.org/lvl3_042> <http://www.w3.org/2004/02/skos/core#prefLabel> "Climate and Microclimate" .
+<http://example.org/lvl3_024> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coarse sediment" .
+<http://example.org/lvl3_051> <http://www.w3.org/2004/02/skos/core#prefLabel> "Water" .
+<http://example.org/lvl3_015> <http://www.w3.org/2004/02/skos/core#prefLabel> "Montane habitats" .
+<http://example.org/lvl3_004> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arable and horticulture" .
+<http://example.org/lvl3_014> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rivers and streams" .
+<http://example.org/lvl3_067> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hydrocarbon & Polyaromatic hydrocarbons (PAH) contamination" .
+<http://example.org/lvl3_083> <http://www.w3.org/2004/02/skos/core#prefLabel> "Phenological shifts resulting in phenological mismatch" .
+<http://example.org/lvl3_089> <http://www.w3.org/2004/02/skos/core#prefLabel> "Water abstraction and drainage" .
+<http://example.org/lvl3_027> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mud" .
+<http://example.org/lvl3_057> <http://www.w3.org/2004/02/skos/core#prefLabel> "Physical, experiential and intellectual interactions" .
+<http://example.org/lvl3_002> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coniferous woodland" .
+<http://example.org/lvl3_036> <http://www.w3.org/2004/02/skos/core#prefLabel> "Birds" .
+<http://example.org/lvl3_054> <http://www.w3.org/2004/02/skos/core#prefLabel> "Maintaining wild populations" .
+<http://example.org/lvl3_005> <http://www.w3.org/2004/02/skos/core#prefLabel> "Improved grassland" .
+<http://example.org/lvl3_081> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pest outbreaks" .
+<http://example.org/lvl2_006> <http://www.w3.org/2004/02/skos/core#prefLabel> "Provisioning services" .
+<http://example.org/lvl2_011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Climate change" .
+<http://example.org/lvl2_004> <http://www.w3.org/2004/02/skos/core#prefLabel> "Generalist species (spanning multiple habitats)" .
+<http://example.org/lvl2_009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Monetary" .
+<http://example.org/lvl3_010> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dwarf shrub heath" .
+<http://example.org/lvl3_037> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mammals" .
+<http://example.org/lvl3_093> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abrasion/disturbance at the surface of the substratum" .
+<http://example.org/lvl3_020> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rock cliffs, ledges and shores including the supralittoral" .
+<http://example.org/lvl3_029> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pelagic - intermittently stratified" .
+<http://example.org/lvl3_023> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rock (and other hard substrate)" .
+<http://example.org/lvl3_084> <http://www.w3.org/2004/02/skos/core#prefLabel> "Temperature changes - local" .
+<http://example.org/lvl3_013> <http://www.w3.org/2004/02/skos/core#prefLabel> "Standing open water and canals" .
+<http://example.org/lvl3_096> <http://www.w3.org/2004/02/skos/core#prefLabel> "Smothering and siltation rate changes" .
+<http://example.org/lvl3_060> <http://www.w3.org/2004/02/skos/core#prefLabel> "Global warming" .
+<http://example.org/lvl3_064> <http://www.w3.org/2004/02/skos/core#prefLabel> "More frequent and extreme weather or climate events" .
+<http://example.org/lvl3_201> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pelagic general" .
+<http://example.org/lvl3_058> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cultural significance of nature" .
+<http://example.org/lvl3_100> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agriculture" .
+<http://example.org/lvl3_040> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cephalopods" .
+<http://example.org/lvl3_094> <http://www.w3.org/2004/02/skos/core#prefLabel> "Penetration and/or disturbance of the substratum below the surface" .
+<http://example.org/lvl3_111> <http://www.w3.org/2004/02/skos/core#prefLabel> "Noise changes" .
+<http://example.org/lvl3_047> <http://www.w3.org/2004/02/skos/core#prefLabel> "Water Chemistry and Hydrology" .
+<http://example.org/lvl3_063> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sea-level rise" .
+<http://example.org/lvl3_074> <http://www.w3.org/2004/02/skos/core#prefLabel> "Air pollution" .
+<http://example.org/lvl2_005> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecosystem component" .
+<http://example.org/lvl2_007> <http://www.w3.org/2004/02/skos/core#prefLabel> "Regulating services" .
+<http://example.org/lvl3_008> <http://www.w3.org/2004/02/skos/core#prefLabel> "Acid grassland" .
+<http://example.org/lvl3_102> <http://www.w3.org/2004/02/skos/core#prefLabel> "Recreational use" .
+<http://example.org/lvl3_021> <http://www.w3.org/2004/02/skos/core#prefLabel> "Estuaries" .
+<http://example.org/lvl3_022> <http://www.w3.org/2004/02/skos/core#prefLabel> "Biogenic habitat" .
+<http://example.org/lvl3_035> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fish" .
+<http://example.org/lvl3_056> <http://www.w3.org/2004/02/skos/core#prefLabel> "Climate regulation" .
+<http://example.org/lvl3_086> <http://www.w3.org/2004/02/skos/core#prefLabel> "Water flow changes - local" .
+<http://example.org/lvl3_046> <http://www.w3.org/2004/02/skos/core#prefLabel> "Soils, Sediments and Geology" .
+<http://example.org/lvl3_031> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pelagic - permanently stratified" .
+<http://example.org/lvl3_012> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bogs" .
+<http://example.org/lvl3_055> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hazard and nuisance reduction" .
+<http://example.org/lvl3_091> <http://www.w3.org/2004/02/skos/core#prefLabel> "Physical loss" .
+<http://example.org/lvl3_099> <http://www.w3.org/2004/02/skos/core#prefLabel> "Planning and development" .
+<http://example.org/lvl3_032> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pelagic - seasonally stratified" .
+<http://example.org/lvl2_002> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coastal and estuarine habitats" .
+<http://example.org/lvl2_012> <http://www.w3.org/2004/02/skos/core#prefLabel> "Chemical pollution" .
+<http://example.org/lvl1_002> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecosystem service or benefit" .
+<http://example.org/lvl3_001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Broadleaved, mixed and yew woodland" .
+<http://example.org/lvl3_041> <http://www.w3.org/2004/02/skos/core#prefLabel> "Other" .
+<http://example.org/lvl3_085> <http://www.w3.org/2004/02/skos/core#prefLabel> "Salinity changes - local" .
+<http://example.org/lvl3_106> <http://www.w3.org/2004/02/skos/core#prefLabel> "Overgrazing & undergrazing" .
+<http://example.org/lvl3_025> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mixed sediment" .
+<http://example.org/lvl3_052> <http://www.w3.org/2004/02/skos/core#prefLabel> "Energy" .
+<http://example.org/lvl3_034> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pelagic - coastal water (up to 1 nautical mile)" .
+<http://example.org/lvl3_039> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reptiles" .
+<http://example.org/lvl3_080> <http://www.w3.org/2004/02/skos/core#prefLabel> "Removal of target species" .
+<http://example.org/lvl3_200> <http://www.w3.org/2004/02/skos/core#prefLabel> "Benthic general" .
+<http://example.org/lvl3_077> <http://www.w3.org/2004/02/skos/core#prefLabel> "Introduction of microbial pathogens" .
+<http://example.org/lvl2_001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Terrestrial and freshwater habitats" .
+<http://example.org/lvl2_010> <http://www.w3.org/2004/02/skos/core#prefLabel> "Non-monetary" .
+<http://example.org/lvl1_003> <http://www.w3.org/2004/02/skos/core#prefLabel> "Natural capital valuation" .
+<http://example.org/lvl3_070> <http://www.w3.org/2004/02/skos/core#prefLabel> "Introduction of other substances (solid, liquid or gas)" .
+<http://example.org/lvl3_109> <http://www.w3.org/2004/02/skos/core#prefLabel> "Litter" .
+<http://example.org/lvl3_011> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fen, marsh and swamp" .
+<http://example.org/lvl3_068> <http://www.w3.org/2004/02/skos/core#prefLabel> "Synthetic compound contamination" .
+<http://example.org/lvl3_071> <http://www.w3.org/2004/02/skos/core#prefLabel> "De-oxygenation" .
+<http://example.org/lvl3_075> <http://www.w3.org/2004/02/skos/core#prefLabel> "Climate-induced range shifts" .
+<http://example.org/lvl3_016> <http://www.w3.org/2004/02/skos/core#prefLabel> "Inland rock" .
+<http://example.org/lvl3_030> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pelagic - permanently mixed" .
+<http://example.org/lvl2_014> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hydrological changes" .
+<http://example.org/lvl1_004> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pressure" .
+<http://example.org/lvl3_019> <http://www.w3.org/2004/02/skos/core#prefLabel> "Coastal shingle" .
+<http://example.org/lvl3_028> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pelagic - indeterminate" .
+<http://example.org/lvl3_088> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wave exposure changes - local" .
+<http://example.org/lvl3_113> <http://www.w3.org/2004/02/skos/core#prefLabel> "Barriers to species movement" .
+<http://example.org/lvl3_073> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nutrient enrichment" .
+<http://example.org/lvl3_009> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bracken" .
+<http://example.org/lvl3_026> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sand" .
+<http://example.org/lvl3_044> <http://www.w3.org/2004/02/skos/core#prefLabel> "Functional trait" .
+<http://example.org/lvl3_061> <http://www.w3.org/2004/02/skos/core#prefLabel> "Marine heatwaves" .
+<http://example.org/lvl3_090> <http://www.w3.org/2004/02/skos/core#prefLabel> "Physical change" .
+<http://example.org/lvl3_043> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ecological community" .
+<http://example.org/lvl3_092> <http://www.w3.org/2004/02/skos/core#prefLabel> "Habitat structure changes - removal of substratum" .
+<http://example.org/lvl3_059> <http://www.w3.org/2004/02/skos/core#prefLabel> "Non-use values" .
+<http://example.org/lvl3_097> <http://www.w3.org/2004/02/skos/core#prefLabel> "Soil erosion" .
+<http://example.org/lvl2_013> <http://www.w3.org/2004/02/skos/core#prefLabel> "Biological disturbances" .
+<http://example.org/lvl2_015> <http://www.w3.org/2004/02/skos/core#prefLabel> "Land and sea use change" .

@@ -10,7 +10,7 @@ skos:		http://www.w3.org/2004/02/skos/core#
 
 [MappingDeclaration] @collection [[
 mappingId	level 1
-target		:{l1_id} a skos:Concept ; skos:inScheme :NceaOntology ; skos:notation {l1_id}^^xsd:string ; skos:topConceptOf :NceaOntology ; rdfs:comment {l1_definition}^^xsd:string ; skos:prefLabel {l1_term}^^xsd:string . 
+target		:{l1_id} a skos:Concept ; skos:inScheme :NceaOntology ; skos:notation {l1_id}^^xsd:string ; skos:topConceptOf :NceaOntology ; rdfs:comment {l1_definition}^^xsd:string ; skos:prefLabel {l1_term}^^xsd:string . :NceaOntology skos:hasTopConcept :{l1_id} .
 source		SELECT DISTINCT l1_id, l1_term, l1_definition from ncea_ontology
 
 mappingId	level 2

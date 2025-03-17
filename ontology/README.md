@@ -64,16 +64,16 @@ python ontology_utils.py serialize -m MAPPING_FILE -p PROPERTIES_FILE -f FORMAT 
 This command materializes the ontology using Ontop, converting the database into a specified RDF format.
 
 **Parameters:**
-- `-m/--mapping`: Mapping file (must end with .obda)
-- `-p/--properties`: Properties file (must end with .properties)
+- `-m/--mapping`: Mapping file (must end with .obda, default: `ontop_mapping.obda`)
+- `-p/--properties`: Properties file (must end with .properties, default `ontop_config.properties`)
 - `-f/--format`: Output file format. Available options:
   - `rdfxml`: RDF/XML format
-  - `turtle`: Turtle format
+  - `turtle`: Turtle format (default)
   - `ntriples`: N-Triples format
   - `nquads`: N-Quads format
   - `trig`: TriG format
   - `jsonld`: JSON-LD format
-- `-o/--output`: Output file path
+- `-o/--output`: Output file path (default: `ncea_ontology.ttl`)
 
 **Example:**
 ```bash

@@ -7,6 +7,8 @@ import click
 import docker
 import duckdb
 import pandas
+import rdflib
+from rdflib.namespace import RDF, SKOS
 
 
 def process_xlsx_ncea_ontology(file_path: Path) -> pandas.DataFrame:
@@ -167,6 +169,7 @@ class OutputFormat(str, Enum):
     required=True,
     type=click.Path(exists=True, path_type=Path),
     help="Mapping file (must end with .obda)",
+    default="./ontop_mapping.obda",
 )
 @click.option(
     "-p",
@@ -174,6 +177,7 @@ class OutputFormat(str, Enum):
     required=True,
     type=click.Path(exists=True, path_type=Path),
     help="Properties file (must end with .properties)",
+    default="./ontop_config.properties",
 )
 @click.option(
     "-f",
@@ -181,6 +185,7 @@ class OutputFormat(str, Enum):
     required=True,
     type=click.Choice([f.value for f in OutputFormat]),
     help="Output file format (one of: rdfxml, turtle, ntriples, nquads, trig, jsonld)",
+    default="turtle",
 )
 @click.option(
     "-o",
@@ -188,6 +193,7 @@ class OutputFormat(str, Enum):
     required=True,
     type=click.Path(path_type=Path),
     help="Output file path",
+    default="./ncea_ontology.ttl",
 )
 def serialize(mapping: Path, properties: Path, format: str, output: Path):
     """Materialize ontology using OnTop."""
@@ -234,6 +240,64 @@ def serialize(mapping: Path, properties: Path, format: str, output: Path):
         remove=True,
         user="root",
     )
+
+
+@cli.command()
+@click.option(
+    "-i",
+    "--input",
+    type=click.Path(exists=True, path_type=Path),
+    help="Input RDF file containing SKOS ConceptScheme",
+    default="./ncea_ontology.ttl",
+)
+@click.option(
+    "-o",
+    "--output-prefix",
+    type=click.Path(path_type=Path),
+    help="Prefix for output turtle files containing collections",
+    default="./ncea_collection",
+)
+def collectionize(input: Path, output_prefix: Path):
+    """Create SKOS collections from a turtle file."""
+    g = rdflib.Graph()
+    g.parse(input, format="ttl")
+
+    for concept_schemes in g.subjects(RDF.type, SKOS.ConceptScheme):
+        for top_concept in g.objects(concept_schemes, SKOS.hasTopConcept):
+
+            query = f"""
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+CONSTRUCT {{
+    ?collection a skos:Collection ;
+                skos:member ?topConcept ;
+                skos:member ?descendant .
+    ?descendant ?p ?o .
+    ?topConcept ?p2 ?o2 .
+}}
+WHERE {{
+    {{
+        BIND(<{top_concept}> as ?topConcept)
+        ?descendant a skos:Concept ;
+                    skos:broader+ ?topConcept .
+        ?ontology a skos:ConceptScheme ;
+                    skos:hasTopConcept ?topConcept .
+        ?descendant ?p ?o .
+        ?topConcept ?p2 ?o2 .
+
+        BIND(BNODE(STR(?topConcept)) AS ?collection)
+
+        VALUES ?collectionType {{ skos:Collection }}
+        VALUES ?memberProp {{ skos:member }}
+    }}
+}}
+"""
+            output_name = f"{output_prefix}_{str(top_concept).split('/')[-1]}.ttl"
+            collection_graph = g.query(query)
+            collection_graph.serialize(destination=output_name, format="ttl")
+            print(f"Created {output_name}")
 
 
 if __name__ == "__main__":
