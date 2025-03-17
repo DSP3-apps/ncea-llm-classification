@@ -1,126 +1,125 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://example.com/lv3-049> a skos:Concept ;
+<http://example.org/lvl3_049> a skos:Concept ;
     rdfs:comment "Provision of food products from nature, including cultivated food (e.g. agriculture and aquaculture), foraged wild plants and animals, and food products from non-living sources (e.g. salt and minerals)." ;
-    skos:broader <http://example.com/lv2-006> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-049" ;
+    skos:broader <http://example.org/lvl2_006> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_049" ;
     skos:prefLabel "Food" .
 
-<http://example.com/lv3-050> a skos:Concept ;
+<http://example.org/lvl3_050> a skos:Concept ;
     rdfs:comment "Provision of non-food products from living and non-living sources such as cosmetics, building materials and genetic resources" ;
-    skos:broader <http://example.com/lv2-006> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-050" ;
+    skos:broader <http://example.org/lvl2_006> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_050" ;
     skos:prefLabel "Materials" .
 
-<http://example.com/lv3-051> a skos:Concept ;
+<http://example.org/lvl3_051> a skos:Concept ;
     rdfs:comment "Plentiful water for e.g. drinking, domestic use, irrigation, livestock, and industrial use including cooling" ;
-    skos:broader <http://example.com/lv2-006> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-051" ;
+    skos:broader <http://example.org/lvl2_006> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_051" ;
     skos:prefLabel "Water" .
 
-<http://example.com/lv3-052> a skos:Concept ;
+<http://example.org/lvl3_052> a skos:Concept ;
     rdfs:comment "Energy from renewable sources (e.g. wind, solar, geothermal, hydroelectric, tidal and wave energy), non-renewable sources (e.g. coal, oil, gas and uranium), from plants (e.g. biofuels and wood) and from animals (e.g. fats and waste)." ;
-    skos:broader <http://example.com/lv2-006> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-052" ;
+    skos:broader <http://example.org/lvl2_006> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_052" ;
     skos:prefLabel "Energy" .
 
-<http://example.com/lv3-053> a skos:Concept ;
+<http://example.org/lvl3_053> a skos:Concept ;
     rdfs:comment "Clean water (which underpins water supply, sustainable ecosystems, cultural; services and providing health benefits), clean air (underpinning health benefits and sustainable ecosystems), and healthy sediments (underpinning production of habitats and climate regulation)." ;
-    skos:broader <http://example.com/lv2-007> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-053" ;
+    skos:broader <http://example.org/lvl2_007> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_053" ;
     skos:prefLabel "Environmental quality" .
 
-<http://example.com/lv3-054> a skos:Concept ;
+<http://example.org/lvl3_054> a skos:Concept ;
     rdfs:comment "Covering gamete dispersal, refuge habitats and nursery, breeding and feeding grounds. Maintenance of wild populations and biodiversity, underpinning all other services." ;
-    skos:broader <http://example.com/lv2-007> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-054" ;
+    skos:broader <http://example.org/lvl2_007> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_054" ;
     skos:prefLabel "Maintaining wild populations" .
 
-<http://example.com/lv3-055> a skos:Concept ;
+<http://example.org/lvl3_055> a skos:Concept ;
     rdfs:comment "Covering erosion, flood and storm protection, and pest and disease control. Underpins land retention (preventing transport disruption and protecting houses, businesses and infrastructure), reduces health and safety risks, reduces damage to crops and reduces spread of pests and disease. Also improves aesthetics, underpinning wellbeing." ;
-    skos:broader <http://example.com/lv2-007> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-055" ;
+    skos:broader <http://example.org/lvl2_007> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_055" ;
     skos:prefLabel "Hazard and nuisance reduction" .
 
-<http://example.com/lv3-056> a skos:Concept ;
+<http://example.org/lvl3_056> a skos:Concept ;
     rdfs:comment "Equable climate e.g. reduced risk of drought, flood & extreme weather events, lower summer temperatures, reduced health & safety risks, reduced flood risk, protection of infrastructure/lack of transport disruption. Regulation of local temperature and humidity." ;
-    skos:broader <http://example.com/lv2-007> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-056" ;
+    skos:broader <http://example.org/lvl2_007> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_056" ;
     skos:prefLabel "Climate regulation" .
 
-<http://example.com/lv3-057> a skos:Concept ;
+<http://example.org/lvl3_057> a skos:Concept ;
     rdfs:comment "Benefits to physical and mental health and wellbeing, particularly capabilities (e.g. knowledge, health, dexterity, judgement) and experiences (e.g. tranquillity, inspiration, escape, discovery). Benefits building knowledge and other capabilities." ;
-    skos:broader <http://example.com/lv2-008> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-057" ;
+    skos:broader <http://example.org/lvl2_008> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_057" ;
     skos:prefLabel "Physical, experiential and intellectual interactions" .
 
-<http://example.com/lv3-058> a skos:Concept ;
+<http://example.org/lvl3_058> a skos:Concept ;
     rdfs:comment "Benefits to mental health and wellbeing, particularly in terms of experiences (e.g. tranquillity, inspiration, escape, discovery) and identities (e.g. belonging, sense of place, rootedness, spirituality, sense of history)." ;
-    skos:broader <http://example.com/lv2-008> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-058" ;
+    skos:broader <http://example.org/lvl2_008> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_058" ;
     skos:prefLabel "Cultural significance of nature" .
 
-<http://example.com/lv3-059> a skos:Concept ;
+<http://example.org/lvl3_059> a skos:Concept ;
     rdfs:comment "Aspects of the environment that we want to ensure continue to exist for future generations, and that we consider important even if we do not use them." ;
-    skos:broader <http://example.com/lv2-008> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-059" ;
+    skos:broader <http://example.org/lvl2_008> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_059" ;
     skos:prefLabel "Non-use values" .
 
-<http://example.com/lv2-008> a skos:Concept ;
+<http://example.org/lvl1_002> a skos:Concept ;
+    rdfs:comment "Ecosystem services are the functions and goods that flow from natural assets which deliver benefits to people e.g. climate regulation, food production, water, energy, cultural significance. They are grouped into four broad categories: provisioning, regulating, cultural and supporting services. As most measurable ecosystem services fall under the first three categories, these have been included in this search tool.Natural capital benefits are the positive impacts of ecosystem services on human welfare, they enrich our lives and underpin the economy and wellbeing. The extent to which individuals and society receive benefits is affected by their values and available resources." ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl1_002" ;
+    skos:prefLabel "Ecosystem service or benefit" ;
+    skos:topConceptOf <http://example.org/NceaOntology> .
+
+<http://example.org/lvl2_008> a skos:Concept ;
     rdfs:comment "Cultural services provide non-material benefits, such as spiritual enrichment, recreation experience and associated physical and mental health impacts." ;
-    skos:broader <http://example.com/lvl1-002> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv2-008" ;
+    skos:broader <http://example.org/lvl1_002> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl2_008" ;
     skos:prefLabel "Cultural services" .
 
-<http://example.com/lvl1-002> a skos:Concept ;
-    rdfs:comment """Ecosystem services are the functions and goods that flow from natural assets which deliver benefits to people e.g. climate regulation, food production, water, energy, cultural significance. They are grouped into four broad categories: provisioning, regulating, cultural and supporting services. As most measurable ecosystem services fall under the first three categories, these have been included in this search tool.
-Natural capital benefits are the positive impacts of ecosystem services on human welfare, they enrich our lives and underpin the economy and wellbeing. The extent to which individuals and society receive benefits is affected by their values and available resources. """ ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lvl1-002" ;
-    skos:prefLabel "Ecosystem service or benefit" ;
-    skos:topConceptOf <http://example.com/NceaOntology> .
-
-<http://example.com/lv2-006> a skos:Concept ;
+<http://example.org/lvl2_006> a skos:Concept ;
     rdfs:comment "Provisioning services are goods obtained or extracted from living and non-living parts of the environment such as food, fresh water, fibre and fuel." ;
-    skos:broader <http://example.com/lvl1-002> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv2-006" ;
+    skos:broader <http://example.org/lvl1_002> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl2_006" ;
     skos:prefLabel "Provisioning services" .
 
-<http://example.com/lv2-007> a skos:Concept ;
+<http://example.org/lvl2_007> a skos:Concept ;
     rdfs:comment "Regulating services maintain/regulate the environment and often prevent harm (e.g. disease control, reduced flood risk, clean air)." ;
-    skos:broader <http://example.com/lvl1-002> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv2-007" ;
+    skos:broader <http://example.org/lvl1_002> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl2_007" ;
     skos:prefLabel "Regulating services" .
 
 [] a skos:Collection ;
-    skos:member <http://example.com/lv2-006>,
-        <http://example.com/lv2-007>,
-        <http://example.com/lv2-008>,
-        <http://example.com/lv3-049>,
-        <http://example.com/lv3-050>,
-        <http://example.com/lv3-051>,
-        <http://example.com/lv3-052>,
-        <http://example.com/lv3-053>,
-        <http://example.com/lv3-054>,
-        <http://example.com/lv3-055>,
-        <http://example.com/lv3-056>,
-        <http://example.com/lv3-057>,
-        <http://example.com/lv3-058>,
-        <http://example.com/lv3-059>,
-        <http://example.com/lvl1-002> .
+    skos:member <http://example.org/lvl1_002>,
+        <http://example.org/lvl2_006>,
+        <http://example.org/lvl2_007>,
+        <http://example.org/lvl2_008>,
+        <http://example.org/lvl3_049>,
+        <http://example.org/lvl3_050>,
+        <http://example.org/lvl3_051>,
+        <http://example.org/lvl3_052>,
+        <http://example.org/lvl3_053>,
+        <http://example.org/lvl3_054>,
+        <http://example.org/lvl3_055>,
+        <http://example.org/lvl3_056>,
+        <http://example.org/lvl3_057>,
+        <http://example.org/lvl3_058>,
+        <http://example.org/lvl3_059> .
 

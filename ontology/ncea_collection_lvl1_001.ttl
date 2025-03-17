@@ -1,440 +1,453 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://example.com/lv3-001> a skos:Concept ;
-    rdfs:comment "Covers all broadleaved, yew, and mixed broadleaved and coniferous stands which have more than 20% cover of broadleaved and yew trees. It includes patches of scrub where the woody element creates a canopy of more than 30% and the scrub area is above 0.25ha, recently felled broadleaved woodland, and integral features of woodland such as glades (clearings) and rides (pathways).?" ;
-    skos:broader <http://example.com/lv2-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-001" ;
+<http://example.org/lvl3_001> a skos:Concept ;
+    rdfs:comment "Covers all broadleaved, yew, and mixed broadleaved and coniferous stands which have more than 20% cover of broadleaved and yew trees. It includes patches of scrub where the woody element creates a canopy of more than 30% and the scrub area is above 0.25ha, recently felled broadleaved woodland, and integral features of woodland such as glades (clearings) and rides (pathways)." ;
+    skos:broader <http://example.org/lvl2_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_001" ;
     skos:prefLabel "Broadleaved, mixed and yew woodland" .
 
-<http://example.com/lv3-002> a skos:Concept ;
-    rdfs:comment "Covers all coniferous stands where native and non-native conifers exceed more than 80% of the total cover of trees present.  It includes recently felled coniferous woodland and integral features of woodland, such as glades (clearings) and rides (pathways). It excludes yew woodlands. " ;
-    skos:broader <http://example.com/lv2-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-002" ;
+<http://example.org/lvl3_002> a skos:Concept ;
+    rdfs:comment "Covers all coniferous stands where native and non-native conifers exceed more than 80% of the total cover of trees present.  It includes recently felled coniferous woodland and integral features of woodland, such as glades (clearings) and rides (pathways). It excludes yew woodlands." ;
+    skos:broader <http://example.org/lvl2_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_002" ;
     skos:prefLabel "Coniferous woodland" .
 
-<http://example.com/lv3-003> a skos:Concept ;
+<http://example.org/lvl3_003> a skos:Concept ;
     rdfs:comment "Covers landscape features that are linear in appearance, such as hedgerows, lines of trees, stonewalls, and built components of the rural landscape such as railways, roads, and verges. It excludes canals, rivers, woodland rides or arable field margins managed for nature conservation which are covered in other broad habitats." ;
-    skos:broader <http://example.com/lv2-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-003" ;
+    skos:broader <http://example.org/lvl2_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_003" ;
     skos:prefLabel "Boundary and linear features" .
 
-<http://example.com/lv3-004> a skos:Concept ;
+<http://example.org/lvl3_004> a skos:Concept ;
     rdfs:comment "Covers arable cropland, commercial horticultural land, freshly ploughed land, other cultivated areas such as temporary grasslands and fallow. It excludes domestic gardens and allotments which are covered by 'Built-up areas and gardens'." ;
-    skos:broader <http://example.com/lv2-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-004" ;
+    skos:broader <http://example.org/lvl2_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_004" ;
     skos:prefLabel "Arable and horticulture" .
 
-<http://example.com/lv3-005> a skos:Concept ;
-    rdfs:comment "Highly modified / intensively managed grassland, dominated by a few fast-growing grasses on fertile, neutral soils.?These grasslands tend to be managed as pasture, used for silage production, and for recreation and amenity purposes.?" ;
-    skos:broader <http://example.com/lv2-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-005" ;
+<http://example.org/lvl3_005> a skos:Concept ;
+    rdfs:comment "Highly modified / intensively managed grassland, dominated by a few fast-growing grasses on fertile, neutral soils.These grasslands tend to be managed as pasture, used for silage production, and for recreation and amenity purposes." ;
+    skos:broader <http://example.org/lvl2_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_005" ;
     skos:prefLabel "Improved grassland" .
 
-<http://example.com/lv3-006> a skos:Concept ;
+<http://example.org/lvl3_006> a skos:Concept ;
     rdfs:comment "Covers semi-improved and unimproved grassland on soils with a neutral pH. It includes managed grassland like hay meadows and pastures, grasslands with various amounts of waterlogging.  These grasslands have a greater range and cover of herbs than improved grassland." ;
-    skos:broader <http://example.com/lv2-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-006" ;
+    skos:broader <http://example.org/lvl2_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_006" ;
     skos:prefLabel "Neutral grassland" .
 
-<http://example.com/lv3-007> a skos:Concept ;
+<http://example.org/lvl3_007> a skos:Concept ;
     rdfs:comment "Covers semi-improved and unimproved grassland on soils with a pH above 7. They are found on shallow soils rich in lime, typically underlain by chalk or limestone rocks." ;
-    skos:broader <http://example.com/lv2-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-007" ;
+    skos:broader <http://example.org/lvl2_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_007" ;
     skos:prefLabel "Calcareous grassland" .
 
-<http://example.com/lv3-008> a skos:Concept ;
+<http://example.org/lvl3_008> a skos:Concept ;
     rdfs:comment "Covers semi-improved and unimproved grassland on soils with a pH below 5.5. It excludes saltmarsh and sand-dune communities." ;
-    skos:broader <http://example.com/lv2-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-008" ;
+    skos:broader <http://example.org/lvl2_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_008" ;
     skos:prefLabel "Acid grassland" .
 
-<http://example.com/lv3-009> a skos:Concept ;
+<http://example.org/lvl3_009> a skos:Concept ;
     rdfs:comment "Areas covered by continuous bracken. It excludes scattered patches and areas of bracken that are less than 0.25ha which should be classified with their associated broad habitat type." ;
-    skos:broader <http://example.com/lv2-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-009" ;
+    skos:broader <http://example.org/lvl2_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_009" ;
     skos:prefLabel "Bracken" .
 
-<http://example.com/lv3-010> a skos:Concept ;
+<http://example.org/lvl3_010> a skos:Concept ;
     rdfs:comment "Vegetation dominated by heath family species or dwarf gorse on well-drained, nutrient poor, acid soils.  It excludes dwarf shrub associated with peat (formation and substrate), alpine and coastal areas." ;
-    skos:broader <http://example.com/lv2-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-010" ;
+    skos:broader <http://example.org/lvl2_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_010" ;
     skos:prefLabel "Dwarf shrub heath" .
 
-<http://example.com/lv3-011> a skos:Concept ;
+<http://example.org/lvl3_011> a skos:Concept ;
     rdfs:comment "Vegetation types found on groundwater-fed, permanently, seasonally, or periodically waterlogged peat, peaty, or mineral soils. It excludes areas of waterlogged wooded terrain over 0.25ha and wet grassland which are covered by other broad habitats." ;
-    skos:broader <http://example.com/lv2-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-011" ;
+    skos:broader <http://example.org/lvl2_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_011" ;
     skos:prefLabel "Fen, marsh and swamp" .
 
-<http://example.com/lv3-012> a skos:Concept ;
+<http://example.org/lvl3_012> a skos:Concept ;
     rdfs:comment "Wetlands with vegetation that typically forms peat, receiving nutrients principally from precipitation rather than ground water. It includes blanket bog, raised bog, and intermediate bog habitats." ;
-    skos:broader <http://example.com/lv2-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-012" ;
+    skos:broader <http://example.org/lvl2_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_012" ;
     skos:prefLabel "Bogs" .
 
-<http://example.com/lv3-013> a skos:Concept ;
-    rdfs:comment "Covers natural water bodies like lakes and man-made ones like reservoirs, ponds, and canals. It includes open water vegetation and vegetation at the water's edge. Also includes ditches having open water for most of the year and adjacent wetland habitats?with connected water levels that are less than 0.25 hectares." ;
-    skos:broader <http://example.com/lv2-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-013" ;
+<http://example.org/lvl3_013> a skos:Concept ;
+    rdfs:comment "Covers natural water bodies like lakes and man-made ones like reservoirs, ponds, and canals. It includes open water vegetation and vegetation at the water's edge. Also includes ditches having open water for most of the year and adjacent wetland habitatswith connected water levels that are less than 0.25 hectares." ;
+    skos:broader <http://example.org/lvl2_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_013" ;
     skos:prefLabel "Standing open water and canals" .
 
-<http://example.com/lv3-014> a skos:Concept ;
+<http://example.org/lvl3_014> a skos:Concept ;
     rdfs:comment "Large (rivers) and small (streams) running waters. It covers the area up to the average yearly flood level, including the open channel, vegetation at the water's edge, and exposed sediments and shingle banks." ;
-    skos:broader <http://example.com/lv2-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-014" ;
+    skos:broader <http://example.org/lvl2_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_014" ;
     skos:prefLabel "Rivers and streams" .
 
-<http://example.com/lv3-015> a skos:Concept ;
+<http://example.org/lvl3_015> a skos:Concept ;
     rdfs:comment "Covers vegetation types occurring in the montane zone (above the natural tree line).  This includes dwarf shrub heath, snow bed communities, sedge and rush heaths, and moss and lichen heaths." ;
-    skos:broader <http://example.com/lv2-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-015" ;
+    skos:broader <http://example.org/lvl2_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_015" ;
     skos:prefLabel "Montane habitats" .
 
-<http://example.com/lv3-016> a skos:Concept ;
+<http://example.org/lvl3_016> a skos:Concept ;
     rdfs:comment "Covers natural and man-made exposed rock surfaces that are greater than 0.25 ha and almost entirely lack vegetation. It covers inland cliffs, ledges, caves, screes, limestone pavements, quarries, waste tips.  Plant communities include those that colonise cracks and fissures, grasslands on soils containing heavy metals, and some tall herbs and fern vegetation." ;
-    skos:broader <http://example.com/lv2-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-016" ;
+    skos:broader <http://example.org/lvl2_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_016" ;
     skos:prefLabel "Inland rock" .
 
-<http://example.com/lv3-017> a skos:Concept ;
+<http://example.org/lvl3_017> a skos:Concept ;
     rdfs:comment "Covers urban and rural settlements, farm buildings, caravan parks, industrial areas and other man-made structures like retail parks, urban parks, transport infrastructure and derelict land. It includes domestic gardens and allotments. Amenity grassland is included in the Improved Grassland category." ;
-    skos:broader <http://example.com/lv2-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-017" ;
+    skos:broader <http://example.org/lvl2_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_017" ;
     skos:prefLabel "Built up areas and gardens" .
 
-<http://example.com/lv3-018> a skos:Concept ;
+<http://example.org/lvl3_018> a skos:Concept ;
     rdfs:comment "Sand-covered shorelines of the oceans, their connected seas and associated coastal lagoons, fashioned by the action of wind or waves. They include gently sloping beaches and beach-ridges, formed by sands brought by waves, longshore drift and storm waves, as well as dunes, formed by aeolian deposits, though sometimes re-fashioned by waves." ;
-    skos:broader <http://example.com/lv2-002> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-018" ;
+    skos:broader <http://example.org/lvl2_002> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_018" ;
     skos:prefLabel "Coastal dunes and sandy shores" .
 
-<http://example.com/lv3-019> a skos:Concept ;
+<http://example.org/lvl3_019> a skos:Concept ;
     rdfs:comment "Beaches of the oceans, of their connected seas and of their associated coastal lagoons, covered by pebbles, or sometimes boulders, usually formed by wave action." ;
-    skos:broader <http://example.com/lv2-002> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-019" ;
+    skos:broader <http://example.org/lvl2_002> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_019" ;
     skos:prefLabel "Coastal shingle" .
 
-<http://example.com/lv3-020> a skos:Concept ;
+<http://example.org/lvl3_020> a skos:Concept ;
     rdfs:comment "Sea-cliffs, or parts of sea-cliffs, and rocky shores colonized by disjunct assemblages of salt-tolerant crevice plants (chasmophytes) or by more or less closed salt-tolerant grasslands with associated terrestrial invertebrate and vertebrate faunal communities." ;
-    skos:broader <http://example.com/lv2-002> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-020" ;
+    skos:broader <http://example.org/lvl2_002> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_020" ;
     skos:prefLabel "Rock cliffs, ledges and shores including the supralittoral" .
 
-<http://example.com/lv3-021> a skos:Concept ;
+<http://example.org/lvl3_021> a skos:Concept ;
     rdfs:comment "An estuary is a semi-enclosed coastal body of water with one or more rivers or streams flowing into it, where saltwater is measurably diluted with freshwater from the land and the river is subject to tidal action. Estuaries are often associated with high rates of biological productivity." ;
-    skos:broader <http://example.com/lv2-002> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-021" ;
+    skos:broader <http://example.org/lvl2_002> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_021" ;
     skos:prefLabel "Estuaries" .
 
-<http://example.com/lv3-022> a skos:Concept ;
+<http://example.org/lvl3_022> a skos:Concept ;
     rdfs:comment "A biogenic structure is formed when reef-forming species, such as cold water corals, attach to any hard substrate present and grow over the surrounding area forming a secondary substrate over the top. This changes the composition of the associated community as it provides a stable surface for epifauna to attach. Biogenic structure includes only areas where the seafloor is completely covered, not isolated structures, such as sponge aggregations or discrete corals." ;
-    skos:broader <http://example.com/lv2-003> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-022" ;
+    skos:broader <http://example.org/lvl2_003> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_022" ;
     skos:prefLabel "Biogenic habitat" .
 
-<http://example.com/lv3-023> a skos:Concept ;
-    rdfs:comment "Rock and other hard substrate have a diverse epifaunal community as species attach to the hard surface that in turn attract more fauna. Rock includes bedrock mixed substrate of pebbles, cobbles and boulders, and isolated drop stones. It can occur in a mosaic with sediment habitats. Rock does not have an infaunal/soft-substrate community. This definition covers rock (and other hard substrate) habitats at all water depths. " ;
-    skos:broader <http://example.com/lv2-003> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-023" ;
+<http://example.org/lvl3_023> a skos:Concept ;
+    rdfs:comment "Rock and other hard substrate have a diverse epifaunal community as species attach to the hard surface that in turn attract more fauna. Rock includes bedrock mixed substrate of pebbles, cobbles and boulders, and isolated drop stones. It can occur in a mosaic with sediment habitats. Rock does not have an infaunal/soft-substrate community. This definition covers rock (and other hard substrate) habitats at all water depths." ;
+    skos:broader <http://example.org/lvl2_003> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_023" ;
     skos:prefLabel "Rock (and other hard substrate)" .
 
-<http://example.com/lv3-024> a skos:Concept ;
+<http://example.org/lvl3_024> a skos:Concept ;
     rdfs:comment "Epifauna tend to be sparse mobile species or burrowing fauna such as anemones visible at the surface. If sediment particles are large enough to be classed as gravel using the Folk classification then sediment would be classed as coarse sediment rather than sand. If sand contains a high enough percentage of gravel it is also classed as coarse sediment. Coral rubble is classed as coarse sediment. Stable pebbles, cobbles and boulders are classed as rock; any rock present on coarse sediment is considered a separate habitat within a mosaic. This definition covers coarse sediment habitats at all water depths." ;
-    skos:broader <http://example.com/lv2-003> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-024" ;
+    skos:broader <http://example.org/lvl2_003> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_024" ;
     skos:prefLabel "Coarse sediment" .
 
-<http://example.com/lv3-025> a skos:Concept ;
+<http://example.org/lvl3_025> a skos:Concept ;
     rdfs:comment "Epifauna tend to be sparse mobile species. Mixed sediment has a greater mud content than coarse sediment. If muddy sand sediment contains a high enough percentage of gravel, then it would be classed as mixed sediment. Stable pebbles, cobbles and boulders are classed as rock; any rock present on mixed sediment is considered a separate habitat within a mosaic. This definition covers mixed sediment habitats at all water depths." ;
-    skos:broader <http://example.com/lv2-003> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-025" ;
+    skos:broader <http://example.org/lvl2_003> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_025" ;
     skos:prefLabel "Mixed sediment" .
 
-<http://example.com/lv3-026> a skos:Concept ;
+<http://example.org/lvl3_026> a skos:Concept ;
     rdfs:comment "Epifauna tend to be sparse, mobile species, or burrowing fauna such as anemones and brittlestars visible at the surface. Muddy sand sediments are classed as mud if the mud content is great enough. If sediment particles are large enough to be classed as gravel using the Folk classification, then sediment would be classed as coarse sediment rather than sand. If sand contains a high enough percentage of gravel it is also classed as coarse sediment. This definition covers sand habitats at all water depths." ;
-    skos:broader <http://example.com/lv2-003> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-026" ;
+    skos:broader <http://example.org/lvl2_003> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_026" ;
     skos:prefLabel "Sand" .
 
-<http://example.com/lv3-027> a skos:Concept ;
+<http://example.org/lvl3_027> a skos:Concept ;
     rdfs:comment "Epifauna tend to be sparse, mobile species, or burrowing fauna such as anemones and brittlestars visible at the surface. Muddy sand sediments are classed as mud if the mud content is great enough. This definition covers mud habitats at all water depths." ;
-    skos:broader <http://example.com/lv2-003> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-027" ;
+    skos:broader <http://example.org/lvl2_003> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_027" ;
     skos:prefLabel "Mud" .
 
-<http://example.com/lv3-028> a skos:Concept ;
+<http://example.org/lvl3_028> a skos:Concept ;
     rdfs:comment "Open ocean zone where the water column inconsistently alternates between levels of stratification." ;
-    skos:broader <http://example.com/lv2-003> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-028" ;
+    skos:broader <http://example.org/lvl2_003> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_028" ;
     skos:prefLabel "Pelagic - indeterminate" .
 
-<http://example.com/lv3-029> a skos:Concept ;
+<http://example.org/lvl3_029> a skos:Concept ;
     rdfs:comment "Open ocean zone where the water column is occasionally stratified during the year." ;
-    skos:broader <http://example.com/lv2-003> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-029" ;
+    skos:broader <http://example.org/lvl2_003> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_029" ;
     skos:prefLabel "Pelagic - intermittently stratified" .
 
-<http://example.com/lv3-030> a skos:Concept ;
+<http://example.org/lvl3_030> a skos:Concept ;
     rdfs:comment "Open ocean zone where the water column is consistently well mixed throughout the year." ;
-    skos:broader <http://example.com/lv2-003> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-030" ;
+    skos:broader <http://example.org/lvl2_003> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_030" ;
     skos:prefLabel "Pelagic - permanently mixed" .
 
-<http://example.com/lv3-031> a skos:Concept ;
+<http://example.org/lvl3_031> a skos:Concept ;
     rdfs:comment "Open ocean zone where the water column is consistently stratified throughout the year." ;
-    skos:broader <http://example.com/lv2-003> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-031" ;
+    skos:broader <http://example.org/lvl2_003> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_031" ;
     skos:prefLabel "Pelagic - permanently stratified" .
 
-<http://example.com/lv3-032> a skos:Concept ;
+<http://example.org/lvl3_032> a skos:Concept ;
     rdfs:comment "Open ocean zone where the water column is seasonally thermally stratified throughout the year." ;
-    skos:broader <http://example.com/lv2-003> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-032" ;
+    skos:broader <http://example.org/lvl2_003> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_032" ;
     skos:prefLabel "Pelagic - seasonally stratified" .
 
-<http://example.com/lv3-033> a skos:Concept ;
+<http://example.org/lvl3_033> a skos:Concept ;
     rdfs:comment "Open ocean zone where the water column receives freshwater input from land." ;
-    skos:broader <http://example.com/lv2-003> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-033" ;
+    skos:broader <http://example.org/lvl2_003> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_033" ;
     skos:prefLabel "Pelagic - region of freshwater influence" .
 
-<http://example.com/lv3-034> a skos:Concept ;
+<http://example.org/lvl3_034> a skos:Concept ;
     rdfs:comment "Surface waters on the landward side of a line, every point of which is at a distance of one nautical mile on the seaward side from the nearest point of the baseline from which the breadth of territorial waters is measured, extending where appropriate up to the outer limit of transitional waters." ;
-    skos:broader <http://example.com/lv2-003> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-034" ;
-    skos:prefLabel "Pelagic - coastal water (up to 1mm)" .
+    skos:broader <http://example.org/lvl2_003> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_034" ;
+    skos:prefLabel "Pelagic - coastal water (up to 1 nautical mile)" .
 
-<http://example.com/lv3-035> a skos:Concept ;
+<http://example.org/lvl3_035> a skos:Concept ;
     rdfs:comment "Includes fish species that span multiple habitats, and so are not easily allocated to an habitat class. E.g. Atlantic Bluefin Tuna, Salmon, Sharks, Mackerel, Eels, etc." ;
-    skos:broader <http://example.com/lv2-004> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-035" ;
+    skos:broader <http://example.org/lvl2_004> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_035" ;
     skos:prefLabel "Fish" .
 
-<http://example.com/lv3-036> a skos:Concept ;
+<http://example.org/lvl3_036> a skos:Concept ;
     rdfs:comment "Includes species that span multiple habitats, and so are not easily allocated to an asset class. E.g. Swallows, Arctic Tern, Redwing, Chiffchaff, Common Swift, Razorbills, puffins etc." ;
-    skos:broader <http://example.com/lv2-004> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-036" ;
+    skos:broader <http://example.org/lvl2_004> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_036" ;
     skos:prefLabel "Birds" .
 
-<http://example.com/lv3-037> a skos:Concept ;
+<http://example.org/lvl3_037> a skos:Concept ;
     rdfs:comment "Includes species that span multiple habitats, and so are not easily allocated to an asset class. E.g. seals, cetaceans, bats, red deer, etc." ;
-    skos:broader <http://example.com/lv2-004> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-037" ;
+    skos:broader <http://example.org/lvl2_004> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_037" ;
     skos:prefLabel "Mammals" .
 
-<http://example.com/lv3-038> a skos:Concept ;
+<http://example.org/lvl3_038> a skos:Concept ;
     rdfs:comment "Includes species that span multiple habitats, and so are not easily allocated to an asset class. E.g. butterflies, moths, dragonflies, hoverflies, etc." ;
-    skos:broader <http://example.com/lv2-004> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-038" ;
+    skos:broader <http://example.org/lvl2_004> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_038" ;
     skos:prefLabel "Insects" .
 
-<http://example.com/lv3-039> a skos:Concept ;
+<http://example.org/lvl3_039> a skos:Concept ;
     rdfs:comment "Includes species that span multiple habitats, and so are not easily allocated to an asset class. E.g. turtles." ;
-    skos:broader <http://example.com/lv2-004> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-039" ;
+    skos:broader <http://example.org/lvl2_004> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_039" ;
     skos:prefLabel "Reptiles" .
 
-<http://example.com/lv3-040> a skos:Concept ;
+<http://example.org/lvl3_040> a skos:Concept ;
     rdfs:comment "Includes species that span multiple habitats, and so are not easily allocated to an asset class. E.g. Common Cuttlefish, European Squid, etc." ;
-    skos:broader <http://example.com/lv2-004> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-040" ;
+    skos:broader <http://example.org/lvl2_004> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_040" ;
     skos:prefLabel "Cephalopods" .
 
-<http://example.com/lv3-041> a skos:Concept ;
+<http://example.org/lvl3_041> a skos:Concept ;
     rdfs:comment "Includes species that do not fit into any of the groups listed above but that span multiple habitats, and so are not easily allocated to an asset class." ;
-    skos:broader <http://example.com/lv2-004> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-041" ;
+    skos:broader <http://example.org/lvl2_004> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_041" ;
     skos:prefLabel "Other" .
 
-<http://example.com/lv3-042> a skos:Concept ;
-    rdfs:comment """Climate is the generalised weather of an area, including typical patterns of sunlight, temperature, rainfall and wind. It also includes seasonal effects, such as changes in day length.
-Microclimate is the localised climate of a particular location, which can be measured over multiple scales (e.g. beneath a tree or within a valley). It represents the local modification of the climate through various surface factors such as topography, vegetation, the presence of water and soil types.""" ;
-    skos:broader <http://example.com/lv2-005> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-042" ;
+<http://example.org/lvl3_042> a skos:Concept ;
+    rdfs:comment "Climate is the generalised weather of an area, including typical patterns of sunlight, temperature, rainfall and wind. It also includes seasonal effects, such as changes in day length.Microclimate is the localised climate of a particular location, which can be measured over multiple scales (e.g. beneath a tree or within a valley). It represents the local modification of the climate through various surface factors such as topography, vegetation, the presence of water and soil types." ;
+    skos:broader <http://example.org/lvl2_005> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_042" ;
     skos:prefLabel "Climate and Microclimate" .
 
-<http://example.com/lv3-043> a skos:Concept ;
+<http://example.org/lvl3_043> a skos:Concept ;
     rdfs:comment "An assemblage of species occurring in the same space or time, often linked by biotic interactions such as competition or predation." ;
-    skos:broader <http://example.com/lv2-005> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-043" ;
+    skos:broader <http://example.org/lvl2_005> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_043" ;
     skos:prefLabel "Ecological community" .
 
-<http://example.com/lv3-044> a skos:Concept ;
+<http://example.org/lvl3_044> a skos:Concept ;
     rdfs:comment "Functional traits are behaviours, morphologies or other characteristics of organisms that impact that organisms environment or ecosystem (e.g. burrowing, body size, breeding behaviour, filter feeding etc.)." ;
-    skos:broader <http://example.com/lv2-005> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-044" ;
+    skos:broader <http://example.org/lvl2_005> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_044" ;
     skos:prefLabel "Functional trait" .
 
-<http://example.com/lv3-045> a skos:Concept ;
+<http://example.org/lvl3_045> a skos:Concept ;
     rdfs:comment "An intrinsic ecosystem characteristic whereby an ecosystem maintains its integrity.  Ecosystem processes include decomposition, production, nutrient cycling and fluxes of nutrients and energy." ;
-    skos:broader <http://example.com/lv2-005> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-045" ;
+    skos:broader <http://example.org/lvl2_005> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_045" ;
     skos:prefLabel "Ecosystem process" .
 
-<http://example.com/lv3-046> a skos:Concept ;
-    rdfs:comment """Soils are vertical profiles of weathered geological material (including sediments) and organic deposits, they have a variety of physical, mineral, and biotic characteristics, including pH, texture, aeration/compaction, carbon content, particle size and nutrient content. 
-Sediments are weathered materials that have been transported from the place they were originally weathered from their parent material. This includes marine sediments are the accumulation of particles, organic matter and other materials that settle on the ocean floor over time.
-Geology is the original parent material from which sediments and soils are weathered. Landform is topographic features such as aspect, slope and elevation which affect climate and geology of a location which in turn affect its hydrology (e.g. catchment characteristics, in combination with soils and watercourse features) and biota.""" ;
-    skos:broader <http://example.com/lv2-005> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-046" ;
+<http://example.org/lvl3_046> a skos:Concept ;
+    rdfs:comment "Soils are vertical profiles of weathered geological material (including sediments) and organic deposits, they have a variety of physical, mineral, and biotic characteristics, including pH, texture, aeration/compaction, carbon content, particle size and nutrient content. Sediments are weathered materials that have been transported from the place they were originally weathered from their parent material. This includes marine sediments are the accumulation of particles, organic matter and other materials that settle on the ocean floor over time.Geology is the original parent material from which sediments and soils are weathered. Landform is topographic features such as aspect, slope and elevation which affect climate and geology of a location which in turn affect its hydrology (e.g. catchment characteristics, in combination with soils and watercourse features) and biota." ;
+    skos:broader <http://example.org/lvl2_005> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_046" ;
     skos:prefLabel "Soils, Sediments and Geology" .
 
-<http://example.com/lv3-047> a skos:Concept ;
-    rdfs:comment "Hydrology is the branch of science concerned with the properties of the earth's water and its movement over and through the Earth's surface. This includes ground water (all water that exists in soils, sediments and rock), surface water bodies (bodies of freshwater in non-marine and coastal environments, including streams, rivers and lakes) and all marine environments. These waters have different abiotic and biotic chemistry (for instance different pH, Dissolved Organic Carbon, dissolved oxygen, and ammonia/nitrate concentrations), and biotic communities. " ;
-    skos:broader <http://example.com/lv2-005> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-047" ;
+<http://example.org/lvl3_047> a skos:Concept ;
+    rdfs:comment "Hydrology is the branch of science concerned with the properties of the earth's water and its movement over and through the Earth's surface. This includes ground water (all water that exists in soils, sediments and rock), surface water bodies (bodies of freshwater in non-marine and coastal environments, including streams, rivers and lakes) and all marine environments. These waters have different abiotic and biotic chemistry (for instance different pH, Dissolved Organic Carbon, dissolved oxygen, and ammonia/nitrate concentrations), and biotic communities." ;
+    skos:broader <http://example.org/lvl2_005> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_047" ;
     skos:prefLabel "Water Chemistry and Hydrology" .
 
-<http://example.com/lv3-048> a skos:Concept ;
+<http://example.org/lvl3_048> a skos:Concept ;
     rdfs:comment "Atmosphere is the mixture of gases which surround the Earths surface." ;
-    skos:broader <http://example.com/lv2-005> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv3-048" ;
+    skos:broader <http://example.org/lvl2_005> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_048" ;
     skos:prefLabel "Atmosphere" .
 
-<http://example.com/lv2-002> a skos:Concept ;
+<http://example.org/lvl3_200> a skos:Concept ;
+    rdfs:comment "Marine benthic habitats are the bed of seas directly connected to the oceans. Benthic habitats can classified according to different substrate types i.e. hard substrate, coarse sediment, mixed sediment, sand, mud and biogenic." ;
+    skos:broader <http://example.org/lvl2_003> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_200" ;
+    skos:prefLabel "Benthic general" .
+
+<http://example.org/lvl3_201> a skos:Concept ;
+    rdfs:comment "The water column of shallow or deep sea, or enclosed coastal waters. Note that because of the strong temporal nature of the pelagic environment, the water column at a given location will be classified differently at different times of the year." ;
+    skos:broader <http://example.org/lvl2_003> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl3_201" ;
+    skos:prefLabel "Pelagic general" .
+
+<http://example.org/lvl2_002> a skos:Concept ;
     rdfs:comment "Habitats located at the interface of land and sea, including beaches, salt marshes, estuaries, and rocky shores. These environments are shaped by the dynamic interactions between terrestrial and marine influences, such as tides." ;
-    skos:broader <http://example.com/lvl1-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv2-002" ;
+    skos:broader <http://example.org/lvl1_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl2_002" ;
     skos:prefLabel "Coastal and estuarine habitats" .
 
-<http://example.com/lvl1-001> a skos:Concept ;
+<http://example.org/lvl1_001> a skos:Concept ;
     rdfs:comment "Natural Assets are the living and non-living elements of ecosystems including soils, freshwater, minerals, air and oceans. We often group assets by broad habitat types (e.g. woodland or pelagic) but can also group them by the components that make up ecosystems  (e.g. by species that span multiple habitats,  soils and sediments)." ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lvl1-001" ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl1_001" ;
     skos:prefLabel "Natural asset" ;
-    skos:topConceptOf <http://example.com/NceaOntology> .
+    skos:topConceptOf <http://example.org/NceaOntology> .
 
-<http://example.com/lv2-004> a skos:Concept ;
+<http://example.org/lvl2_004> a skos:Concept ;
     rdfs:comment "Habitat generalist species are known for spanning multiple habitats, either through adaptability or through extensive movements over large geographical distances, often during specific times of the year (migratory species). Includes species of birds, marine mammals, insects and fish." ;
-    skos:broader <http://example.com/lvl1-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv2-004" ;
+    skos:broader <http://example.org/lvl1_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl2_004" ;
     skos:prefLabel "Generalist species (spanning multiple habitats)" .
 
-<http://example.com/lv2-005> a skos:Concept ;
+<http://example.org/lvl2_005> a skos:Concept ;
     rdfs:comment "An ecosystem is a dynamic complex of living and non-living elements interacting as a functional unit including the processes that support these functions. These include Climate, Atmosphere, Soils, Sediments and Geology, Water Chemistry and Hydrology, and Biodiversity." ;
-    skos:broader <http://example.com/lvl1-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv2-005" ;
+    skos:broader <http://example.org/lvl1_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl2_005" ;
     skos:prefLabel "Ecosystem component" .
 
-<http://example.com/lv2-003> a skos:Concept ;
+<http://example.org/lvl2_003> a skos:Concept ;
     rdfs:comment "Marine habitats are directly connected to the oceans, i.e. part of the continuous body of water which covers the greater part of the earths surface and which surrounds its land masses. Marine waters may be fully saline, brackish or almost fresh. Marine habitats include those below spring high tide limit (or below mean water level in non-tidal waters) and enclosed coastal saline or brackish waters, without a permanent surface connection to the sea but either with intermittent surface or sub-surface connections (as in lagoons). Rockpools in the supralittoral zone are considered as enclaves of the marine zone. Includes marine littoral habitats which are subject to wet and dry periods on a tidal cycle including tidal saltmarshes; marine littoral habitats which are normally water-covered but intermittently exposed due to the action of wind or atmospheric pressure changes; freshly deposited marine strandlines characterised by marine invertebrates. Waterlogged littoral saltmarshes and associated saline or brackish pools above the mean water level in non-tidal waters or above the spring high tide limit in tidal waters are included with marine habitats. Includes constructed marine saline habitats below water level as defined above (such as in marinas, harbours, etc) which support a semi-natural community of both plants and animals. The marine water column includes bodies of ice." ;
-    skos:broader <http://example.com/lvl1-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv2-003" ;
+    skos:broader <http://example.org/lvl1_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl2_003" ;
     skos:prefLabel "Marine habitats" .
 
-<http://example.com/lv2-001> a skos:Concept ;
+<http://example.org/lvl2_001> a skos:Concept ;
     rdfs:comment "Habitats found on land and in freshwater.  This includes mountains, moorlands and heath, grasslands, farmland, woodlands, urban, linear features, and various freshwater bodies, e.g. rivers, lakes, small streams." ;
-    skos:broader <http://example.com/lvl1-001> ;
-    skos:inScheme <http://example.com/NceaOntology> ;
-    skos:notation "lv2-001" ;
+    skos:broader <http://example.org/lvl1_001> ;
+    skos:inScheme <http://example.org/NceaOntology> ;
+    skos:notation "lvl2_001" ;
     skos:prefLabel "Terrestrial and freshwater habitats" .
 
 [] a skos:Collection ;
-    skos:member <http://example.com/lv2-001>,
-        <http://example.com/lv2-002>,
-        <http://example.com/lv2-003>,
-        <http://example.com/lv2-004>,
-        <http://example.com/lv2-005>,
-        <http://example.com/lv3-001>,
-        <http://example.com/lv3-002>,
-        <http://example.com/lv3-003>,
-        <http://example.com/lv3-004>,
-        <http://example.com/lv3-005>,
-        <http://example.com/lv3-006>,
-        <http://example.com/lv3-007>,
-        <http://example.com/lv3-008>,
-        <http://example.com/lv3-009>,
-        <http://example.com/lv3-010>,
-        <http://example.com/lv3-011>,
-        <http://example.com/lv3-012>,
-        <http://example.com/lv3-013>,
-        <http://example.com/lv3-014>,
-        <http://example.com/lv3-015>,
-        <http://example.com/lv3-016>,
-        <http://example.com/lv3-017>,
-        <http://example.com/lv3-018>,
-        <http://example.com/lv3-019>,
-        <http://example.com/lv3-020>,
-        <http://example.com/lv3-021>,
-        <http://example.com/lv3-022>,
-        <http://example.com/lv3-023>,
-        <http://example.com/lv3-024>,
-        <http://example.com/lv3-025>,
-        <http://example.com/lv3-026>,
-        <http://example.com/lv3-027>,
-        <http://example.com/lv3-028>,
-        <http://example.com/lv3-029>,
-        <http://example.com/lv3-030>,
-        <http://example.com/lv3-031>,
-        <http://example.com/lv3-032>,
-        <http://example.com/lv3-033>,
-        <http://example.com/lv3-034>,
-        <http://example.com/lv3-035>,
-        <http://example.com/lv3-036>,
-        <http://example.com/lv3-037>,
-        <http://example.com/lv3-038>,
-        <http://example.com/lv3-039>,
-        <http://example.com/lv3-040>,
-        <http://example.com/lv3-041>,
-        <http://example.com/lv3-042>,
-        <http://example.com/lv3-043>,
-        <http://example.com/lv3-044>,
-        <http://example.com/lv3-045>,
-        <http://example.com/lv3-046>,
-        <http://example.com/lv3-047>,
-        <http://example.com/lv3-048>,
-        <http://example.com/lvl1-001> .
+    skos:member <http://example.org/lvl1_001>,
+        <http://example.org/lvl2_001>,
+        <http://example.org/lvl2_002>,
+        <http://example.org/lvl2_003>,
+        <http://example.org/lvl2_004>,
+        <http://example.org/lvl2_005>,
+        <http://example.org/lvl3_001>,
+        <http://example.org/lvl3_002>,
+        <http://example.org/lvl3_003>,
+        <http://example.org/lvl3_004>,
+        <http://example.org/lvl3_005>,
+        <http://example.org/lvl3_006>,
+        <http://example.org/lvl3_007>,
+        <http://example.org/lvl3_008>,
+        <http://example.org/lvl3_009>,
+        <http://example.org/lvl3_010>,
+        <http://example.org/lvl3_011>,
+        <http://example.org/lvl3_012>,
+        <http://example.org/lvl3_013>,
+        <http://example.org/lvl3_014>,
+        <http://example.org/lvl3_015>,
+        <http://example.org/lvl3_016>,
+        <http://example.org/lvl3_017>,
+        <http://example.org/lvl3_018>,
+        <http://example.org/lvl3_019>,
+        <http://example.org/lvl3_020>,
+        <http://example.org/lvl3_021>,
+        <http://example.org/lvl3_022>,
+        <http://example.org/lvl3_023>,
+        <http://example.org/lvl3_024>,
+        <http://example.org/lvl3_025>,
+        <http://example.org/lvl3_026>,
+        <http://example.org/lvl3_027>,
+        <http://example.org/lvl3_028>,
+        <http://example.org/lvl3_029>,
+        <http://example.org/lvl3_030>,
+        <http://example.org/lvl3_031>,
+        <http://example.org/lvl3_032>,
+        <http://example.org/lvl3_033>,
+        <http://example.org/lvl3_034>,
+        <http://example.org/lvl3_035>,
+        <http://example.org/lvl3_036>,
+        <http://example.org/lvl3_037>,
+        <http://example.org/lvl3_038>,
+        <http://example.org/lvl3_039>,
+        <http://example.org/lvl3_040>,
+        <http://example.org/lvl3_041>,
+        <http://example.org/lvl3_042>,
+        <http://example.org/lvl3_043>,
+        <http://example.org/lvl3_044>,
+        <http://example.org/lvl3_045>,
+        <http://example.org/lvl3_046>,
+        <http://example.org/lvl3_047>,
+        <http://example.org/lvl3_048>,
+        <http://example.org/lvl3_200>,
+        <http://example.org/lvl3_201> .
 
