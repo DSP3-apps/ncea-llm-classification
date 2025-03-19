@@ -5,28 +5,25 @@ environment:
 inputs:
   id:
     type: string
-    default: 5e59db0f-d465-11e4-af45-f0def148f590
+    default: ""
   source:
     type: string
-    default: Environment Agency
+    default: ""
     is_chat_input: false
   title:
     type: string
     is_chat_input: false
-    default: Catchment Abstraction Management Strategy (CAMS) Reference boundaries
+    default: ""
   altTitle:
     type: list
     is_chat_input: false
-    default:
-    - CAMS catchment boundaries
-    - CAMS_250K
   custodian:
     type: string
-    default: Agrimetrics
+    default: ""
     is_chat_input: false
   topics:
     type: string
-    default: environment, inlandWaters
+    default: ""
     is_chat_input: false
   keywords:
     type: string
@@ -34,34 +31,11 @@ inputs:
     is_chat_input: false
   abstract:
     type: string
-    default: "PLEASE NOTE: This record has been retired. Catchment Abstraction
-      Management Strategy (CAMS) Reference boundaries is no longer updated. The
-      last update of the dataset was 10/2017. Catchment Abstraction Management
-      Strategy (CAMS) Reference boundaries has been retired due to containing
-      boundaries that lie completely in Wales and are not managed by the
-      Environment Agency, please refer instead to Abstraction Licensing Strategy
-      boundaries Cycle 2 for the same data for England and catchments that cross
-      over into Wales, often referred to as cross border catchments.\\n\\nThis
-      record is for Approval for Access product AfA182. The CAMS Abstraction
-      Management Strategy Reference Boundaries are an external reference dataset
-      giving an indication of where technical assessments have been
-      undertaken.\\nCAMS helps to look at the balance between society, the
-      economy and the environment. The technical assessment helps identify where
-      water may be available for future use but also where water resource
-      demands may be impacting the water balance. The CAMS boundaries should be
-      used on a national (England and Wales) scale to show the geographical
-      distribution of CAMS and are not suitable for detailed technical
-      assessments.\\nINFORMATION WARNING\\nThese boundaries should not be used
-      for detailed technical assessment or identifying precisely which CAMS
-      permits may fall into. The boundaries may be subject to change based on
-      the Environment Agency's technical and catchment understanding.  These are
-      not the boundaries used to make internal assessments due to third party
-      prior rights (see AfA009 Catchment Abstraction Management Strategy (CAMS)
-      Technical Assessment Boundaries)."
+    default: ""
     is_chat_input: false
   lineage:
     type: string
-    default: No lineage recorded.
+    default: ""
     is_chat_input: false
 outputs:
   id:
