@@ -161,6 +161,7 @@ nodes:
     catalogue_entry: ${catalogue_entry.output}
     common_prompt: ${common_prompt.output}
     ontology: ${benefit_collection.output}
+    seed: 7
   connection: dsp_gen_ai_hub_eu_us
   api: chat
   use_variants: false
@@ -179,6 +180,7 @@ nodes:
     common_prompt: ${common_prompt.output}
     catalogue_entry: ${catalogue_entry.output}
     ontology: ${asset_collection.output}
+    seed: 7
 - name: valuation_classify
   type: custom_llm
   source:
@@ -194,6 +196,7 @@ nodes:
     common_prompt: ${common_prompt.output}
     catalogue_entry: ${catalogue_entry.output}
     ontology: ${valuation_collection.output}
+    seed: 7
 - name: pressure_classify
   type: custom_llm
   source:
@@ -209,6 +212,7 @@ nodes:
     common_prompt: ${common_prompt.output}
     catalogue_entry: ${catalogue_entry.output}
     ontology: ${pressure_collection.output}
+    seed: 7
 - name: collate_predictions
   type: python
   source:
