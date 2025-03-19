@@ -15,9 +15,11 @@ inputs:
     is_chat_input: false
     default: Catchment Abstraction Management Strategy (CAMS) Reference boundaries
   altTitle:
-    type: string
+    type: list
     is_chat_input: false
-    default: "CAMS catchment boundaries,  CAMS_250K "
+    default:
+    - CAMS catchment boundaries
+    - CAMS_250K
   custodian:
     type: string
     default: Agrimetrics

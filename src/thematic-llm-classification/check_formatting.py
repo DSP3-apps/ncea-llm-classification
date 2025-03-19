@@ -22,9 +22,6 @@ def fix_alt_title(input_data: str) -> str:
         if input_data["altTitle"].startswith("[") and input_data["altTitle"].endswith("]"):
             # Handle string representation of a list
             input_data["altTitle"] = ast.literal_eval(input_data["altTitle"])
-        else:
-            # Handle comma-separated string to cover for differeing input variations
-            input_data["altTitle"] = [item.strip() for item in input_data["altTitle"].split(",")]
 
     # Serialize the updated dictionary back to a JSON string
     return json.dumps(input_data)
