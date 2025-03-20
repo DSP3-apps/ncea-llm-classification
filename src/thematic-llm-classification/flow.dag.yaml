@@ -3,25 +3,27 @@ name: Template Standard Flow
 environment:
   python_requirements_txt: requirements.txt
 inputs:
+  id:
+    type: string
+    default: ""
   source:
     type: string
-    default: oceans
+    default: ""
     is_chat_input: false
   title:
     type: string
     is_chat_input: false
-    default: NE Sample
+    default: ""
   altTitle:
-    type: string
+    type: list
     is_chat_input: false
-    default: Environment Agency
   custodian:
     type: string
-    default: beach, bathing freshwater, bathing water, bathing seawater, EAbatch2
+    default: ""
     is_chat_input: false
   topics:
     type: string
-    default: Bathing Waters Monitoring Locations
+    default: ""
     is_chat_input: false
   keywords:
     type: string
@@ -29,18 +31,7 @@ inputs:
     is_chat_input: false
   abstract:
     type: string
-    default: "The Environment Agency collects and analyses water samples each year
-      from May to September, to ensure that designated bathing water sites on
-      the coast and inland are safe and clean for swimming and other activities.
-      This shape file shows the approximate locations of our monitoring sites
-      and the compliance or classification for each bathing water in England
-      from 1988 to present. It is updated twice a year, to revise the inventory,
-      and the assessment results. For coastal waters the specific locations of
-      monitoring vary along a transect with the changing of the tides. The
-      results of these samples are assessed in annual classifications and are
-      available to view and download through the bathing water data explorer.
-      This data is covered by AfA470. Attribution statement: © Environment
-      Agency copyright and/or database right 2016. All rights reserved."
+    default: ""
     is_chat_input: false
   lineage:
     type: string
@@ -49,21 +40,11 @@ inputs:
 outputs:
   id:
     type: string
-    reference: ${generate_id_from_input.output}
-  input:
-    type: object
-    reference: ${objectinator.output}
+    reference: ${inputs.id}
   output:
     type: list
     reference: ${back_classify.output}
 nodes:
-- name: generate_id_from_input
-  type: python
-  source:
-    type: code
-    path: generate_id_from_input.py
-  inputs:
-    input: ${catalogue_entry.output}
 - name: catalogue_entry
   type: prompt
   source:
@@ -78,13 +59,20 @@ nodes:
     keywords: ${inputs.keywords}
     abstract: ${inputs.abstract}
     lineage: ${inputs.lineage}
+- name: check_formatting
+  type: python
+  source:
+    type: code
+    path: check_formatting.py
+  inputs:
+    input_data: ${catalogue_entry.output}
 - name: objectinator
   type: python
   source:
     type: code
     path: objectinator.py
   inputs:
-    input: ${catalogue_entry.output}
+    input: ${check_formatting.output}
 - name: read_instructions
   type: python
   source:
@@ -149,6 +137,7 @@ nodes:
     catalogue_entry: ${catalogue_entry.output}
     common_prompt: ${common_prompt.output}
     ontology: ${benefit_collection.output}
+    seed: 7
   connection: dsp_gen_ai_hub_eu_us
   api: chat
   use_variants: false
@@ -167,6 +156,7 @@ nodes:
     common_prompt: ${common_prompt.output}
     catalogue_entry: ${catalogue_entry.output}
     ontology: ${asset_collection.output}
+    seed: 7
 - name: valuation_classify
   type: custom_llm
   source:
@@ -182,6 +172,7 @@ nodes:
     common_prompt: ${common_prompt.output}
     catalogue_entry: ${catalogue_entry.output}
     ontology: ${valuation_collection.output}
+    seed: 7
 - name: pressure_classify
   type: custom_llm
   source:
@@ -197,6 +188,7 @@ nodes:
     common_prompt: ${common_prompt.output}
     catalogue_entry: ${catalogue_entry.output}
     ontology: ${pressure_collection.output}
+    seed: 7
 - name: collate_predictions
   type: python
   source:
