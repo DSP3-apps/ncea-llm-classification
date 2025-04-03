@@ -31,11 +31,17 @@ def consolidate_classifications(
     pressure_dict = json.loads(pressure)
     valuation_dict = json.loads(valuation)
 
+    # Process each dictionary and add output if it exists, if it does not exist, skip it. 
+    # This is done to avoid KeyError if the key does not exist in the dictionary.
+    dict_outputs = ""
+    for d in [asset_dict, benefit_dict, pressure_dict, valuation_dict]:
+        try:
+            dict_outputs += d["output"]
+        except KeyError:
+            pass
+    
     merged_doc = {
-        "output": asset_dict["output"]
-        + benefit_dict["output"]
-        + pressure_dict["output"]
-        + valuation_dict["output"],
+        "output": dict_outputs
     }
     
     return json.dumps(merged_doc)
