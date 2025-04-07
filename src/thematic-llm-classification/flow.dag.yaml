@@ -8,7 +8,7 @@ inputs:
     default: ""
   source:
     type: string
-    default: " "
+    default: ""
     is_chat_input: false
   title:
     type: string
