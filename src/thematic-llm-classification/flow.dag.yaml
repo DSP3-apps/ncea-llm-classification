@@ -8,7 +8,7 @@ inputs:
     default: ""
   source:
     type: string
-    default: ""
+    default: " "
     is_chat_input: false
   title:
     type: string
@@ -59,20 +59,6 @@ nodes:
     keywords: ${inputs.keywords}
     abstract: ${inputs.abstract}
     lineage: ${inputs.lineage}
-- name: check_formatting
-  type: python
-  source:
-    type: code
-    path: check_formatting.py
-  inputs:
-    input_data: ${catalogue_entry.output}
-- name: objectinator
-  type: python
-  source:
-    type: code
-    path: objectinator.py
-  inputs:
-    input: ${check_formatting.output}
 - name: read_instructions
   type: python
   source:
