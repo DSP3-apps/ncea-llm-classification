@@ -1,11 +1,6 @@
 import json
-
 from promptflow import tool
 
-
-# The inputs section will change based on the arguments of the tool function, after you save the code
-# Adding type to arguments and return value will help the system show the types properly
-# Please update the function name/signature per need
 @tool
 def consolidate_classifications(
     asset: str,
@@ -31,11 +26,18 @@ def consolidate_classifications(
     pressure_dict = json.loads(pressure)
     valuation_dict = json.loads(valuation)
 
+    combined_output = ""
+
+    for d in [asset_dict, benefit_dict, pressure_dict, valuation_dict]:
+        output = d.get("output")
+        #need to deal with cases where it is give a list and conv this to a string 
+        if isinstance(output, list):
+            combined_output += " ".join(str(item) for item in output)
+        elif isinstance(output, str):
+            combined_output += output
+
     merged_doc = {
-        "output": asset_dict["output"]
-        + benefit_dict["output"]
-        + pressure_dict["output"]
-        + valuation_dict["output"],
+        "output": combined_output
     }
-    
+
     return json.dumps(merged_doc)
